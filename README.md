@@ -126,7 +126,7 @@ LENTERA leverages Gemma 3n's unique capabilities:
 - **Storage**: 128GB SSD storage for educational content
 - **Network**: Wi-Fi adapter with hotspot capability
 
-### Installation
+### Installation (Local)
 
 1. Clone this repository:
    ```bash
@@ -148,7 +148,7 @@ LENTERA leverages Gemma 3n's unique capabilities:
 
 4. Start the containers:
    ```bash
-   docker-compose up -d
+   SERVER_IP=0.0.0.0 docker-compose up -d
    ```
 
 5. Access LENTERA:
