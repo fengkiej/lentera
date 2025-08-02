@@ -141,14 +141,14 @@ LENTERA leverages Gemma 3n's unique capabilities:
    # Place them in lentera-zimfiles/data/zimfiles/
    ```
 
-3. Start the containers:
-   ```bash
-   docker-compose up -d
-   ```
-
-4. Initialize the database and content:
+3. Initialize the database and content:
    ```bash
    ./db-init.sh
+   ```
+
+4. Start the containers:
+   ```bash
+   docker-compose up -d
    ```
 
 5. Access LENTERA:
