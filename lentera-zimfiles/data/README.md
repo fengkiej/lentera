@@ -1,0 +1,1 @@
+Please add contents sourced from https://download.kiwix.org/zim/ to /zimfiles

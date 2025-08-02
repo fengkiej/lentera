@@ -1,0 +1,132 @@
+version: '3.9'
+
+services:
+  # Database service using libsql (turso)
+  db:
+    container_name: lentera-db
+    image: ghcr.io/tursodatabase/libsql-server:latest
+    entrypoint: ["/bin/sh", "-c"]
+    command: >
+      "chmod -R 777 /var/lib/sqld &&
+      sqld
+      --http-listen-addr 0.0.0.0:8080
+      --grpc-listen-addr 0.0.0.0:5001
+      --admin-listen-addr 0.0.0.0:8081
+      --enable-http-console
+      --no-welcome
+      --db-path /var/lib/sqld/default.db"
+    ports:
+      - "30000:8080"  # HTTP API
+      - "30001:5001"  # gRPC
+      - "30002:8081"  # Admin API
+    volumes:
+      - ./lentera-db/libsql-data:/var/lib/sqld
+    restart: unless-stopped
+    networks:
+      - lentera-network
+
+  # Kiwix server for ZIM files
+  kiwix-server:
+    container_name: kiwix-server
+    image: ghcr.io/kiwix/kiwix-tools
+    ports:
+      - "8090:8090"
+    volumes:
+      - ./lentera-zimfiles/data:/data
+      - ./kiwix-entrypoint.sh:/kiwix-entrypoint.sh:ro
+    restart: unless-stopped
+    networks:
+      - lentera-network
+    command: kiwix-serve --library /data/library.xml --port=8090
+
+  # Ollama service for AI models
+  ollama:
+    image: docker.io/ollama/ollama:latest
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ./models:/root/.ollama/models
+      - ollama-data:/root/.ollama
+      - ./ollama-entrypoint.sh:/ollama-entrypoint.sh:ro
+    restart: always
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+    entrypoint: ["/bin/bash", "/ollama-entrypoint.sh"]
+    networks:
+      - lentera-network
+
+  # Open WebUI for Ollama
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: open-webui
+    volumes:
+      - open-webui-data:/app/backend/data
+    depends_on:
+      - ollama
+    ports:
+      - "8080:8080"
+    environment:
+      - OLLAMA_BASE_URLS=http://ollama:11434
+      - ENV=dev
+      - WEBUI_AUTH=False
+      - WEBUI_NAME=Lentera ChatAI
+      - WEBUI_URL=http://0.0.0.0:8080
+      - WEBUI_SECRET_KEY=secret
+    restart: unless-stopped
+    networks:
+      - lentera-network
+
+  # Backend service
+  backend:
+    container_name: lentera-be
+    build:
+      context: ./lentera-be/
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./lentera-be:/app
+      - /app/node_modules
+    depends_on:
+      - db
+      - kiwix-server
+      - ollama
+    env_file:
+      - ./lentera-be/.env.docker
+    restart: unless-stopped
+    networks:
+      - lentera-network
+
+  # Frontend service
+  frontend:
+    container_name: lentera-fe
+    build:
+      context: ./lentera-fe
+      dockerfile: Dockerfile
+    ports:
+      - "8091:8080"
+    volumes:
+      - ./lentera-fe:/app
+      - /app/node_modules
+    depends_on:
+      - backend
+      - kiwix-server
+      - open-webui
+    environment:
+      # Set SERVER_IP to the host IP address for proper SPA routing
+      # Example usage: SERVER_IP=192.168.1.x docker-compose up
+      # This configures all frontend API endpoints to use this IP instead of container names
+      # which allows proper routing in the browser environment
+      - SERVER_IP=${SERVER_IP:-localhost}
+    restart: unless-stopped
+    networks:
+      - lentera-network
+
+networks:
+  lentera-network:
+    driver: bridge
+
+volumes:
+  ollama-data:
+  open-webui-data:

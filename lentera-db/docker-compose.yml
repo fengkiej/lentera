@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  db:
+    container_name: lentera-db
+    image: ghcr.io/tursodatabase/libsql-server:latest
+    command: >
+      sqld
+      --http-listen-addr 0.0.0.0:8080
+      --grpc-listen-addr 0.0.0.0:5001
+      --admin-listen-addr 0.0.0.0:8081
+      --enable-http-console
+      --no-welcome
+      --db-path /var/lib/sqld/default.db
+    ports:
+      - "30000:8080"  # HTTP API
+      - "30001:5001"  # gRPC
+      - "30002:8081"  # Admin API
+    volumes:
+      - ./libsql-data:/var/lib/sqld
+    restart: unless-stopped
+

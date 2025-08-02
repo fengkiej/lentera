@@ -1,0 +1,903 @@
+{
+  "components": {
+    "interactiveFlashcard": {
+      "correct": "Correct !",
+      "incorrect": "Incorrect !",
+      "correctShort": "Correct",
+      "incorrectShort": "Incorrect",
+      "seeExplanation": "Voir l'Explication",
+      "next": "Suivant",
+      "explanation": "Explication",
+      "correctAnswer": "Réponse correcte :",
+      "tryAgain": "Réessayer"
+    },
+    "fiveWhys": {
+      "title": "Entraîneur de Pensée Critique 5 Pourquoi",
+      "description": "Développez vos compétences analytiques en examinant systématiquement les défis d'apprentissage",
+      "criticalThinking": {
+        "lookBeyondSurface": {
+          "title": "Regarder Au-delà de la Surface",
+          "description": "N'acceptez pas la première réponse. Creusez plus profondément pour trouver les causes sous-jacentes.",
+          "example": "Au lieu de 'Je suis mauvais en maths', demandez 'Quels concepts mathématiques spécifiques me posent problème ?'"
+        },
+        "questionAssumptions": {
+          "title": "Questionner les Hypothèses",
+          "description": "Remettez en question ce que vous pensez savoir. Vos hypothèses sont-elles correctes ?",
+          "example": "Est-ce la méthode d'enseignement qui pose problème, ou ai-je besoin de prérequis différents ?"
+        },
+        "multipleViews": {
+          "title": "Considérer Plusieurs Perspectives",
+          "description": "Regardez le problème sous différents angles et points de vue.",
+          "example": "Comment un enseignant, un pair ou un expert verrait ce défi d'apprentissage ?"
+        },
+        "rootCauses": {
+          "title": "Se Concentrer sur les Causes Profondes",
+          "description": "Identifiez ce qui cause réellement le problème, pas seulement les symptômes.",
+          "example": "Les mauvaises notes sont un symptôme. Quelles habitudes d'apprentissage ou lacunes les causent ?"
+        },
+        "connections": {
+          "title": "Établir des Connexions",
+          "description": "Liez ce problème à des modèles plus larges dans votre apprentissage.",
+          "example": "Cela est-il lié à ma façon d'aborder d'autres matières ou compétences ?"
+        }
+      },
+      "intro": {
+        "quickStart": "Démarrage Rapide avec Votre Contenu :",
+        "defineChallenge": "Ou Définissez Votre Propre Défi :",
+        "textarea": "Décrivez un défi d'apprentissage spécifique auquel vous êtes confronté...",
+        "whatYouWillLearn": "Ce Que Vous Apprendrez",
+        "skills": {
+          "analyze": "Comment analyser les problèmes systématiquement",
+          "questioning": "Techniques de questionnement de pensée critique",
+          "rootCause": "Compétences d'identification des causes profondes",
+          "reasoning": "Raisonnement basé sur des preuves"
+        }
+      },
+      "step": {
+        "stepOf": "Étape {step} sur {{total}}",
+        "stepOfWithTitle": "Étape {step} sur {{total}} - {title}",
+        "focus": "Concentrez-vous sur l'élaboration d'une question \"pourquoi\" précise qui creuse plus profondément la cause racine.",
+        "previousAnswer": "Réponse Précédente :",
+        "generatedAnswer": "Réponse Générée :",
+        "questionLabel": "Formulez une question 'Pourquoi' sur ce problème d'apprentissage :",
+        "nextQuestionLabel": "Formulez la prochaine question 'Pourquoi' basée sur : \"{previous}\"",
+        "placeholder": "Écrivez une question 'pourquoi' spécifique qui aidera à découvrir des causes plus profondes...",
+        "questionTip": "Concentrez-vous sur poser la bonne question. La réponse sera générée automatiquement pour aider votre apprentissage.",
+        "showTips": "Afficher les Conseils de Formulation de Questions",
+        "hideTips": "Masquer les Conseils de Formulation de Questions",
+        "tipTitle": "Conseils de Formulation de Questions",
+        "tips": {
+          "start": "Commencez par \"Pourquoi\" pour vous concentrer sur les causes, pas les symptômes",
+          "specific": "Soyez spécifique plutôt que vague dans vos questions",
+          "challenge": "Remettez en question les hypothèses dans votre réponse précédente",
+          "systemic": "Recherchez des causes systémiques ou structurelles",
+          "perspectives": "Considérez plusieurs perspectives sur le problème"
+        },
+        "skillFocus": "Concentration sur les Compétences de Pensée Critique"
+      },
+      "summary": {
+        "title": "Analyse Terminée !",
+        "description": "Vous avez appliqué avec succès la pensée critique pour comprendre votre défi d'apprentissage",
+        "yourAnalysis": "Votre Analyse des 5 Pourquoi :",
+        "learningChallenge": "Défi d'Apprentissage :",
+        "question": "Question #{number}",
+        "generatedAnswer": "Réponse Générée",
+        "skillsTitle": "Compétences de Pensée Critique Développées",
+        "actionPlan": "Générer un Plan d'Action",
+        "newAnalysis": "Commencer une Nouvelle Analyse"
+      },
+      "buttons": {
+        "previous": "Précédent",
+        "next": "Étape Suivante",
+        "start": "Commencer l'Analyse",
+        "complete": "Terminer",
+        "introduction": "Introduction",
+        "summary": "Résumé"
+      }
+    }
+  },
+  "modals": {
+    "mindMap": {
+      "title": "Carte Mentale : {{topic}}",
+      "error": "Échec du chargement de la carte mentale. Veuillez réessayer plus tard.",
+      "aspectsNote": "{{count}} aspects importants pour comprendre pleinement le sujet",
+      "sources": "Sources :",
+      "relatedQuestions": "Questions Connexes :",
+      "close": "Fermer",
+      "mainTopic": "Sujet Principal",
+      "readMore": "Lire plus",
+      "importantAspect": "Aspect important",
+      "facets": {
+        "explanation": "Compréhension de Base",
+        "interpretation": "Interprétation des Concepts",
+        "application": "Application Pratique",
+        "perspective": "Points de Vue Différents",
+        "empathy": "Dimension Émotionnelle",
+        "selfKnowledge": "Auto-réflexion"
+      },
+      "explorationTitle": "🔍 Exploration des Connaissances"
+    },
+    "elix": {
+      "title": "ELIx : Explique Comme Si J'avais X",
+      "adaptiveExplanation": "Explication adaptative basée sur la tranche d'âge",
+      "selectAgeRange": "Sélectionner la Tranche d'Âge :",
+      "emptySummary": "Résumé Vide",
+      "enterSummary": "Veuillez d'abord saisir le résumé principal",
+      "error": "Une Erreur s'est Produite",
+      "adaptationFailed": "Échec de l'adaptation de l'explication. Veuillez réessayer.",
+      "mainSummary": "Résumé Principal :",
+      "summaryPlaceholder": "Entrez le résumé que vous souhaitez adapter en fonction de l'âge...",
+      "adaptFor": "Adapter pour l'Âge {{ageRange}}",
+      "explanationFor": "Explication pour l'Âge {{ageRange}} :",
+      "reset": "Réinitialiser",
+      "copied": "Copié !",
+      "explanationCopied": "L'explication a été copiée dans le presse-papiers",
+      "editSummary": "Modifier le Résumé",
+      "adaptationNote": "Adaptez les explications en fonction de la tranche d'âge pour un apprentissage plus efficace",
+      "adaptingExplanation": "Adaptation de l'explication...",
+      "adult": "Adulte"
+    },
+    "fiveWhys": {
+      "title": "Entraîneur de Pensée Critique 5 Pourquoi",
+      "description": "Développez vos compétences analytiques en examinant systématiquement les défis d'apprentissage",
+      "stepProgress": "Étape {step} sur {{total}} - {title}",
+      "stepGuidance": {
+        "defineProblem": {
+          "title": "Définir le Problème d'Apprentissage",
+          "guidance": "Énoncez clairement quel défi d'apprentissage spécifique vous rencontrez. Soyez précis et évitez les déclarations vagues.",
+          "prompts": [
+            "Qu'est-ce que vous avez du mal à comprendre exactement ?",
+            "Quand ce problème se produit-il le plus souvent ?",
+            "Comment cela affecte-t-il vos objectifs d'apprentissage ?"
+          ],
+          "criticalThinking": "La pensée critique commence par la clarté. Un problème bien défini est à moitié résolu."
+        },
+        "firstWhy": {
+          "title": "Premier Pourquoi - Cause Immédiate",
+          "guidance": "Demandez pourquoi ce problème d'apprentissage existe. Concentrez-vous sur la cause la plus directe et observable.",
+          "prompts": [
+            "Quelle est la raison immédiate de cette difficulté ?",
+            "Que se passe-t-il juste avant que vous rencontriez ce problème ?",
+            "Qu'est-ce qui rend ce sujet particulièrement difficile ?"
+          ],
+          "criticalThinking": "Recherchez des réponses basées sur des preuves, pas des suppositions ou des émotions."
+        },
+        "secondWhy": {
+          "title": "Deuxième Pourquoi - Analyse Plus Profonde",
+          "guidance": "Demandez maintenant pourquoi cette première cause existe. Commencez à creuser dans les facteurs sous-jacents.",
+          "prompts": [
+            "Pourquoi cette cause immédiate se produit-elle ?",
+            "Quelles conditions créent cette situation ?",
+            "Qu'est-ce qui manque qui empêcherait cette cause ?"
+          ],
+          "criticalThinking": "Demandez-vous si votre première réponse est complète. Y a-t-il des facteurs cachés ?"
+        },
+        "thirdWhy": {
+          "title": "Troisième Pourquoi - Niveau Système",
+          "guidance": "Examinez les systèmes, processus ou modèles qui créent les causes plus profondes.",
+          "prompts": [
+            "Pourquoi ces conditions existent-elles dans votre environnement d'apprentissage ?",
+            "Quels modèles ou habitudes contribuent à cela ?",
+            "Comment les facteurs externes influencent-ils cette situation ?"
+          ],
+          "criticalThinking": "Pensez systématiquement. Comment les différents éléments interagissent-ils pour créer ce problème ?"
+        },
+        "fourthWhy": {
+          "title": "Quatrième Pourquoi - Facteurs Fondamentaux",
+          "guidance": "Examinez les compétences fondamentales, les lacunes de connaissances ou les problèmes structurels.",
+          "prompts": [
+            "Pourquoi ces modèles persistent-ils ?",
+            "Quelles compétences ou connaissances fondamentales manquent ?",
+            "Qu'est-ce qui devrait changer pour prévenir ce problème ?"
+          ],
+          "criticalThinking": "Considérez les modèles à long terme et les éléments fondamentaux."
+        },
+        "fifthWhy": {
+          "title": "Cinquième Pourquoi - Cause Racine",
+          "guidance": "Identifiez la cause la plus profonde et la plus fondamentale qui, si elle est traitée, résoudrait le problème.",
+          "prompts": [
+            "Pourquoi ces problèmes fondamentaux existent-ils ?",
+            "Quelle est la racine ultime de ce défi d'apprentissage ?",
+            "Si vous pouviez changer une chose pour résoudre cela, que serait-ce ?"
+          ],
+          "criticalThinking": "La cause racine doit être exploitable et à votre portée d'influence."
+        }
+      },
+      "contentLoaded": "Contenu chargé. Maintenant, analysons ce défi d'apprentissage étape par étape.",
+      "readyToBegin": "Prêt à commencer",
+      "analysisComplete": "Analyse terminée",
+      "stepsCompleted": "{{completed}}/{{total}} étapes terminées",
+      "quickStart": "Démarrage Rapide avec Votre Contenu :",
+      "defineChallenge": "Ou Définissez Votre Propre Défi :",
+      "topicDifficulty": "J'ai du mal à apprendre sur \"{{topic}}\"",
+      "textareaPlaceholder": "Décrivez un défi d'apprentissage spécifique auquel vous êtes confronté..."
+    },
+    "flashcard": {
+      "loadingFlashquiz": "Chargement du flashquiz...",
+      "error": "Une Erreur s'est Produite",
+      "errorMessage": "Échec du chargement du quiz. Veuillez réessayer plus tard.",
+      "noQuestions": "Pas de Questions",
+      "noQuestionsAvailable": "Aucune question disponible pour ce sujet.",
+      "back": "Retour",
+      "close": "Fermer",
+      "congratulations": "Félicitations !",
+      "completed": "Vous avez terminé {{completed}} sur {{total}} questions",
+      "sources": "Sources :",
+      "retry": "Réessayer",
+      "learnWithFlashcard": "Apprendre avec des Cartes",
+      "previous": "Précédent",
+      "next": "Suivant",
+      "finish": "Terminer",
+      "question": "Question {{current}} sur {{total}}",
+      "correctAnswerPrefix": "La bonne réponse est :"
+    },
+    "mindmap": {
+      "loadingMindmap": "Chargement de Mindmap ..."
+    }
+  },
+  "pageHeader": {
+    "lenteraChat": "Chat Lentera"
+  },
+  "pageFooter": {
+    "madeWith": "Fait avec ❤️",
+    "copyright": "© 2025 Lentera AI"
+  },
+  "nav": {
+    "home": "Accueil",
+    "explore": "Explorer",
+    "about": "À propos",
+    "contact": "Contact",
+    "aboutLentera": "À propos de Lentera",
+    "exploreLibrary": "Explorer la Bibliothèque",
+    "lenteraChatAI": "Lentera Chat IA",
+    "library": "Library"
+  },
+  "hero": {
+    "title": "Votre Compagnon Éducatif IA Hors Ligne",
+    "subtitle": "Autonomiser les apprenants et enseignants ruraux avec des outils éducatifs intelligents et accessibles qui fonctionnent sans connexion internet.",
+    "cta": {
+      "explore": "Commencer à Explorer",
+      "learn": "En Savoir Plus"
+    }
+  },
+  "features": {
+    "title": "Fonctionnalités Puissantes pour Tous",
+    "offline": {
+      "title": "Hors Ligne d'Abord",
+      "description": "Fonctionne complètement hors ligne - aucun internet requis"
+    },
+    "ai": {
+      "title": "Alimenté par l'IA",
+      "description": "Réponses intelligentes et expériences d'apprentissage personnalisées"
+    },
+    "multilingual": {
+      "title": "Support Multilingue",
+      "description": "Disponible en plusieurs langues locales"
+    },
+    "accessible": {
+      "title": "Conception Accessible",
+      "description": "Conçu pour tous les utilisateurs, y compris ceux avec des handicaps"
+    }
+  },
+  "search": {
+    "placeholder": "Demandez-moi n'importe quoi...",
+    "button": "Rechercher",
+    "noResults": "Aucun résultat trouvé",
+    "loading": "Recherche en cours...",
+    "sources": "Sources Fiables"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "retry": "Réessayer",
+    "close": "Fermer",
+    "open": "Ouvrir",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "copy": "Copy",
+    "adult": "Adult",
+    "language": "Language Persistence Test",
+    "languageDescription": "This component tests whether language settings are properly saved and translations work",
+    "currentLanguage": "Current active language:",
+    "storedLanguage": "Stored in localStorage:",
+    "none": "None",
+    "translationSamples": "Translation Samples:",
+    "instructions": "Instructions to test:",
+    "step1": "Select a language using the language switcher",
+    "step2": "Observe how the translations above change",
+    "step3": "Refresh the page to verify persistence",
+    "refresh": "Refresh Page"
+  },
+  "splash": {
+    "platformLoading": "Chargement de la Plateforme d'Apprentissage...",
+    "preparingAI": "Préparation du Tuteur IA...",
+    "readyToLearn": "Prêt à Apprendre !",
+    "brandName": "Lentera AI",
+    "tagline": "Plateforme d'Apprentissage IA",
+    "features": {
+      "aiLearning": "Apprentissage IA",
+      "digitalLibrary": "Bibliothèque Numérique",
+      "fastLearning": "Apprentissage Rapide"
+    }
+  },
+  "index": {
+    "hero": {
+      "title": "Apprenez N'importe Quoi avec {aiTutor}",
+      "aiTutor": "Tuteur IA",
+      "subtitle": "Plateforme d'apprentissage intelligente qui vous aide à comprendre le matériel de la manière qui vous convient le mieux",
+      "searchPlaceholder": "Que voulez-vous apprendre aujourd'hui ?",
+      "startLearning": "Commencer à Apprendre",
+      "start": "Commencer",
+      "askAIDirect": "Demander à l'IA Directement",
+      "askAI": "Demander à l'IA",
+      "exploreTopics": "Explorer les Sujets"
+    },
+    "features": {
+      "title": "Méthodes d'{learning} Révolutionnaires",
+      "learning": "Apprentissage",
+      "subtitle": "La technologie IA de pointe vous aide à apprendre avec des méthodes prouvées efficaces",
+      "personalLearning": {
+        "title": "Apprentissage Personnel",
+        "description": "IA qui comprend votre style d'apprentissage et adapte automatiquement le matériel"
+      },
+      "interactiveTools": {
+        "title": "Outils Interactifs",
+        "description": "Cartes mémoire, quiz, cartes mentales et autres outils d'apprentissage créés automatiquement"
+      },
+      "offlineAccess": {
+        "title": "Accès Hors Ligne",
+        "description": "Apprenez à tout moment, n'importe où, même sans connexion internet"
+      }
+    },
+    "tools": {
+      "title": "Outils d'{learning} Avancés",
+      "learning": "Apprentissage",
+      "subtitle": "Choisissez la méthode qui convient le mieux à votre style d'apprentissage",
+      "viewAllTools": "Voir Tous les Outils"
+    },
+    "stats": {
+      "learningMaterials": "Matériels d'Apprentissage",
+      "activeUsers": "Utilisateurs Actifs",
+      "satisfactionRate": "Taux de Satisfaction"
+    },
+    "cta": {
+      "title": "Prêt pour la Révolution de l'Apprentissage ?",
+      "subtitle": "Rejoignez des milliers d'apprenants qui ont déjà vécu la différence",
+      "startNow": "Commencer à Apprendre Maintenant",
+      "demoAI": "Démo Tuteur IA"
+    },
+    "footer": {
+      "copyright": "© 2024 Lentera",
+      "tagline": "Plateforme d'Apprentissage IA",
+      "madeWith": "Fait avec ❤️"
+    }
+  },
+  "explore": {
+    "title": "Exploration de la Connaissance",
+    "exploration": "Exploration",
+    "subtitle": "Découvrez, apprenez et maîtrisez n'importe quel sujet avec l'aide de l'IA",
+    "searchPlaceholder": "Tapez le sujet que vous voulez apprendre...",
+    "voiceSearchActive": "Recherche vocale active",
+    "trending": "Tendances",
+    "subjects": {
+      "mathematics": "Mathématiques",
+      "science": "Sciences",
+      "history": "Histoire",
+      "geography": "Géographie",
+      "physics": "Physique",
+      "chemistry": "Chimie",
+      "random": "Aléatoire"
+    },
+    "tools": {
+      "fiveWhys": "5 Pourquoi",
+      "flashcards": "Cartes Mémoire",
+      "quiz": "Quiz",
+      "mindMap": "Carte Mentale",
+      "summary": "Résumé",
+      "simple": "Simple",
+      "practice": "Pratique",
+      "timeline": "Chronologie",
+      "solver": "Solveur"
+    },
+    "qaMode": {
+      "greeting": "Bonjour ! Je suis prêt à vous aider à mieux comprendre \"{{topic}}\". Veuillez poser n'importe quelle question !",
+      "placeholder": "Posez votre question...",
+      "send": "Envoyer"
+    },
+    "popularTopics": "Popular Topics Examples",
+    "randomTopics": "Random Topics",
+    "subjectTopics": "Topics"
+  },
+  "about": {
+    "title": "Lanterne Numérique pour l'{future} de l'Apprentissage",
+    "future": "Avenir",
+    "subtitle": "Lentera est une plateforme d'apprentissage IA révolutionnaire, conçue pour être une lanterne numérique qui éclaire le parcours d'apprentissage de chaque individu avec une technologie de pointe.",
+    "platformDescription": "À propos de Notre Plateforme",
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Fournir un accès éducatif de haute qualité pour tous, où qu'ils soient. Nous croyons que chacun a le potentiel d'apprendre et de grandir, et la technologie IA peut être la clé pour débloquer ce potentiel.",
+      "personalLearning": {
+        "title": "Apprentissage Personnel",
+        "description": "IA qui comprend le style d'apprentissage unique de chaque individu"
+      },
+      "accessForAll": {
+        "title": "Accès pour Tous",
+        "description": "Plateforme accessible à tout moment, n'importe où"
+      },
+      "qualityAssured": {
+        "title": "Qualité Assurée",
+        "description": "Matériels d'apprentissage de haute qualité et vérifiés"
+      }
+    },
+    "features": {
+      "title": "Caractéristiques Clés de la Plateforme",
+      "subtitle": "Technologie avancée spécifiquement conçue pour améliorer votre expérience d'apprentissage",
+      "smartAI": {
+        "title": "Apprentissage IA Intelligent",
+        "description": "Technologie IA de pointe qui comprend le style d'apprentissage unique de chaque utilisateur"
+      },
+      "digitalLibrary": {
+        "title": "Bibliothèque Numérique Complète",
+        "description": "Accès à des milliers de matériels d'apprentissage de haute qualité de diverses sources"
+      },
+      "adaptiveLearning": {
+        "title": "Apprentissage Adaptatif",
+        "description": "Vitesse d'apprentissage qui s'adapte à vos capacités et progrès"
+      },
+      "offlineAccess": {
+        "title": "Accès Hors Ligne",
+        "description": "Apprenez à tout moment, n'importe où, même sans connexion internet"
+      }
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "subtitle": "Principes qui guident chaque développement et innovation chez Lentera",
+      "resultFocused": {
+        "title": "Axé sur les Résultats",
+        "description": "Chaque fonctionnalité est conçue pour maximiser la compréhension et la rétention des connaissances"
+      },
+      "humanisticLearning": {
+        "title": "Apprentissage Humaniste",
+        "description": "IA qui comprend que chaque personne a une façon différente d'apprendre"
+      },
+      "privacyGuaranteed": {
+        "title": "Confidentialité Garantie",
+        "description": "Vos données d'apprentissage sont sécurisées et ne sont pas partagées avec des tiers"
+      },
+      "continuousInnovation": {
+        "title": "Innovation Continue",
+        "description": "Développer continuellement la technologie d'apprentissage pour un avenir meilleur"
+      }
+    },
+    "stats": {
+      "learningMaterials": "Matériels d'Apprentissage",
+      "activeUsers": "Utilisateurs Actifs",
+      "satisfactionRate": "Taux de Satisfaction",
+      "supportedLanguages": "Langues Supportées"
+    },
+    "cta": {
+      "title": "Prêt à Commencer Votre Parcours d'Apprentissage ?",
+      "subtitle": "Rejoignez des milliers d'apprenants qui ont déjà vécu la différence d'apprendre avec Lentera",
+      "startFree": "Commencer à Apprendre Gratuitement",
+      "backHome": "Retour à l'Accueil"
+    }
+  },
+  "notFound": {
+    "title": "Page Non Trouvée",
+    "description": "Oups ! La page que vous recherchez n'existe pas ou a été déplacée.",
+    "backToHome": "Retour à l'Accueil",
+    "exploreContent": "Explorer l'Apprentissage",
+    "backToPrevious": "Retour à la Page Précédente",
+    "helpText": "Besoin d'aide ? Essayez de rechercher le sujet que vous souhaitez apprendre sur la page d'exploration."
+  },
+  "loading": {
+    "messages": {
+      "searching": "Recherche de résultats...",
+      "preparing": "Préparation du Tuteur IA...",
+      "loadingResults": "Chargement des résultats..."
+    },
+    "educationalFacts": [
+      "Les humains apprennent environ 70% par l'expérience, 20% des autres, et 10% des livres.",
+      "Lire à haute voix augmente la rétention mémorielle jusqu'à 15%.",
+      "Notre cerveau peut stocker environ 2,5 pétaoctets d'informations.",
+      "Dormir après avoir étudié améliore la mémorisation jusqu'à 30%.",
+      "Enseigner aux autres est la meilleure façon de comprendre un sujet.",
+      "Prendre des notes manuscrites améliore la compréhension plus que la dactylographie.",
+      "Étudier pendant 30-50 minutes avec de courtes pauses est plus efficace que des sessions marathon.",
+      "Utiliser différentes couleurs lors de la prise de notes augmente la mémorisation jusqu'à 25%.",
+      "Étudier au même endroit chaque jour aide le cerveau à reconnaître qu'il est temps d'apprendre.",
+      "L'implication émotionnelle dans l'apprentissage améliore la rétention à long terme.",
+      "Marcher pendant 20 minutes peut stimuler la créativité et la puissance de réflexion.",
+      "Répéter l'information à intervalles spécifiques (répétition espacée) est très efficace pour mémoriser.",
+      "La cartographie mentale aide à organiser les idées et à améliorer la compréhension des concepts complexes.",
+      "Garder son corps hydraté est important car même une légère déshydratation peut altérer la concentration.",
+      "Établir des connexions entre les nouvelles informations et les connaissances existantes renforce la mémoire.",
+      "Apprendre avec diverses méthodes (visuelle, auditive, kinesthésique) aide à renforcer les concepts.",
+      "Les tests pratiques sont plus efficaces que la relecture pour tester la compréhension.",
+      "L'étude en groupe peut améliorer les performances académiques."
+    ]
+  },
+  "ageRanges": {
+    "preschool": {
+      "label": "3-5 ans",
+      "description": "Préscolaire"
+    },
+    "earlyElementary": {
+      "label": "6-8 ans",
+      "description": "Primaire Début"
+    },
+    "elementary": {
+      "label": "9-12 ans",
+      "description": "École Primaire"
+    },
+    "middleSchool": {
+      "label": "13-15 ans",
+      "description": "Collège"
+    },
+    "highSchool": {
+      "label": "16-18 ans",
+      "description": "Lycée"
+    },
+    "adult": {
+      "label": "Adulte",
+      "description": "Général"
+    }
+  },
+  "explorePage": {
+    "search": {
+      "button": "Search",
+      "error": "An error occurred while searching. Please try again.",
+      "placeholder": "Type the topic you want to learn...",
+      "results": "Search Results",
+      "showing": "Showing {{count}} search results ({time} seconds)",
+      "loadingSummary": "Loading summary...",
+      "failedSummary": "Failed to load summary",
+      "completeSummary": "Complete Summary",
+      "basicSummary": "Basic Summary",
+      "noResults": "No results found",
+      "startSearching": "Start searching to see results summary",
+      "checkConnection": "Please check your connection and try again",
+      "noContent": "No content available"
+    },
+    "topics": {
+      "popular": "Popular Topics Examples",
+      "random": "Random Topics",
+      "subject": "Topics"
+    },
+    "summary": {
+      "title": "Summary:",
+      "sources": "Sources",
+      "generatedBy": "Generated by Lentera AI",
+      "unavailable": "No summary available. Click the \"Read Summary\" button to generate a summary."
+    },
+    "actions": {
+      "readSummary": "Read Summary",
+      "openArticle": "Open Article",
+      "watchVideo": "Watch Video",
+      "askQuestion": "Ask a Question",
+      "backToResults": "Back to Results"
+    },
+    "qa": {
+      "greeting": "Hello! I'm ready to help you understand more about \"{{topic}}\". Please ask any question!",
+      "placeholder": "Ask anything about this topic...",
+      "send": "Send",
+      "simulatedResponse": "Based on the topic \"{{topic}}\", here's an explanation for your question: \"{question}\". This is a simulated response that would be replaced by real AI.",
+      "suggestions": "Smart question suggestions:",
+      "assistant": "Lentera AI Assistant",
+      "exploring": "Exploring topic: {{topic}}",
+      "context": "Context & Tools",
+      "activeTopic": "Active Topic",
+      "relatedSources": "Related Sources",
+      "learningTools": "Learning Tools",
+      "sessionStats": "Session Stats",
+      "messages": "Messages",
+      "questions": "Questions",
+      "suggestionButtons": {
+        "explainSimpler": "Explain more simply",
+        "giveExamples": "Give examples",
+        "deeperAnalysis": "Deeper analysis"
+      },
+      "contextPanel": {
+        "title": "Context & Tools",
+        "activeTopic": "Active Topic",
+        "relatedSources": "Related Sources",
+        "learningTools": "Learning Tools",
+        "sessionStats": "Session Stats"
+      }
+    },
+    "fiveWhys": {
+      "title": "5 Whys Critical Thinking Trainer",
+      "description": "Develop your analytical skills by systematically examining learning challenges",
+      "stepProgress": "Step {step} of 6 - {title}",
+      "introduction": "Introduction",
+      "summary": {
+        "title": "Analysis Complete!",
+        "description": "You've successfully applied critical thinking to understand your learning challenge",
+        "analysis": "Your 5 Whys Analysis:",
+        "challenge": "Learning Challenge:",
+        "question": "Question #{number}",
+        "generatedAnswer": "Generated Answer",
+        "skillsTitle": "Critical Thinking Skills Developed",
+        "actionPlan": "Generate Action Plan",
+        "newAnalysis": "Start New Analysis"
+      },
+      "criticalThinking": {
+        "tips": {
+          "lookBeyond": {
+            "title": "Look Beyond the Surface",
+            "description": "Don't accept the first answer. Dig deeper to find underlying causes.",
+            "example": "Instead of 'I'm bad at math', ask 'What specific math concepts am I struggling with?'"
+          },
+          "questionAssumptions": {
+            "title": "Question Assumptions",
+            "description": "Challenge what you think you know. Are your assumptions correct?",
+            "example": "Is the teaching method the problem, or do I need different prerequisites?"
+          },
+          "multipleViews": {
+            "title": "Consider Multiple Perspectives",
+            "description": "Look at the problem from different angles and viewpoints.",
+            "example": "How would a teacher, peer, or expert view this learning challenge?"
+          },
+          "rootCauses": {
+            "title": "Focus on Root Causes",
+            "description": "Identify what's really causing the issue, not just symptoms.",
+            "example": "Poor grades are a symptom. What learning habits or gaps cause them?"
+          },
+          "connections": {
+            "title": "Make Connections",
+            "description": "Link this problem to broader patterns in your learning.",
+            "example": "Does this connect to how I approach other subjects or skills?"
+          }
+        }
+      },
+      "intro": {
+        "quickStart": "Quick Start with Your Content:",
+        "defineChallenge": "Or Define Your Own Challenge:",
+        "textarea": "Describe a specific learning challenge you're facing...",
+        "whatLearn": "What You'll Learn",
+        "learn": {
+          "systematic": "How to analyze problems systematically",
+          "questioning": "Critical thinking questioning techniques",
+          "rootCause": "Root cause identification skills",
+          "reasoning": "Evidence-based reasoning"
+        }
+      },
+      "steps": {
+        "guidance": {
+          "1": {
+            "title": "Define the Learning Problem",
+            "guidance": "Clearly state what specific learning challenge you're facing. Be precise and avoid vague statements.",
+            "prompts": {
+              "0": "What exactly are you struggling to understand?",
+              "1": "When does this problem occur most?",
+              "2": "How does this affect your learning goals?"
+            },
+            "criticalThinking": "Critical thinking starts with clarity. A well-defined problem is half solved."
+          },
+          "2": {
+            "title": "First Why - Immediate Cause",
+            "guidance": "Ask why this learning problem exists. Focus on the most direct, observable cause.",
+            "prompts": {
+              "0": "What is the immediate reason for this difficulty?",
+              "1": "What happens right before you encounter this problem?",
+              "2": "What makes this topic particularly challenging?"
+            },
+            "criticalThinking": "Look for evidence-based answers, not assumptions or emotions."
+          },
+          "3": {
+            "title": "Second Why - Deeper Analysis",
+            "guidance": "Now ask why that first cause exists. Start digging into underlying factors.",
+            "prompts": {
+              "0": "Why does that immediate cause happen?",
+              "1": "What conditions create this situation?",
+              "2": "What's missing that would prevent this cause?"
+            },
+            "criticalThinking": "Question whether your first answer is complete. Are there hidden factors?"
+          },
+          "4": {
+            "title": "Third Why - System Level",
+            "guidance": "Examine the systems, processes, or patterns that create the deeper causes.",
+            "prompts": {
+              "0": "Why do these conditions exist in your learning environment?",
+              "1": "What patterns or habits contribute to this?",
+              "2": "How do external factors influence this situation?"
+            },
+            "criticalThinking": "Think systemically. How do different elements interact to create this problem?"
+          },
+          "5": {
+            "title": "Fourth Why - Fundamental Factors",
+            "guidance": "Look at fundamental skills, knowledge gaps, or structural issues.",
+            "prompts": {
+              "0": "Why do these patterns persist?",
+              "1": "What fundamental skills or knowledge are missing?",
+              "2": "What would need to change to prevent this problem?"
+            },
+            "criticalThinking": "Consider long-term patterns and foundational elements."
+          },
+          "6": {
+            "title": "Fifth Why - Root Cause",
+            "guidance": "Identify the deepest, most fundamental cause that, if addressed, would solve the problem.",
+            "prompts": {
+              "0": "Why do these fundamental issues exist?",
+              "1": "What's the ultimate root of this learning challenge?",
+              "2": "If you could change one thing to solve this, what would it be?"
+            },
+            "criticalThinking": "The root cause should be actionable and within your power to influence."
+          }
+        }
+      },
+      "step": {
+        "stepOf": "Step {{current}} of {{total}}",
+        "focus": "Focus on crafting a precise \"why\" question that digs deeper into the root cause.",
+        "previousAnswer": "Previous Answer:",
+        "generatedAnswer": "Generated Answer:",
+        "formulate": "Formulate a 'Why' question about this learning problem:",
+        "formulateNext": "Formulate the next 'Why' question based on: \"{previous}\"",
+        "writeQuestion": "Write a specific 'why' question that will help uncover deeper causes...",
+        "questionTip": "Focus on asking the right question. The answer will be generated automatically to help your learning.",
+        "showTips": "Show Question Crafting Tips",
+        "hideTips": "Hide Question Crafting Tips",
+        "tipTitle": "Question Crafting Tips",
+        "tips": {
+          "start": "Start with \"Why\" to focus on causes, not symptoms",
+          "specific": "Be specific rather than vague in your questioning",
+          "challenge": "Challenge assumptions in your previous answer",
+          "systemic": "Look for systemic or structural causes",
+          "perspectives": "Consider multiple perspectives on the problem"
+        },
+        "skillFocus": "Critical Thinking Skill Focus"
+      },
+      "buttons": {
+        "previous": "Previous",
+        "next": "Next Step",
+        "start": "Start Analysis",
+        "complete": "Complete",
+        "readyToBegin": "Ready to begin",
+        "analysisComplete": "Analysis complete",
+        "stepsCompleted": "{{completed}}/{{total}} steps completed"
+      },
+      "toast": {
+        "defineProblem": {
+          "title": "Define Your Problem First",
+          "description": "Please describe the learning challenge you want to analyze"
+        },
+        "completeStep": {
+          "title": "Complete This Step",
+          "description": "Please formulate a 'why' question before proceeding"
+        },
+        "answerGenerated": {
+          "title": "Answer Generated!",
+          "description": "Your question has been answered. Review it and continue."
+        },
+        "analysisReset": {
+          "title": "Analysis Reset",
+          "description": "Ready to start a new 5 Whys critical thinking exercise"
+        },
+        "analysisComplete": {
+          "title": "Critical Thinking Analysis Complete!",
+          "description": "You've developed deeper insight through {{count}} levels of analysis"
+        },
+        "continueAnalysis": {
+          "title": "Continue Your Analysis",
+          "description": "Complete at least 3 steps to develop meaningful insights"
+        },
+        "contentLoaded": {
+          "title": "Content Loaded",
+          "description": "Now let's analyze this learning challenge step by step"
+        }
+      }
+    },
+    "api": {
+      "errors": {
+        "flashQuiz": "Failed to fetch flashcard quiz: {status}",
+        "elix": "Failed to fetch ELIx explanation: {status}",
+        "mindMap": "Failed to fetch mindmap: {status}",
+        "generic": "An error occurred. Please try again."
+      }
+    },
+    "trendingTopics": {
+      "plantPhotosynthesis": "Plant photosynthesis",
+      "bloodCirculation": "Blood circulation system",
+      "indonesianIndependence": "History of Indonesian independence",
+      "quadraticEquations": "Quadratic equations",
+      "gravityPlanetaryMotion": "Gravity and planetary motion",
+      "atomicStructure": "Atomic structure"
+    },
+    "subjectCategories": {
+      "mathematics": {
+        "quadraticEquations": "Quadratic equations",
+        "calculus": "Calculus",
+        "geometry": "Geometry",
+        "statistics": "Statistics",
+        "linearAlgebra": "Linear algebra",
+        "trigonometry": "Trigonometry",
+        "logarithms": "Logarithms",
+        "matrices": "Matrices",
+        "functionLimits": "Function limits",
+        "integrals": "Integrals",
+        "differentials": "Differentials",
+        "probability": "Probability"
+      },
+      "science": {
+        "plantPhotosynthesis": "Plant photosynthesis",
+        "bloodCirculation": "Blood circulation system",
+        "evolution": "Evolution",
+        "ecosystems": "Ecosystems",
+        "genetics": "Genetics",
+        "cellularRespiration": "Cellular respiration",
+        "nervousSystem": "Nervous system",
+        "mitosisMeiosis": "Mitosis and meiosis",
+        "naturalSelection": "Natural selection",
+        "foodChain": "Food chain",
+        "digestiveSystem": "Digestive system",
+        "hormones": "Hormones"
+      },
+      "history": {
+        "indonesianIndependence": "History of Indonesian independence",
+        "worldWarII": "World War II",
+        "industrialRevolution": "Industrial Revolution",
+        "majapahitKingdom": "Majapahit Kingdom",
+        "reformation": "Reformation",
+        "independenceProclamation": "Independence proclamation",
+        "diponegoroWar": "Diponegoro War",
+        "youthPledge": "Youth Pledge",
+        "asiaAfricaConference": "Asia-Africa Conference",
+        "newOrder": "New Order",
+        "sriwijayaKingdom": "Sriwijaya Kingdom"
+      },
+      "geography": {
+        "tectonicPlates": "Tectonic plates",
+        "tropicalClimate": "Tropical climate",
+        "topographicMaps": "Topographic maps",
+        "volcanoes": "Volcanoes",
+        "longestRivers": "Longest rivers",
+        "continentsOceans": "Continents and oceans",
+        "weatherClimate": "Weather and climate",
+        "soilRocks": "Soil and rocks",
+        "rainForests": "Tropical rainforests",
+        "populationDistribution": "Population distribution",
+        "urbanization": "Urbanization",
+        "globalization": "Globalization"
+      },
+      "physics": {
+        "gravityPlanetaryMotion": "Gravity and planetary motion",
+        "newtonsLaws": "Newton's laws",
+        "electromagneticWaves": "Electromagnetic waves",
+        "relativity": "Relativity",
+        "quantumMechanics": "Quantum mechanics",
+        "kineticEnergy": "Kinetic energy",
+        "momentum": "Momentum",
+        "thermodynamics": "Thermodynamics",
+        "optics": "Optics",
+        "electricityMagnetism": "Electricity and magnetism",
+        "harmonicMotion": "Harmonic motion",
+        "fluids": "Fluids"
+      },
+      "chemistry": {
+        "atomicStructure": "Atomic structure",
+        "chemicalBonds": "Chemical bonds",
+        "redoxReactions": "Redox reactions",
+        "periodicTable": "Periodic table",
+        "thermochemistry": "Thermochemistry",
+        "acidsBases": "Acids and bases",
+        "electrolysis": "Electrolysis",
+        "chemicalEquilibrium": "Chemical equilibrium",
+        "reactionRate": "Reaction rate",
+        "organicChemistry": "Organic chemistry",
+        "stoichiometry": "Stoichiometry",
+        "solutions": "Solutions"
+      }
+    },
+    "questionSuggestions": {
+      "practicalApplications": "How can I practice this directly?",
+      "commonMistakes": "What common mistakes should I avoid?",
+      "dailyApplications": "How to apply this in daily life?",
+      "prerequisites": "What prerequisites do I need to understand?",
+      "compareWithOtherConcepts": "Compare with other concepts",
+      "simpleAnalogy": "Give me a simple analogy to understand"
+    },
+    "generatedBy": "Generated by Lentera AI"
+  }
+}

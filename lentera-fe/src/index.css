@@ -1,0 +1,198 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.2);
+  }
+  
+  .scrollbar-thumb-primary\/20::-webkit-scrollbar-thumb {
+    background: var(--primary-color, rgba(0, 0, 0, 0.2));
+    opacity: 0.2;
+  }
+  
+  .scrollbar-track-transparent::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Lentera Educational Design System */
+    --background: 220 15% 98%;
+    --foreground: 215 25% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 15%;
+
+    /* Primary: Educational Blue */
+    --primary: 210 85% 45%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 210 85% 60%;
+
+    /* Secondary: Learning Green */
+    --secondary: 160 60% 50%;
+    --secondary-foreground: 0 0% 100%;
+
+    /* Muted: Soft neutrals */
+    --muted: 220 15% 95%;
+    --muted-foreground: 215 15% 55%;
+
+    /* Accent: Warm sunshine */
+    --accent: 45 90% 60%;
+    --accent-foreground: 215 25% 15%;
+
+    /* Success: Growth green */
+    --success: 140 70% 45%;
+    --success-foreground: 0 0% 100%;
+
+    /* Warning: Attention orange */
+    --warning: 25 95% 55%;
+    --warning-foreground: 0 0% 100%;
+
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 15% 90%;
+    --input: 220 15% 95%;
+    --ring: 210 85% 45%;
+
+    /* Educational gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-learning: linear-gradient(135deg, hsl(var(--secondary)), hsl(140 60% 60%));
+    --gradient-warm: linear-gradient(135deg, hsl(var(--accent)), hsl(35 90% 65%));
+    --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(220 15% 96%));
+
+    /* Shadows for depth */
+    --shadow-card: 0 4px 12px hsl(var(--primary) / 0.1);
+    --shadow-feature: 0 8px 24px hsl(var(--primary) / 0.15);
+    --shadow-glow: 0 0 20px hsl(var(--primary-glow) / 0.3);
+
+    /* Smooth transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Dark mode for better battery life on low-cost devices */
+    --background: 215 25% 8%;
+    --foreground: 220 15% 95%;
+
+    --card: 215 25% 12%;
+    --card-foreground: 220 15% 95%;
+
+    --popover: 215 25% 12%;
+    --popover-foreground: 220 15% 95%;
+
+    --primary: 210 85% 55%;
+    --primary-foreground: 215 25% 8%;
+    --primary-glow: 210 85% 70%;
+
+    --secondary: 160 60% 55%;
+    --secondary-foreground: 215 25% 8%;
+
+    --muted: 215 25% 15%;
+    --muted-foreground: 220 15% 65%;
+
+    --accent: 45 90% 65%;
+    --accent-foreground: 215 25% 8%;
+
+    --success: 140 70% 50%;
+    --success-foreground: 215 25% 8%;
+
+    --warning: 25 95% 60%;
+    --warning-foreground: 215 25% 8%;
+
+    --destructive: 0 75% 60%;
+    --destructive-foreground: 215 25% 8%;
+
+    --border: 215 25% 20%;
+    --input: 215 25% 15%;
+    --ring: 210 85% 55%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  /* Interactive Elements */
+  .story-link {
+    @apply relative inline-block after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left;
+  }
+  
+  .hover-scale {
+    @apply transition-transform duration-200 hover:scale-105;
+  }
+
+  /* 3D Flip Animation */
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+  
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+}

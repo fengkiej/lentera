@@ -1,0 +1,1182 @@
+{
+  "nav": {
+    "home": "အိမ်",
+    "explore": "ရှာဖွေမယ်",
+    "about": "ကျွန်ုပ်တို့အကြောင်း",
+    "contact": "ဆက်သွယ်ရန်",
+    "library": "Library",
+    "aboutLentera": "About Lentera",
+    "exploreLibrary": "Explore Library",
+    "lenteraChatAI": "Lentera Chat AI"
+  },
+  "hero": {
+    "title": "မည်သည့်အရာမဆို သင်ယူပါ",
+    "subtitle": "သင့်အတွက် အသင့်လျော်ဆုံးသော နည်းလမ်းဖြင့် အကြောင်းအရာများကို နားလည်စေရန် ကူညီပေးသော စမတ်သင်ယူရေး ပလက်ဖောင်း",
+    "cta": {
+      "explore": "Start Exploring",
+      "learn": "Learn More"
+    }
+  },
+  "features": {
+    "offline": {
+      "title": "အော့ဖ်လိုင်းကို ဦးစားပေး",
+      "description": "အင်တာနက်ချိတ်ဆက်မှုမရှိသော်လည်း အကြောင်းအရာများကို ရယူနိုင်သည်"
+    },
+    "ai": {
+      "title": "AI မှ စွမ်းအားပေး",
+      "description": "ဉာဏ်ရည်တုနည်းပညာဖြင့် ကိုယ်ပိုင်သင်ခန်းစာများ"
+    },
+    "multilingual": {
+      "title": "ဘာသာစကားများစွာ ပံ့ပိုးမှု",
+      "description": "သင့်မိခင်ဘာသာဖြင့် သင်ယူပါ"
+    },
+    "accessible": {
+      "title": "လက်လှမ်းမီနိုင်သော ဒီဇိုင်း",
+      "description": "သင်ယူသူအမျိုးအစားအားလုံးကို ပါဝင်စေသည်"
+    },
+    "title": "Powerful Features for Everyone"
+  },
+  "common": {
+    "loading": "ဖွင့်နေသည်...",
+    "error": "အမှား",
+    "retry": "ပြန်လည်ကြိုးစားပါ",
+    "close": "ပိတ်ရန်",
+    "open": "ဖွင့်ရန်",
+    "save": "သိမ်းရန်",
+    "cancel": "ပယ်ဖျက်ရန်",
+    "delete": "ဖျက်ရန်",
+    "edit": "တည်းဖြတ်ရန်",
+    "copy": "Copy",
+    "adult": "Adult",
+    "language": "Language Persistence Test",
+    "languageDescription": "This component tests whether language settings are properly saved and translations work",
+    "currentLanguage": "Current active language:",
+    "storedLanguage": "Stored in localStorage:",
+    "none": "None",
+    "translationSamples": "Translation Samples:",
+    "instructions": "Instructions to test:",
+    "step1": "Select a language using the language switcher",
+    "step2": "Observe how the translations above change",
+    "step3": "Refresh the page to verify persistence",
+    "refresh": "Refresh Page"
+  },
+  "search": {
+    "placeholder": "အကြောင်းအရာရှာဖွေရန်...",
+    "button": "ရှာဖွေရန်",
+    "noResults": "ရလဒ်မရှိပါ",
+    "loading": "ရှာဖွေနေသည်...",
+    "sources": "အရင်းအမြစ်များ"
+  },
+  "splash": {
+    "platformLoading": "ပလက်ဖောင်းဖွင့်နေသည်...",
+    "preparingAI": "AI ပြင်ဆင်နေသည်...",
+    "readyToLearn": "သင်ယူရန်အဆင်သင့်!",
+    "brandName": "Lentera AI",
+    "tagline": "AI သင်ယူရေးပလက်ဖောင်း",
+    "features": {
+      "aiLearning": "AI Learning",
+      "digitalLibrary": "Digital Library",
+      "fastLearning": "Fast Learning"
+    }
+  },
+  "index": {
+    "hero": {
+      "title": "{aiTutor} နှင့်အတူ မည်သည့်အရာမဆို သင်ယူပါ",
+      "aiTutor": "AI ဆရာ",
+      "subtitle": "သင့်အတွက် အသင့်လျော်ဆုံးသော နည်းလမ်းဖြင့် အကြောင်းအရာများကို နားလည်စေရန် ကူညီပေးသော စမတ်သင်ယူရေး ပလက်ဖောင်း",
+      "searchPlaceholder": "What do you want to learn today?",
+      "startLearning": "Start Learning",
+      "start": "Start",
+      "askAIDirect": "Ask AI Directly",
+      "askAI": "Ask AI",
+      "exploreTopics": "Explore Topics"
+    },
+    "features": {
+      "title": "Lentera ကို ဘာကြောင့်ရွေးချယ်သင့်သလဲ?",
+      "subtitle": "ကျွန်ုပ်တို့၏ ပလက်ဖောင်းက သင့်သင်ယူမှုအတွေ့အကြုံကို မည်သို့ပြောင်းလဲပေးနိုင်သည်ကို ရှာဖွေပါ",
+      "learning": "Learning",
+      "personalLearning": {
+        "title": "Personal Learning",
+        "description": "AI that understands your learning style and automatically adapts material"
+      },
+      "interactiveTools": {
+        "title": "Interactive Tools",
+        "description": "Flashcards, quizzes, mind maps, and other learning tools created automatically"
+      },
+      "offlineAccess": {
+        "title": "Offline Access",
+        "description": "Learn anytime, anywhere, even without internet connection"
+      }
+    },
+    "tools": {
+      "title": "သင်ယူရေးကိရိယာများ",
+      "subtitle": "မတူညီသော သင်ယူရေးပုံစံများအတွက် ကျွန်ုပ်တို့၏ အထူးကိရိယာများကို ရှာဖွေပါ",
+      "learning": "Learning",
+      "viewAllTools": "View All Tools"
+    },
+    "stats": {
+      "title": "ကျွန်ုပ်တို့၏ သက်ရောက်မှု",
+      "subtitle": "ကျွန်ုပ်တို့ ပညာရေးကို မည်သို့ပြောင်းလဲနေသည်ကို ပြသော အရေအတွက်များ",
+      "learningMaterials": "Learning Materials",
+      "activeUsers": "Active Users",
+      "satisfactionRate": "Satisfaction Rate"
+    },
+    "cta": {
+      "title": "စတင်ရန် အဆင်သင့်ပြီလား?",
+      "subtitle": "သူတို့၏ သင်ယူနည်းလမ်းကို ပြောင်းလဲခဲ့သော ထောင်ပေါင်းများစွာသော ကျောင်းသားများနှင့် ပူးပေါင်းပါ",
+      "button": "ယခုပင် အခမဲ့စတင်ပါ",
+      "startNow": "Start Learning Now",
+      "demoAI": "Demo AI Tutor"
+    },
+    "footer": {
+      "copyright": "© 2024 Lentera",
+      "tagline": "AI Learning Platform",
+      "madeWith": "Made with ❤️"
+    }
+  },
+  "explore": {
+    "title": "အသိပညာရှာဖွေမှု",
+    "subtitle": "AI ၏ အကူအညီဖြင့် မည်သည့်ခေါင်းစဉ်မဆို ရှာဖွေ၊ သင်ယူ၊ ကျွမ်းကျင်လာပါ",
+    "searchPlaceholder": "သင်ယူလိုသော ခေါင်းစဉ်ကို ရိုက်ထည့်ပါ...",
+    "trending": "ရေပန်းစားနေသော",
+    "subjects": {
+      "math": "သင်္ချာ",
+      "science": "သိပ္ပံ",
+      "history": "သမိုင်း",
+      "geography": "ပထဝီဝင်",
+      "physics": "ရူပဗေဒ",
+      "chemistry": "ဓာတုဗေဒ",
+      "mathematics": "သင်္ချာ",
+      "random": "ကျပန်း"
+    },
+    "tools": {
+      "fiveWhys": "၅ ဘာကြောင့်",
+      "flashcards": "မှတ်ချက်ကတ်များ",
+      "quiz": "စမ်းခွန်",
+      "mindMap": "စိတ်ဒဿန မြေပုံ",
+      "summary": "အကျဉ်းချုပ်",
+      "simple": "ရိုးရှင်း",
+      "practice": "လေ့ကျင့်ခန်း",
+      "timeline": "အချိန်လိုင်း",
+      "solver": "ဖြေရှင်းသူ"
+    },
+    "qaMode": {
+      "greeting": "Hello! I'm ready to help you understand more about \"{{topic}}\". Please ask any question!",
+      "placeholder": "Ask your question...",
+      "send": "Send"
+    },
+    "exploration": "Exploration",
+    "voiceSearchActive": "Voice search active",
+    "popularTopics": "Popular Topics Examples",
+    "randomTopics": "Random Topics",
+    "subjectTopics": "Topics"
+  },
+  "about": {
+    "title": "အနာဂတ်သင်ယူမှုအတွက်",
+    "subtitle": "ဒစ်ဂျစ်တယ်မီးအိမ်",
+    "platformDescription": "Lentera သည် တော်လှန်ပြောင်းလဲမှုရှိသော AI သင်ယူရေးပလက်ဖောင်းတစ်ခုဖြစ်ပြီး၊ ခေတ်မီနည်းပညာများဖြင့် လူတစ်ဦးချင်းစီ၏ သင်ယူရေးခရီးကို လမ်းညွှန်ပေးသော ဒစ်ဂျစ်တယ်မီးအိမ်တစ်ခု ဖြစ်ရန် ဒီဇိုင်းထုတ်ထားသည်။",
+    "mission": {
+      "title": "ကျွန်ုပ်တို့၏ မစ်ရှင်",
+      "description": "လူအားလုံးအတွက် အရည်အသွေးမြင့် ပညာရေးသို့ လက်လှမ်းမီနိုင်မှုကို ပေးဆောင်ရန်၊ သူတို့ ဘယ်နေရာမှာ ရှိနေစေကာမူ။",
+      "personal": "ကိုယ်ပိုင်သင်ယူမှု",
+      "access": "အားလုံးအတွက် လက်လှမ်းမီမှု",
+      "quality": "အာမခံထားသော အရည်အသွေး",
+      "personalLearning": {
+        "title": "Personal Learning",
+        "description": "AI that understands each individual's unique learning style"
+      },
+      "accessForAll": {
+        "title": "Access for All",
+        "description": "Platform accessible anytime, anywhere"
+      },
+      "qualityAssured": {
+        "title": "Quality Assured",
+        "description": "High-quality and verified learning materials"
+      }
+    },
+    "features": {
+      "title": "ပလက်ဖောင်း လုပ်ဆောင်ချက်များ",
+      "subtitle": "သင့်သင်ယူမှုအတွေ့အကြုံကို မြှင့်တင်ရန်အတွက် အထူးဒီဇိုင်းထုတ်ထားသော အဆင့်မြင့်နည်းပညာ",
+      "ai": "ထက်မြက်သော သင်ယူရေး AI",
+      "library": "ပြည့်စုံသော ဒစ်ဂျစ်တယ်စာကြည့်တိုက်",
+      "adaptive": "လိုက်လျောညီထွေဖြစ်သော သင်ယူမှု",
+      "offline": "အော့ဖ်လိုင်း လက်လှမ်းမီမှု",
+      "smartAI": {
+        "title": "Smart AI Learning",
+        "description": "Cutting-edge AI technology that understands each user's unique learning style"
+      },
+      "digitalLibrary": {
+        "title": "Complete Digital Library",
+        "description": "Access to thousands of high-quality learning materials from various sources"
+      },
+      "adaptiveLearning": {
+        "title": "Adaptive Learning",
+        "description": "Learning speed that adapts to your abilities and progress"
+      },
+      "offlineAccess": {
+        "title": "Offline Access",
+        "description": "Learn anytime, anywhere, even without internet connection"
+      }
+    },
+    "values": {
+      "title": "ကျွန်ုပ်တို့၏ တန်ဖိုးများ",
+      "subtitle": "Lentera တွင် ဖွံ့ဖြိုးတိုးတက်မှုနှင့် ဆန်းသစ်တီထွင်မှုတိုင်းကို လမ်းညွှန်ပေးသော မူလနိယာမများ",
+      "focus": "ရလဒ်များအပေါ် အာရုံစိုက်မှု",
+      "humanistic": "လူသားဆန်သော သင်ယူမှု",
+      "privacy": "အာမခံထားသော ကိုယ်ရေးကိုယ်တာ",
+      "innovation": "ဆက်တိုက် တီထွင်ဆန်းသစ်မှု",
+      "resultFocused": {
+        "title": "Result Focused",
+        "description": "Every feature is designed to maximize understanding and knowledge retention"
+      },
+      "humanisticLearning": {
+        "title": "Humanistic Learning",
+        "description": "AI that understands that everyone has a different way of learning"
+      },
+      "privacyGuaranteed": {
+        "title": "Privacy Guaranteed",
+        "description": "Your learning data is safe and not shared with third parties"
+      },
+      "continuousInnovation": {
+        "title": "Continuous Innovation",
+        "description": "Continuously developing learning technology for a better future"
+      }
+    },
+    "stats": {
+      "materials": "သင်ယူရေးပစ္စည်းများ",
+      "users": "တက်ကြွသုံးစွဲသူများ",
+      "satisfaction": "ကျေနပ်မှုနှုန်း",
+      "languages": "ပံ့ပိုးထားသော ဘာသာစကားများ",
+      "learningMaterials": "Learning Materials",
+      "activeUsers": "Active Users",
+      "satisfactionRate": "Satisfaction Rate",
+      "supportedLanguages": "Supported Languages"
+    },
+    "cta": {
+      "title": "သင်ယူရေးခရီးစတင်ရန် အဆင်သင့်ပြီလား?",
+      "subtitle": "Lentera နှင့်အတူ သင်ယူရာတွင် ကွာခြားမှုကို ခံစားခဲ့သော ထောင်ပေါင်းများစွာသော ကျောင်းသားများနှင့် ပူးပေါင်းပါ",
+      "start": "အခမဲ့သင်ယူခြင်းကို စတင်ပါ",
+      "back": "အိမ်သို့ ပြန်သွားပါ",
+      "startFree": "Start Learning Free",
+      "backHome": "Back to Home"
+    },
+    "future": "Future"
+  },
+  "components.fiveWhys.summary.description": "",
+  "components.fiveWhys.summary.generatedAnswer": "",
+  "components.fiveWhys.summary.learningChallenge": "",
+  "components.fiveWhys.summary.newAnalysis": "",
+  "components.fiveWhys.summary.question": "",
+  "explorePage.fiveWhys.intro.textarea": "သင်ရင်ဆိုင်နေရသောသတ်သတ်မှတ်မှတ်သင်ကြားမှုစိန်ခေါ်မှုတစ်ခုဖြစ်အောင်ဖော်ပြပါ။",
+  "explorePage.fiveWhys.intro.whatLearn": "သင်ဘာသင်ယူရလိမ့်မည်",
+  "explorePage.fiveWhys.introduction": "နိဒါန်း",
+  "explorePage.fiveWhys.step.focus": "အဘယ်ကြောင့်ဆိုသော်အမြစ်အကြောင်းရင်းသို့နက်ရှိုင်းသောနက်ရှိုင်းသောမေးခွန်းများကိုတူးဖော်သည့်မေးခွန်းကိုအာရုံစိုက်ပါ။",
+  "explorePage.fiveWhys.step.formulate": "ဤလေ့လာမှုပြ problem နာနှင့်ပတ်သက်သောမေးခွန်းကို 'ဘာကြောင့်' ဆိုတဲ့မေးခွန်းကိုရေးဆွဲပါ။",
+  "explorePage.fiveWhys.step.formulateNext": "နောက်မေးခွန်းတစ်ခုကို အခြေခံ. \"{Previous}\"",
+  "explorePage.fiveWhys.step.generatedAnswer": "ထုတ်ပေးအဖြေ:",
+  "explorePage.fiveWhys.step.hideTips": "မေးခွန်းရေးဆွဲခြင်းဆိုင်ရာအကြံပြုချက်များကိုဖျောက်ထားပါ",
+  "explorePage.fiveWhys.step.previousAnswer": "ယခင်အဖြေ",
+  "explorePage.fiveWhys.step.questionTip": "မှန်ကန်သောမေးခွန်းကိုမေးရန်အာရုံစိုက်ပါ။ \nသင်၏လေ့လာမှုကိုကူညီရန်အဖြေကိုအလိုအလျောက်ထုတ်လုပ်လိမ့်မည်။",
+  "explorePage.fiveWhys.step.showTips": "မေးခွန်းရေးဆွဲခြင်းဆိုင်ရာအကြံပြုချက်များကိုပြပါ",
+  "explorePage.fiveWhys.step.skillFocus": "ဝေဖန်စဉ်းစားတွေးခေါ်ကျွမ်းကျင်မှုအာရုံ",
+  "explorePage.fiveWhys.step.stepOf": "{စုစုပေါင်း}",
+  "explorePage.fiveWhys.step.tipTitle": "မေးခွန်းများအပြင်းအထန်အကြံပြုချက်များ",
+  "explorePage.fiveWhys.step.tips.challenge": "သင်၏ယခင်အဖြေတွင်စိန်ခေါ်မှုယူဆချက်",
+  "explorePage.fiveWhys.step.tips.perspectives": "ပြ the နာအပေါ်ရှုထောင့်မျိုးစုံကြည့်ရှုပါ",
+  "explorePage.fiveWhys.step.tips.specific": "သင့်ရဲ့မေးခွန်းအတွက်မရေမဟုတ်ဘဲတိကျတဲ့ဖြစ်လိမ့်မည်",
+  "explorePage.fiveWhys.step.tips.start": "အကြောင်းရင်းများမဟုတ်ဘဲ \"ဘာကြောင့်\" ကိုအာရုံစူးစိုက်ရန်,",
+  "explorePage.fiveWhys.step.tips.systemic": "စနစ်တကျသို့မဟုတ်ဖွဲ့စည်းတည်ဆောက်ပုံဆိုင်ရာအကြောင်းရင်းများကိုရှာဖွေပါ",
+  "explorePage.fiveWhys.step.writeQuestion": "ပိုမိုနက်ရှိုင်းသောအကြောင်းရင်းများကိုဖော်ထုတ်ရန်အထောက်အကူပြုမည့်အဘယ်ကြောင့် 'အဘယ်ကြောင့်' မေးခွန်းတစ်ခုကိုရေးပါ။",
+  "explorePage.fiveWhys.stepProgress": "အဆင့် {အဆင့်} {အဆင့်}",
+  "explorePage.fiveWhys.steps.guidance.1.criticalThinking": "ဝေဖန်စဉ်းစားတွေးခေါ်မှုကရှင်းလင်းပြတ်သားစွာဖြင့်စတင်သည်။ \nသတ်မှတ်ထားသောပြ problem နာတစ်ခုမှာတစ်ဝက်ဖြေရှင်းနည်းဖြစ်သည်။",
+  "explorePage.fiveWhys.steps.guidance.1.guidance": "ရှင်းရှင်းလင်းလင်းဖော်ပြနေသည့်မည်သည့်သတ်သတ်မှတ်မှတ်သင်ယူမှုစိန်ခေါ်မှုကိုသင်ရင်ဆိုင်နေရသည်။ \nတိကျသောဖြစ်နှင့်မရေရာသောထုတ်ပြန်ချက်များကိုရှောင်ကြဉ်ပါ။",
+  "explorePage.fiveWhys.steps.guidance.1.prompts[0]": "ဘာကိုနားလည်ဖို့ရုန်းကန်နေတာလဲ။",
+  "explorePage.fiveWhys.steps.guidance.1.prompts[1]": "ဒီပြ problem နာကဘယ်အချိန်မှာအများဆုံးဖြစ်ပေါ်သလဲ။",
+  "explorePage.fiveWhys.steps.guidance.1.prompts[2]": "၎င်းသည်သင်၏သင်ယူမှုပန်းတိုင်များကိုမည်သို့အကျိုးသက်ရောက်သနည်း။",
+  "explorePage.fiveWhys.steps.guidance.1.title": "သင်ယူမှုပြ problem နာကိုသတ်မှတ်ပါ",
+  "explorePage.fiveWhys.steps.guidance.2.criticalThinking": "သက်သေအထောက်အထားများအခြေပြုအဖြေများကိုရှာဖွေပါ။",
+  "explorePage.fiveWhys.steps.guidance.2.guidance": "အဘယ်ကြောင့်ဤလေ့လာမှုပြ problem နာတည်ရှိကြောင်းကိုမေးပါ။ \nအာရုံစူးစိုက်မှုအရှိဆုံးအကြောင်းရင်းကိုအာရုံစိုက်ပါ။",
+  "explorePage.fiveWhys.steps.guidance.2.prompts[0]": "ဒီအခက်အခဲအတွက်ချက်ချင်းအကြောင်းပြချက်ကဘာလဲ။",
+  "explorePage.fiveWhys.steps.guidance.2.prompts[1]": "ဒီပြ problem နာကိုမမေ့ခင်ဘာဖြစ်သွားသလဲ",
+  "explorePage.fiveWhys.steps.guidance.2.prompts[2]": "အဘယ်အရာကဤအကြောင်းအရာကိုအထူးသဖြင့်စိန်ခေါ်မှုဖြစ်စေသနည်း။",
+  "explorePage.fiveWhys.steps.guidance.2.title": "ပထမ ဦး ဆုံးအဘယ်ကြောင့် - ချက်ချင်းအကြောင်းမရှိ",
+  "explorePage.fiveWhys.steps.guidance.3.criticalThinking": "သင်၏ပထမ ဦး ဆုံးအဖြေသည်ပြီးပြည့်စုံသည်ကိုမေးခွန်းထုတ်ပါ။ \nလျှို့ဝှက်အချက်များရှိပါသလား။",
+  "explorePage.fiveWhys.steps.guidance.3.guidance": "အခုဘာကြောင့်ပထမဆုံးအကြိမ်ဖြစ်ရတာလဲလို့မေးကြည့်ပါ။ \nအခြေခံအချက်များသို့တူးပါ။",
+  "explorePage.fiveWhys.steps.guidance.3.prompts[0]": "အဘယ်ကြောင့်ထိုချက်ချင်းအကြောင်းအရင်းဖြစ်ပျက်သနည်း",
+  "explorePage.fiveWhys.steps.guidance.3.prompts[1]": "ဒီအခြေအနေကဘယ်လိုအခြေအနေတွေကဖန်တီးသလဲ။",
+  "explorePage.fiveWhys.steps.guidance.3.prompts[2]": "ဒီအကြောင်းအရင်းကိုတားဆီးလိမ့်မယ်လို့ဒါကပျောက်ဆုံးနေတာလား။",
+  "explorePage.fiveWhys.steps.guidance.3.title": "ဒုတိယအိတက် - ပိုမိုနက်ရှိုင်းသောခွဲခြမ်းစိတ်ဖြာခြင်း",
+  "explorePage.fiveWhys.steps.guidance.4.criticalThinking": "စနစ်တကျစဉ်းစားပါ။ \nကွဲပြားခြားနားသော element များသည်ဤပြ problem နာကိုဖန်တီးရန်မည်သို့အပြန်အလှန်ဆက်သွယ်ကြသနည်း။",
+  "explorePage.fiveWhys.steps.guidance.4.guidance": "ပိုမိုနက်ရှိုင်းသောအကြောင်းရင်းများကိုဖန်တီးသောစနစ်များ, လုပ်ငန်းစဉ်များသို့မဟုတ်ပုံစံများကိုဆန်းစစ်ပါ။",
+  "explorePage.fiveWhys.steps.guidance.4.prompts[0]": "သင်၏လေ့လာမှုပတ်ဝန်းကျင်တွင်ဤအခြေအနေများသည်အဘယ်ကြောင့်ရှိသနည်း။",
+  "explorePage.fiveWhys.steps.guidance.4.prompts[1]": "အဘယ်ပုံစံများသို့မဟုတ်အလေ့အကျင့်ကဒီကိုအထောက်အကူပြု?",
+  "explorePage.fiveWhys.steps.guidance.4.prompts[2]": "ပြင်ပအချက်များကဤအခြေအနေကိုမည်သို့သွဇာလွှမ်းမိုးသနည်း။",
+  "explorePage.fiveWhys.steps.guidance.4.title": "တတိယအနေနှင့် - စနစ်အဆင့်",
+  "explorePage.fiveWhys.steps.guidance.5.criticalThinking": "ရေရှည်ပုံစံများနှင့်အခြေခံဒြပ်စင်များကိုသုံးသပ်ကြည့်ပါ။",
+  "explorePage.fiveWhys.steps.guidance.5.guidance": "အခြေခံကျွမ်းကျင်မှု, ဗဟုသုတကွာဟချက်များသို့မဟုတ်ဖွဲ့စည်းတည်ဆောက်ပုံဆိုင်ရာပြ issues နာများကိုကြည့်ပါ။",
+  "explorePage.fiveWhys.steps.guidance.5.prompts[0]": "အဘယ်ကြောင့်ဤပုံစံများဆက်လက်တည်ရှိနေကြသနည်း",
+  "explorePage.fiveWhys.steps.guidance.5.prompts[1]": "အဘယ်အခြေခံကျွမ်းကျင်မှုသို့မဟုတ်ဗဟုသုတပျောက်ဆုံးနေသနည်း",
+  "explorePage.fiveWhys.steps.guidance.5.prompts[2]": "ဒီပြ problem နာကိုကာကွယ်ဖို့ဘာတွေပြောင်းလဲဖို့လိုမလဲ။",
+  "explorePage.fiveWhys.steps.guidance.5.title": "စတုတ်ထဘာကြောင့် - အခြေခံအချက်များ",
+  "explorePage.fiveWhys.steps.guidance.6.criticalThinking": "အဓိကအကြောင်းအရင်းမှာလုပ်ဆောင်နိုင်စွမ်းနှင့်သင်၏သွဇာလွှမ်းမိုးမှုရှိသင့်သည်။",
+  "explorePage.fiveWhys.steps.guidance.6.guidance": "ဖြေရှင်းနိုင်ပါကအနက်ရှိုင်းဆုံး,",
+  "explorePage.fiveWhys.steps.guidance.6.prompts[0]": "အဘယ်ကြောင့်ဤအခြေခံပြ issues နာများရှိသနည်း",
+  "explorePage.fiveWhys.steps.guidance.6.prompts[1]": "ဒီသင်ယူမှုစိန်ခေါ်မှု၏အဓိကအရင်းအမြစ်ကဘာလဲ။",
+  "explorePage.fiveWhys.steps.guidance.6.prompts[2]": "ဒီဟာကိုဖြေရှင်းဖို့တစ်ခုခုကိုပြောင်းလဲနိုင်မယ်ဆိုရင်ဘာဖြစ်မလဲ။",
+  "explorePage.fiveWhys.steps.guidance.6.title": "ပဉ္စမအဘယ်ကြောင့် - root အကြောင်းရင်း",
+  "explorePage.fiveWhys.summary.actionPlan": "လှုပ်ရှားမှုအစီအစဉ်ကိုထုတ်လုပ်ပါ",
+  "explorePage.fiveWhys.summary.analysis": "သင်၏ 5 အဘယ်ကြောင့်ခွဲခြမ်းစိတ်ဖြာခြင်း:",
+  "explorePage.fiveWhys.summary.challenge": "သင်ယူခြင်းစိန်ခေါ်မှု:",
+  "explorePage.fiveWhys.summary.description": "သင်၏သင်ယူမှုစိန်ခေါ်မှုကိုနားလည်ရန်အရေးပါသောအတွေးအခေါ်ကိုအောင်မြင်စွာအသုံးချပြီး",
+  "explorePage.fiveWhys.summary.generatedAnswer": "ထုတ်ပေးအဖြေ",
+  "explorePage.fiveWhys.summary.newAnalysis": "အသစ်ခွဲခြမ်းစိတ်ဖြာစတင်ပါ",
+  "explorePage.fiveWhys.summary.question": "မေးမြန်း",
+  "explorePage.fiveWhys.summary.skillsTitle": "ဝေဖန်စဉ်းစားတွေးခေါ်ကျွမ်းကျင်မှုဖွံ့ဖြိုးပြီး",
+  "explorePage.fiveWhys.summary.title": "ခွဲခြမ်းစိတ်ဖြာခြင်းပြည့်စုံ!",
+  "explorePage.fiveWhys.title": "5 ဝေဖန်စဉ်းစားတွေးခေါ်ဟန်ဆောင်သင်တန်းများ",
+  "explorePage.fiveWhys.toast.analysisComplete.description": "သငျသညျ {ခွဲခြမ်းစိတ်ဖြာခြင်း၏ {{count}} အဆင့်ဆင့်မှတဆင့်ပိုမိုနက်ရှိုင်းသောထိုးထွင်းသိမြင်မှုကိုတီထွင်ခဲ့သည်",
+  "explorePage.fiveWhys.toast.analysisComplete.title": "အရေးပါသောစဉ်းစားတွေးခေါ်မှုခွဲခြမ်းစိတ်ဖြာခြင်း",
+  "explorePage.fiveWhys.toast.analysisReset.description": "5 အသစ်တစ်ခုကိုစတင်ရန်အဆင်သင့်",
+  "explorePage.fiveWhys.toast.analysisReset.title": "ခွဲခြမ်းစိတ်ဖြာသုံးသပ်ပြန်လည်စတင်",
+  "explorePage.fiveWhys.toast.answerGenerated.description": "သင့်ရဲ့မေးခွန်းကိုဖြေကြားခဲ့သည် \n၎င်းကိုပြန်လည်သုံးသပ်ပြီးဆက်လုပ်ပါ။",
+  "explorePage.fiveWhys.toast.answerGenerated.title": "အဖြေကိုထုတ်လုပ်လိုက်တဲ့!",
+  "explorePage.fiveWhys.toast.completeStep.description": "ရှေ့ဆက်မသွားမီ 'အဘယ်ကြောင့်မေးခွန်းတစ်ခုကိုရေးဆွဲပါ",
+  "explorePage.fiveWhys.toast.completeStep.title": "ဒီခြေလှမ်းဖြည့်စွက်",
+  "explorePage.fiveWhys.toast.contentLoaded.description": "ယခုဤသင်ယူမှုစိန်ခေါ်မှုအဆင့်ကိုတစ်ဆင့်ချင်းလေ့လာကြည့်ကြစို့",
+  "explorePage.fiveWhys.toast.contentLoaded.title": "contented contented",
+  "explorePage.fiveWhys.toast.continueAnalysis.description": "အဓိပ္ပာယ်ပြည့်ဝသောထိုးထွင်းသိမြင်မှုကိုဖြစ်ပေါ်စေရန်အနည်းဆုံးအဆင့် 3 ဆင့်ကိုဖြည့်ပါ",
+  "explorePage.fiveWhys.toast.continueAnalysis.title": "သင်၏ခွဲခြမ်းစိတ်ဖြာမှုကိုဆက်လက်",
+  "explorePage.fiveWhys.toast.defineProblem.description": "သင်ခွဲခြမ်းစိတ်ဖြာလိုသောသင်ကြားမှုစိန်ခေါ်မှုကိုဖော်ပြပါ",
+  "explorePage.fiveWhys.toast.defineProblem.title": "သင်၏ပြ problem နာကိုအရင်သတ်မှတ်ပါ",
+  "explorePage.generatedBy": "Lentera Ai မှထုတ်လုပ်သည်",
+  "explorePage.qa.activeTopic": "တက်ကြွသောခေါင်းစဉ်",
+  "explorePage.qa.assistant": "Lentera AI လက်ထောက်",
+  "explorePage.qa.context": "အစီအစဉ်",
+  "explorePage.qa.contextPanel.activeTopic": "တက်ကြွသောခေါင်းစဉ်",
+  "explorePage.qa.contextPanel.learningTools": "tools တွေကိုသင်ယူခြင်း",
+  "explorePage.qa.contextPanel.relatedSources": "ဆက်စပ်သောရင်းမြစ်များ",
+  "explorePage.qa.contextPanel.sessionStats": "အစည်းအဝေးစာရင်းများ",
+  "explorePage.qa.contextPanel.title": "အစီအစဉ်",
+  "explorePage.qa.exploring": "ခေါင်းစဉ်ကိုစူးစမ်းလေ့လာခြင်း: {ခေါင်းစဉ်}",
+  "explorePage.qa.greeting": "မင်္ဂလာပါ! \n\"{{topic}}}\" အကြောင်းပိုမိုနားလည်ရန်သင်ကူညီရန်အဆင်သင့်ဖြစ်သည်။ \nကျေးဇူးပြု. မည်သည့်မေးခွန်းကိုမေးပါ။",
+  "explorePage.qa.learningTools": "tools တွေကိုသင်ယူခြင်း",
+  "explorePage.qa.messages": "မက်ဆေ့ခ်ျ",
+  "explorePage.qa.placeholder": "ဒီခေါင်းစဉ်နဲ့ပတ်သက်ပြီးဘာမှမမေးပါ ...",
+  "explorePage.qa.questions": "မေးမြန်း",
+  "explorePage.qa.relatedSources": "ဆက်စပ်သောရင်းမြစ်များ",
+  "explorePage.qa.send": "ပေးပို့",
+  "explorePage.qa.sessionStats": "အစည်းအဝေးစာရင်းများ",
+  "explorePage.qa.simulatedResponse": "ခေါင်းစဉ်အပေါ်အခြေခံပြီး \"{ခေါင်းစဉ်}\" အပေါ်အခြေခံပြီးဒီမှာ \"{ဆိုတဲ့မေးခွန်း}}\" ။ \nဤသည်ကိုအစစ်အမှန် AI ဖြင့်အစားထိုးမည့်တုန့်ပြန်တုံ့ပြန်မှုဖြစ်သည်။",
+  "explorePage.qa.suggestionButtons.deeperAnalysis": "ပိုမိုနက်ရှိုင်းသောခွဲခြမ်းစိတ်ဖြာ",
+  "explorePage.qa.suggestionButtons.explainSimpler": "ရိုးရှင်းစွာရှင်းပြပါ",
+  "explorePage.qa.suggestionButtons.giveExamples": "ဥပမာပေးပါ",
+  "explorePage.qa.suggestions": "စမတ်မေးခွန်းအကြံပြုချက်များ:",
+  "explorePage.questionSuggestions.commonMistakes": "အဘယ်ဘုံအမှားများကိုကျွန်ုပ်ရှောင်သင့်သနည်း။",
+  "explorePage.questionSuggestions.compareWithOtherConcepts": "အခြားသဘောတရားများနှင့်နှိုင်းယှဉ်ပါ",
+  "explorePage.questionSuggestions.dailyApplications": "နေ့စဉ်ဘဝမှာဒီကိုဘယ်လိုကျင့်သုံးနိုင်မလဲ။",
+  "explorePage.questionSuggestions.practicalApplications": "ဒါကိုဘယ်လိုတိုက်ရိုက်ကျင့်သုံးနိုင်မလဲ။",
+  "explorePage.questionSuggestions.prerequisites": "ငါဘယ်လိုအပ်ချက်ကိုနားလည်ရမလဲ။",
+  "explorePage.questionSuggestions.simpleAnalogy": "ငါ့ကိုနားလည်ရန်ရိုးရှင်းတဲ့နှိုင်းယှဉ်လေ့လာမှုပေးပါ",
+  "explorePage.search.basicSummary": "အခြေခံအကျဉ်းချုပ်",
+  "explorePage.search.button": "ရှာဖေှခြင်း",
+  "explorePage.search.checkConnection": "ကျေးဇူးပြု. သင်၏ဆက်သွယ်မှုကိုစစ်ဆေးပြီးထပ်မံကြိုးစားပါ",
+  "explorePage.search.completeSummary": "အပြည့်အဝအကျဉ်းချုပ်",
+  "explorePage.search.error": "ရှာဖွေနေစဉ်အမှားတစ်ခုဖြစ်ပွားခဲ့သည်။ \nကျေးဇူးပြုပြီးထပ်ကြိုးစားပါ",
+  "explorePage.search.failedSummary": "အကျဉ်းချုပ်ကိုတင်ရန်မအောင်မြင်ပါ",
+  "explorePage.search.loadingSummary": "တင်ဆောင်အကျဉ်းချုပ် ...",
+  "explorePage.search.noContent": "မရရှိနိုင်ပါ",
+  "explorePage.search.noResults": "ရလဒ်မရှိပါ",
+  "explorePage.search.placeholder": "သင်လေ့လာလိုသည့်ခေါင်းစဉ်ကိုရိုက်ပါ။",
+  "explorePage.search.results": "ရှာဖွေမှုရလဒ်များ",
+  "explorePage.search.showing": "ရှာဖွေခြင်း {{count}} ရှာဖွေမှုရလဒ်များ ({time}} စက္ကန့်)",
+  "explorePage.search.startSearching": "ရလဒ်များကိုအကျဉ်းချုပ်ကြည့်ရှုရန်ရှာဖွေပါ",
+  "explorePage.subjectCategories.chemistry.acidsBases": "အက်ဆစ်နှင့်အခြေစိုက်စခန်းများ",
+  "explorePage.subjectCategories.chemistry.atomicStructure": "အနုမြူဖွဲ့စည်းပုံ",
+  "explorePage.subjectCategories.chemistry.chemicalBonds": "ဓာတုထိုးနှက်",
+  "explorePage.subjectCategories.chemistry.chemicalEquilibrium": "ဓာတုညီမျှမှု",
+  "explorePage.subjectCategories.chemistry.electrolysis": "လျှပ်စစ်",
+  "explorePage.subjectCategories.chemistry.organicChemistry": "အော်ဂဲနစ်ဓာတုဗေဒ",
+  "explorePage.subjectCategories.chemistry.periodicTable": "Periodic ဇယား",
+  "explorePage.subjectCategories.chemistry.reactionRate": "တုံ့ပြန်မှုနှုန်း",
+  "explorePage.subjectCategories.chemistry.redoxReactions": "Redox တုံ့ပြန်မှု",
+  "explorePage.subjectCategories.chemistry.solutions": "ဖြေရှင်းနည်းများ",
+  "explorePage.subjectCategories.chemistry.stoichiometry": "stoichiometry",
+  "explorePage.subjectCategories.chemistry.thermochemistry": "thermoDemmemistry",
+  "explorePage.subjectCategories.geography.continentsOceans": "တိုက်ကြီးများနှင့်သမုဒ္ဒရာများ",
+  "explorePage.subjectCategories.geography.globalization": "ဂလိုင်းဘတ်",
+  "explorePage.subjectCategories.geography.longestRivers": "အရှည်ဆုံးမြစ်များ",
+  "explorePage.subjectCategories.geography.populationDistribution": "လူ ဦး ရေဖြန့်ဖြူး",
+  "explorePage.subjectCategories.geography.rainForests": "အပူပိုင်းမိုးသစ်တောများ",
+  "explorePage.subjectCategories.geography.soilRocks": "မြေဆီလွှာနှင့်ကျောက်တုံးများ",
+  "explorePage.subjectCategories.geography.tectonicPlates": "Tectonic ပြား",
+  "explorePage.subjectCategories.geography.topographicMaps": "မြေမျက်နှာသွင်ပြင်မြေပုံများ",
+  "explorePage.subjectCategories.geography.tropicalClimate": "အပူပိုင်းရာသီဥတု",
+  "explorePage.subjectCategories.geography.urbanization": "မြို့ပြ",
+  "explorePage.subjectCategories.geography.volcanoes": "မီးတောင်များ",
+  "explorePage.subjectCategories.geography.weatherClimate": "ရာသီဥတုနှင့်ရာသီဥတု",
+  "explorePage.subjectCategories.history.asiaAfricaConference": "Asia-Africa ညီလာခံ",
+  "explorePage.subjectCategories.history.diponegoroWar": "DipOnegoro စစ်ပွဲ",
+  "explorePage.subjectCategories.history.independenceProclamation": "လွတ်လပ်ရေးကြွေးကြော်ခြင်း",
+  "explorePage.subjectCategories.history.indonesianIndependence": "အင်ဒိုနီးရှားလွတ်လပ်ရေးသမိုင်း",
+  "explorePage.subjectCategories.history.industrialRevolution": "စက်မှုတော်လှန်ရေး",
+  "explorePage.subjectCategories.history.majapahitKingdom": "Majapahit နိုင်ငံတော်",
+  "explorePage.subjectCategories.history.newOrder": "အမိန့်အသစ်",
+  "explorePage.subjectCategories.history.reformation": "ပြုပြင်ခြင်း",
+  "explorePage.subjectCategories.history.sriwijayaKingdom": "Sriwijaya နိုင်ငံတော်",
+  "explorePage.subjectCategories.history.worldWarII": "ဒုတိယကမ္ဘာစစ်",
+  "explorePage.subjectCategories.history.youthPledge": "လူငယ်ကတိပြု",
+  "explorePage.subjectCategories.mathematics.calculus": "ကဲ Cul ကုရိတ်",
+  "explorePage.subjectCategories.mathematics.differentials": "စကားသိ",
+  "explorePage.subjectCategories.mathematics.functionLimits": "function ကိုကန့်သတ်",
+  "explorePage.subjectCategories.mathematics.geometry": "ဂျီသွမေတြီ",
+  "explorePage.subjectCategories.mathematics.integrals": "ပေါင်းစပ်မှု",
+  "explorePage.subjectCategories.mathematics.linearAlgebra": "linear algebra",
+  "explorePage.subjectCategories.mathematics.logarithms": "လော်ပဗေဒနိုင်ငံ",
+  "explorePage.subjectCategories.mathematics.matrices": "မက်တင့်",
+  "explorePage.subjectCategories.mathematics.probability": "ဖြစ်နိုင်ဘွယ်ရှိခြင်း",
+  "explorePage.subjectCategories.mathematics.quadraticEquations": "quadratic ညီမျှခြင်း",
+  "explorePage.subjectCategories.mathematics.statistics": "စာရင်းအင်း",
+  "explorePage.subjectCategories.mathematics.trigonometry": "ခေျာက်နှံ",
+  "explorePage.subjectCategories.physics.electricityMagnetism": "လျှပ်စစ်ဓာတ်အားနှင့်သံလိုက်",
+  "explorePage.subjectCategories.physics.electromagneticWaves": "လျှပ်စစ်သံလိုက်လှိုင်းတံပိုး",
+  "explorePage.subjectCategories.physics.fluids": "အရည်",
+  "explorePage.subjectCategories.physics.gravityPlanetaryMotion": "ဆွဲငင်အားနှင့်ဂြိုဟ်လှုပ်ရှားမှု",
+  "explorePage.subjectCategories.physics.harmonicMotion": "သဟဇာတရွေ့လျားမှု",
+  "explorePage.subjectCategories.physics.kineticEnergy": "kinetic စွမ်းအင်",
+  "explorePage.subjectCategories.physics.momentum": "အရှိန်အနိုင်",
+  "explorePage.subjectCategories.physics.newtonsLaws": "နယူတန်၏ဥပဒေများ",
+  "explorePage.subjectCategories.physics.optics": "မှန်ဘီလူး",
+  "explorePage.subjectCategories.physics.quantumMechanics": "ကွမ်တမ်စက်",
+  "explorePage.subjectCategories.physics.relativity": "နှိုင်းယှဉ်",
+  "explorePage.subjectCategories.physics.thermodynamics": "အပူစွမ်းအင်သိပ္ပံဘာသာရပ်",
+  "explorePage.subjectCategories.science.bloodCirculation": "သွေးလည်ပတ်မှုစနစ်",
+  "explorePage.subjectCategories.science.cellularRespiration": "ဆယ်လူလာအသက်ရှူခြင်း",
+  "explorePage.subjectCategories.science.digestiveSystem": "အစာခြေစနစ်",
+  "explorePage.subjectCategories.science.ecosystems": "ဂေဟစနစ်",
+  "explorePage.subjectCategories.science.evolution": "အဆင့်ဆင့်ဖြစ်ပျက်ခြင်း",
+  "explorePage.subjectCategories.science.foodChain": "အစားအစာကွင်းဆက်",
+  "explorePage.subjectCategories.science.genetics": "မျိုးရိုးဗက်တာ",
+  "explorePage.subjectCategories.science.hormones": "ဟော်မုန်းများ",
+  "explorePage.subjectCategories.science.mitosisMeiosis": "Mitosis နှင့် Meiosis",
+  "explorePage.subjectCategories.science.naturalSelection": "သဘာဝရွေးချယ်မှု",
+  "explorePage.subjectCategories.science.nervousSystem": "အာရုံကြောစနစ်",
+  "explorePage.subjectCategories.science.plantPhotosynthesis": "Photosynthesis",
+  "explorePage.summary.generatedBy": "Lentera Ai မှထုတ်လုပ်သည်",
+  "explorePage.summary.sources": "ရင်းရင်းမြစ်",
+  "explorePage.summary.title": "အကျဉ်းချုပ်:",
+  "explorePage.summary.unavailable": "အတိုချုပ်မရရှိနိုင်ပါ။ \nအကျဉ်းချုပ်ကိုထုတ်လုပ်ရန် \"Read Summary\" ခလုတ်ကိုနှိပ်ပါ။",
+  "explorePage.topics.popular": "လူကြိုက်များသောအကြောင်းအရာများဥပမာ",
+  "explorePage.topics.random": "ကျပန်းအကြောင်းအရာများ",
+  "explorePage.topics.subject": "ခေါင်းစဉ်များ {ဘာသာရပ်}",
+  "explorePage.trendingTopics.atomicStructure": "အနုမြူဖွဲ့စည်းပုံ",
+  "explorePage.trendingTopics.bloodCirculation": "သွေးလည်ပတ်မှုစနစ်",
+  "explorePage.trendingTopics.gravityPlanetaryMotion": "ဆွဲငင်အားနှင့်ဂြိုဟ်လှုပ်ရှားမှု",
+  "explorePage.trendingTopics.indonesianIndependence": "အင်ဒိုနီးရှားလွတ်လပ်ရေးသမိုင်း",
+  "explorePage.trendingTopics.plantPhotosynthesis": "Photosynthesis",
+  "explorePage.trendingTopics.quadraticEquations": "quadratic ညီမျှခြင်း",
+  "features.title": "လူတိုင်းအတွက်အစွမ်းထက်အင်္ဂါရပ်များ",
+  "hero.cta": "",
+  "hero.cta.explore": "စူးစမ်းလေ့လာပါ",
+  "hero.cta.learn": "ပိုမိုသိရှိရန်",
+  "index.cta.button": "",
+  "index.cta.demoAI": "သရုပ်ပြ ai အထိန်း",
+  "index.cta.startNow": "ယခုလေ့လာသင်ယူပါ",
+  "index.features.interactiveTools.description": "ကဒ်ပြားများ, ဉာဏ်စမ်းပဟေ es ိများ, စိတ်မြေပုံများနှင့်အခြားသင်ယူမှုကိရိယာများကိုအလိုအလျောက်ဖန်တီးသည်",
+  "index.features.interactiveTools.title": "အပြန်အလှန်ကိရိယာများ",
+  "index.features.learning": "သင်ယူခြင်း",
+  "index.features.offlineAccess.description": "အချိန်မရွေး, အင်တာနက်ချိတ်ဆက်မှုမရှိဘဲမည်သည့်နေရာတွင်မဆိုလေ့လာပါ",
+  "index.features.offlineAccess.title": "အော့ဖ်လိုင်းဝင်ရောက်ခွင့်",
+  "index.features.personalLearning.description": "သင်၏သင်ယူမှုပုံစံကိုနားလည်ပြီးပစ္စည်းများကိုအလိုအလျောက်လိုက်လျောညီထွေဖြစ်အောင်ပြုလုပ်သော AI",
+  "index.features.personalLearning.title": "ကိုယ်ပိုင်လေ့လာခြင်း",
+  "index.footer.copyright": "© 2024 Lentera",
+  "index.footer.madeWith": "❤️နှင့်အတူဖန်ဆင်းတော်မူ၏",
+  "index.footer.tagline": "AI သင်ယူမှုပလက်ဖောင်း",
+  "index.hero.askAI": "AI ကိုမေးပါ",
+  "index.hero.askAIDirect": "AI ကိုတိုက်ရိုက်မေးပါ",
+  "index.hero.exploreTopics": "ခေါင်းစဉ်များကိုစူးစမ်းပါ",
+  "index.hero.searchPlaceholder": "ဒီနေ့သင်ဘာသင်ယူချင်ပါသလဲ",
+  "index.hero.start": "စက်နှိုး",
+  "index.hero.startLearning": "စတင်လေ့လာပါ",
+  "index.stats.activeUsers": "တက်ကြွသောအသုံးပြုသူများ",
+  "index.stats.learningMaterials": "သင်ယူမှုပစ္စည်းများ",
+  "index.stats.satisfactionRate": "စိတ်ကျေနပ်မှုနှုန်း",
+  "index.stats.subtitle": "",
+  "index.stats.title": "",
+  "index.tools.learning": "သင်ယူခြင်း",
+  "index.tools.viewAllTools": "ကိရိယာအားလုံးကိုကြည့်ပါ",
+  "loading.educationalFacts[0]": "လူသားများသည်အတွေ့အကြုံမှ 70% ခန့်, အခြားသူများ၏ 20% နှင့်စာအုပ်များမှ 10% ရှိသည်။",
+  "loading.educationalFacts[10]": "မိနစ် 20 လမ်းလျှောက်ခြင်းသည်တီထွင်ဖန်တီးမှုနှင့်စဉ်းစားတွေးခေါ်မှုကိုမြှင့်တင်ပေးနိုင်သည်။",
+  "loading.educationalFacts[11]": "အသေးစိတ်အချက်အလက်များကိုတိကျစွာကြားကာလ (Spaced အထပ်ထပ်) တွင်ထပ်ခါတလဲလဲပြုလုပ်ခြင်းသည်မှတ်မိခြင်းအတွက်အလွန်ထိရောက်သည်။",
+  "loading.educationalFacts[12]": "Mind မြေပုံသည်အတွေးအခေါ်များကိုစီစဉ်ရန်နှင့်ရှုပ်ထွေးသောအယူအဆများကိုနားလည်ခြင်းကိုတိုးတက်စေသည်။",
+  "loading.educationalFacts[13]": "သင်၏ခန္ဓာကိုယ်ကိုဓါတ်ကိုထိန်းသိမ်းခြင်းသည်အရေးကြီးသည်။",
+  "loading.educationalFacts[14]": "သတင်းအချက်အလက်အသစ်များနှင့်လက်ရှိဗဟုသုတများအကြားဆက်သွယ်မှုပြုလုပ်ခြင်းသည်မှတ်ဥာဏ်ကိုအားဖြည့်ပေးသည်။",
+  "loading.educationalFacts[15]": "နည်းလမ်းအမျိုးမျိုးဖြင့်လေ့လာခြင်း (Visual, Audethetic, Kinestesthetic) ကိုလေ့လာခြင်းသည်သဘောတရားများကိုအားဖြည့်ပေးသည်။",
+  "loading.educationalFacts[16]": "လေ့ကျင့်မှုစမ်းသပ်မှုများသည်နားလည်မှုကိုစမ်းသပ်ရန်ပြန်လည်ဖတ်ရှုခြင်းထက်ပိုမိုထိရောက်သည်။",
+  "loading.educationalFacts[17]": "အုပ်စုလိုက်လေ့လာမှုသည်ပညာရေးစွမ်းဆောင်ရည်ကိုတိုးတက်စေနိုင်သည်။",
+  "loading.educationalFacts[1]": "အသံထွက်ဖတ်ရှုခြင်းအသံဖူးခြင်းသည် Memory retential ကို 15% အထိတိုးစေသည်။",
+  "loading.educationalFacts[2]": "ကျွန်ုပ်တို့၏ ဦး နှောက်သည်ခန့်မှန်းခြေအားဖြင့် 2.5 petabytes ကိုသိုလှောင်နိုင်သည်။",
+  "loading.educationalFacts[3]": "လေ့လာပြီးနောက်အိပ်ပျော်ခြင်းသည်မှတ်မိမှုကို 30% အထိတိုးတက်စေသည်။",
+  "loading.educationalFacts[4]": "အခြားသူများကိုသင်ကြားပေးခြင်းသည်ခေါင်းစဉ်တစ်ခုကိုနားလည်ရန်အကောင်းဆုံးနည်းလမ်းဖြစ်သည်။",
+  "loading.educationalFacts[5]": "လက်ရေးမှတ်စုများကိုယူပြီးမှတ်စုများသည်နားလည်မှုထက်ပိုမိုနားလည်မှုကိုတိုးတက်စေသည်။",
+  "loading.educationalFacts[6]": "မိနစ် 30 မှ 50 ကြာအနားယူခြင်းနှင့်အတူမိနစ် 30 မှ 50 ကြာလေ့လာခြင်းမာရသွန်စာသင်ခန်းများထက်ပိုမိုထိရောက်သည်။",
+  "loading.educationalFacts[7]": "မှတ်စုများကိုရိုက်ယူသောအခါကွဲပြားခြားနားသောအရောင်များကိုအသုံးပြုခြင်းသည်မှတ်ဥာဏ်ကို 25% အထိတိုးစေသည်။",
+  "components": {
+    "interactiveFlashcard": {
+      "correct": "Correct!",
+      "incorrect": "Incorrect!",
+      "correctShort": "Correct",
+      "incorrectShort": "Incorrect",
+      "seeExplanation": "See Explanation",
+      "next": "Next",
+      "explanation": "Explanation",
+      "correctAnswer": "Correct answer:",
+      "tryAgain": "Try Again"
+    },
+    "fiveWhys": {
+      "title": "5 Whys Critical Thinking Trainer",
+      "description": "Develop your analytical skills by systematically examining learning challenges",
+      "criticalThinking": {
+        "lookBeyondSurface": {
+          "title": "Look Beyond the Surface",
+          "description": "Don't accept the first answer. Dig deeper to find underlying causes.",
+          "example": "Instead of 'I'm bad at math', ask 'What specific math concepts am I struggling with?'"
+        },
+        "questionAssumptions": {
+          "title": "Question Assumptions",
+          "description": "Challenge what you think you know. Are your assumptions correct?",
+          "example": "Is the teaching method the problem, or do I need different prerequisites?"
+        },
+        "multipleViews": {
+          "title": "Consider Multiple Perspectives",
+          "description": "Look at the problem from different angles and viewpoints.",
+          "example": "How would a teacher, peer, or expert view this learning challenge?"
+        },
+        "rootCauses": {
+          "title": "Focus on Root Causes",
+          "description": "Identify what's really causing the issue, not just symptoms.",
+          "example": "Poor grades are a symptom. What learning habits or gaps cause them?"
+        },
+        "connections": {
+          "title": "Make Connections",
+          "description": "Link this problem to broader patterns in your learning.",
+          "example": "Does this connect to how I approach other subjects or skills?"
+        }
+      },
+      "intro": {
+        "quickStart": "Quick Start with Your Content:",
+        "defineChallenge": "Or Define Your Own Challenge:",
+        "textarea": "Describe a specific learning challenge you're facing...",
+        "whatYouWillLearn": "What You'll Learn",
+        "skills": {
+          "analyze": "How to analyze problems systematically",
+          "questioning": "Critical thinking questioning techniques",
+          "rootCause": "Root cause identification skills",
+          "reasoning": "Evidence-based reasoning"
+        }
+      },
+      "step": {
+        "stepOf": "Step {step} of {{total}}",
+        "stepOfWithTitle": "Step {step} of {{total}} - {title}",
+        "focus": "Focus on crafting a precise \"why\" question that digs deeper into the root cause.",
+        "previousAnswer": "Previous Answer:",
+        "generatedAnswer": "Generated Answer:",
+        "questionLabel": "Formulate a 'Why' question about this learning problem:",
+        "nextQuestionLabel": "Formulate the next 'Why' question based on: \"{previous}\"",
+        "placeholder": "Write a specific 'why' question that will help uncover deeper causes...",
+        "questionTip": "Focus on asking the right question. The answer will be generated automatically to help your learning.",
+        "showTips": "Show Question Crafting Tips",
+        "hideTips": "Hide Question Crafting Tips",
+        "tipTitle": "Question Crafting Tips",
+        "tips": {
+          "start": "Start with \"Why\" to focus on causes, not symptoms",
+          "specific": "Be specific rather than vague in your questioning",
+          "challenge": "Challenge assumptions in your previous answer",
+          "systemic": "Look for systemic or structural causes",
+          "perspectives": "Consider multiple perspectives on the problem"
+        },
+        "skillFocus": "Critical Thinking Skill Focus"
+      },
+      "summary": {
+        "title": "Analysis Complete!",
+        "description": "You've successfully applied critical thinking to understand your learning challenge",
+        "yourAnalysis": "Your 5 Whys Analysis:",
+        "learningChallenge": "Learning Challenge:",
+        "question": "Question #{number}",
+        "generatedAnswer": "Generated Answer",
+        "skillsTitle": "Critical Thinking Skills Developed",
+        "actionPlan": "Generate Action Plan",
+        "newAnalysis": "Start New Analysis"
+      },
+      "buttons": {
+        "previous": "Previous",
+        "next": "Next Step",
+        "start": "Start Analysis",
+        "complete": "Complete",
+        "introduction": "Introduction",
+        "summary": "Summary"
+      }
+    }
+  },
+  "modals": {
+    "mindMap": {
+      "title": "Mind Map: {{topic}}",
+      "error": "Failed to load mind map. Please try again later.",
+      "aspectsNote": "{{count}} important aspects to fully understand the topic",
+      "sources": "Sources:",
+      "relatedQuestions": "Related Questions:",
+      "close": "Close",
+      "mainTopic": "Main Topic",
+      "readMore": "Read more",
+      "importantAspect": "Important aspect",
+      "facets": {
+        "explanation": "Basic Understanding",
+        "interpretation": "Concept Interpretation",
+        "application": "Practical Application",
+        "perspective": "Different Viewpoints",
+        "empathy": "Emotional Dimension",
+        "selfKnowledge": "Self-Reflection"
+      },
+      "explorationTitle": "🔍 Knowledge Exploration"
+    },
+    "elix": {
+      "title": "ELIx: Explain Like I'm X",
+      "adaptiveExplanation": "Adaptive explanation based on age range",
+      "selectAgeRange": "Select Age Range:",
+      "emptySummary": "Empty Summary",
+      "enterSummary": "Please enter the main summary first",
+      "error": "An Error Occurred",
+      "adaptationFailed": "Failed to adapt explanation. Please try again.",
+      "mainSummary": "Main Summary:",
+      "summaryPlaceholder": "Enter the summary you want to adapt based on age...",
+      "adaptFor": "Adapt for Age {{ageRange}}",
+      "explanationFor": "Explanation for Age {{ageRange}}:",
+      "reset": "Reset",
+      "copied": "Copied!",
+      "explanationCopied": "Explanation has been copied to clipboard",
+      "editSummary": "Edit Summary",
+      "adaptationNote": "Adapt explanations based on age range for more effective learning",
+      "adaptingExplanation": "Adapting explanation...",
+      "adult": "Adult"
+    },
+    "fiveWhys": {
+      "title": "5 Whys Critical Thinking Trainer",
+      "description": "Develop your analytical skills by systematically examining learning challenges",
+      "stepProgress": "Step {step} of {{total}} - {title}",
+      "stepGuidance": {
+        "defineProblem": {
+          "title": "Define the Learning Problem",
+          "guidance": "Clearly state what specific learning challenge you're facing. Be precise and avoid vague statements.",
+          "prompts": {
+            "0": "What exactly are you struggling to understand?",
+            "1": "When does this problem occur most?",
+            "2": "How does this affect your learning goals?"
+          },
+          "criticalThinking": "Critical thinking starts with clarity. A well-defined problem is half solved."
+        },
+        "firstWhy": {
+          "title": "First Why - Immediate Cause",
+          "guidance": "Ask why this learning problem exists. Focus on the most direct, observable cause.",
+          "prompts": {
+            "0": "What is the immediate reason for this difficulty?",
+            "1": "What happens right before you encounter this problem?",
+            "2": "What makes this topic particularly challenging?"
+          },
+          "criticalThinking": "Look for evidence-based answers, not assumptions or emotions."
+        },
+        "secondWhy": {
+          "title": "Second Why - Deeper Analysis",
+          "guidance": "Now ask why that first cause exists. Start digging into underlying factors.",
+          "prompts": {
+            "0": "Why does that immediate cause happen?",
+            "1": "What conditions create this situation?",
+            "2": "What's missing that would prevent this cause?"
+          },
+          "criticalThinking": "Question whether your first answer is complete. Are there hidden factors?"
+        },
+        "thirdWhy": {
+          "title": "Third Why - System Level",
+          "guidance": "Examine the systems, processes, or patterns that create the deeper causes.",
+          "prompts": {
+            "0": "Why do these conditions exist in your learning environment?",
+            "1": "What patterns or habits contribute to this?",
+            "2": "How do external factors influence this situation?"
+          },
+          "criticalThinking": "Think systemically. How do different elements interact to create this problem?"
+        },
+        "fourthWhy": {
+          "title": "Fourth Why - Fundamental Factors",
+          "guidance": "Look at fundamental skills, knowledge gaps, or structural issues.",
+          "prompts": {
+            "0": "Why do these patterns persist?",
+            "1": "What fundamental skills or knowledge are missing?",
+            "2": "What would need to change to prevent this problem?"
+          },
+          "criticalThinking": "Consider long-term patterns and foundational elements."
+        },
+        "fifthWhy": {
+          "title": "Fifth Why - Root Cause",
+          "guidance": "Identify the deepest, most fundamental cause that, if addressed, would solve the problem.",
+          "prompts": {
+            "0": "Why do these fundamental issues exist?",
+            "1": "What's the ultimate root of this learning challenge?",
+            "2": "If you could change one thing to solve this, what would it be?"
+          },
+          "criticalThinking": "The root cause should be actionable and within your power to influence."
+        }
+      },
+      "contentLoaded": "Content loaded. Now let's analyze this learning challenge step by step.",
+      "readyToBegin": "Ready to begin",
+      "analysisComplete": "Analysis complete",
+      "stepsCompleted": "{{completed}}/{{total}} steps completed",
+      "quickStart": "Quick Start with Your Content:",
+      "defineChallenge": "Or Define Your Own Challenge:",
+      "topicDifficulty": "I'm struggling to learn about \"{{topic}}\"",
+      "textareaPlaceholder": "Describe a specific learning challenge you're facing..."
+    },
+    "flashcard": {
+      "loadingFlashquiz": "Loading flashquiz...",
+      "error": "An Error Occurred",
+      "errorMessage": "Failed to load quiz. Please try again later.",
+      "noQuestions": "No Questions",
+      "noQuestionsAvailable": "No questions available for this topic.",
+      "back": "Back",
+      "close": "Close",
+      "congratulations": "Congratulations!",
+      "completed": "You have completed {{completed}} of {{total}} questions",
+      "sources": "Sources:",
+      "retry": "Retry",
+      "learnWithFlashcard": "Learn with Flashcard",
+      "previous": "Previous",
+      "next": "Next",
+      "finish": "Finish",
+      "question": "Question {{current}} of {{total}}",
+      "correctAnswerPrefix": "The correct answer is:"
+    },
+    "mindmap": {
+      "loadingMindmap": "ကြေငြာခြင်း ..."
+    }
+  },
+  "pageHeader": {
+    "lenteraChat": "Lentera Chat"
+  },
+  "pageFooter": {
+    "madeWith": "Made with ❤️",
+    "copyright": "© 2025 Lentera AI"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Oops! The page you are looking for does not exist or has been moved.",
+    "backToHome": "Back to Home",
+    "exploreContent": "Explore Learning",
+    "backToPrevious": "Back to Previous Page",
+    "helpText": "Need help? Try searching for the topic you want to learn on the exploration page."
+  },
+  "explorePage": {
+    "search": {
+      "button": "Search",
+      "error": "An error occurred while searching. Please try again.",
+      "placeholder": "Type the topic you want to learn...",
+      "results": "Search Results",
+      "showing": "Showing {{count}} search results ({time} seconds)",
+      "loadingSummary": "Loading summary...",
+      "failedSummary": "Failed to load summary",
+      "completeSummary": "Complete Summary",
+      "basicSummary": "Basic Summary",
+      "noResults": "No results found",
+      "startSearching": "Start searching to see results summary",
+      "checkConnection": "Please check your connection and try again",
+      "noContent": "No content available"
+    },
+    "topics": {
+      "popular": "Popular Topics Examples",
+      "random": "Random Topics",
+      "subject": "Topics"
+    },
+    "summary": {
+      "title": "Summary:",
+      "sources": "Sources",
+      "generatedBy": "Generated by Lentera AI",
+      "unavailable": "No summary available. Click the \"Read Summary\" button to generate a summary."
+    },
+    "actions": {
+      "readSummary": "Read Summary",
+      "openArticle": "Open Article",
+      "watchVideo": "Watch Video",
+      "askQuestion": "Ask a Question",
+      "backToResults": "Back to Results"
+    },
+    "qa": {
+      "greeting": "Hello! I'm ready to help you understand more about \"{{topic}}\". Please ask any question!",
+      "placeholder": "Ask anything about this topic...",
+      "send": "Send",
+      "simulatedResponse": "Based on the topic \"{{topic}}\", here's an explanation for your question: \"{question}\". This is a simulated response that would be replaced by real AI.",
+      "suggestions": "Smart question suggestions:",
+      "assistant": "Lentera AI Assistant",
+      "exploring": "Exploring topic: {{topic}}",
+      "context": "Context & Tools",
+      "activeTopic": "Active Topic",
+      "relatedSources": "Related Sources",
+      "learningTools": "Learning Tools",
+      "sessionStats": "Session Stats",
+      "messages": "Messages",
+      "questions": "Questions",
+      "suggestionButtons": {
+        "explainSimpler": "Explain more simply",
+        "giveExamples": "Give examples",
+        "deeperAnalysis": "Deeper analysis"
+      },
+      "contextPanel": {
+        "title": "Context & Tools",
+        "activeTopic": "Active Topic",
+        "relatedSources": "Related Sources",
+        "learningTools": "Learning Tools",
+        "sessionStats": "Session Stats"
+      }
+    },
+    "fiveWhys": {
+      "title": "5 Whys Critical Thinking Trainer",
+      "description": "Develop your analytical skills by systematically examining learning challenges",
+      "stepProgress": "Step {step} of 6 - {title}",
+      "introduction": "Introduction",
+      "summary": {
+        "title": "Analysis Complete!",
+        "description": "You've successfully applied critical thinking to understand your learning challenge",
+        "analysis": "Your 5 Whys Analysis:",
+        "challenge": "Learning Challenge:",
+        "question": "Question #{number}",
+        "generatedAnswer": "Generated Answer",
+        "skillsTitle": "Critical Thinking Skills Developed",
+        "actionPlan": "Generate Action Plan",
+        "newAnalysis": "Start New Analysis"
+      },
+      "criticalThinking": {
+        "tips": {
+          "lookBeyond": {
+            "title": "Look Beyond the Surface",
+            "description": "Don't accept the first answer. Dig deeper to find underlying causes.",
+            "example": "Instead of 'I'm bad at math', ask 'What specific math concepts am I struggling with?'"
+          },
+          "questionAssumptions": {
+            "title": "Question Assumptions",
+            "description": "Challenge what you think you know. Are your assumptions correct?",
+            "example": "Is the teaching method the problem, or do I need different prerequisites?"
+          },
+          "multipleViews": {
+            "title": "Consider Multiple Perspectives",
+            "description": "Look at the problem from different angles and viewpoints.",
+            "example": "How would a teacher, peer, or expert view this learning challenge?"
+          },
+          "rootCauses": {
+            "title": "Focus on Root Causes",
+            "description": "Identify what's really causing the issue, not just symptoms.",
+            "example": "Poor grades are a symptom. What learning habits or gaps cause them?"
+          },
+          "connections": {
+            "title": "Make Connections",
+            "description": "Link this problem to broader patterns in your learning.",
+            "example": "Does this connect to how I approach other subjects or skills?"
+          }
+        }
+      },
+      "intro": {
+        "quickStart": "Quick Start with Your Content:",
+        "defineChallenge": "Or Define Your Own Challenge:",
+        "textarea": "Describe a specific learning challenge you're facing...",
+        "whatLearn": "What You'll Learn",
+        "learn": {
+          "systematic": "How to analyze problems systematically",
+          "questioning": "Critical thinking questioning techniques",
+          "rootCause": "Root cause identification skills",
+          "reasoning": "Evidence-based reasoning"
+        }
+      },
+      "steps": {
+        "guidance": {
+          "1": {
+            "title": "Define the Learning Problem",
+            "guidance": "Clearly state what specific learning challenge you're facing. Be precise and avoid vague statements.",
+            "prompts": {
+              "0": "What exactly are you struggling to understand?",
+              "1": "When does this problem occur most?",
+              "2": "How does this affect your learning goals?"
+            },
+            "criticalThinking": "Critical thinking starts with clarity. A well-defined problem is half solved."
+          },
+          "2": {
+            "title": "First Why - Immediate Cause",
+            "guidance": "Ask why this learning problem exists. Focus on the most direct, observable cause.",
+            "prompts": {
+              "0": "What is the immediate reason for this difficulty?",
+              "1": "What happens right before you encounter this problem?",
+              "2": "What makes this topic particularly challenging?"
+            },
+            "criticalThinking": "Look for evidence-based answers, not assumptions or emotions."
+          },
+          "3": {
+            "title": "Second Why - Deeper Analysis",
+            "guidance": "Now ask why that first cause exists. Start digging into underlying factors.",
+            "prompts": {
+              "0": "Why does that immediate cause happen?",
+              "1": "What conditions create this situation?",
+              "2": "What's missing that would prevent this cause?"
+            },
+            "criticalThinking": "Question whether your first answer is complete. Are there hidden factors?"
+          },
+          "4": {
+            "title": "Third Why - System Level",
+            "guidance": "Examine the systems, processes, or patterns that create the deeper causes.",
+            "prompts": {
+              "0": "Why do these conditions exist in your learning environment?",
+              "1": "What patterns or habits contribute to this?",
+              "2": "How do external factors influence this situation?"
+            },
+            "criticalThinking": "Think systemically. How do different elements interact to create this problem?"
+          },
+          "5": {
+            "title": "Fourth Why - Fundamental Factors",
+            "guidance": "Look at fundamental skills, knowledge gaps, or structural issues.",
+            "prompts": {
+              "0": "Why do these patterns persist?",
+              "1": "What fundamental skills or knowledge are missing?",
+              "2": "What would need to change to prevent this problem?"
+            },
+            "criticalThinking": "Consider long-term patterns and foundational elements."
+          },
+          "6": {
+            "title": "Fifth Why - Root Cause",
+            "guidance": "Identify the deepest, most fundamental cause that, if addressed, would solve the problem.",
+            "prompts": {
+              "0": "Why do these fundamental issues exist?",
+              "1": "What's the ultimate root of this learning challenge?",
+              "2": "If you could change one thing to solve this, what would it be?"
+            },
+            "criticalThinking": "The root cause should be actionable and within your power to influence."
+          }
+        }
+      },
+      "step": {
+        "stepOf": "Step {{current}} of {{total}}",
+        "focus": "Focus on crafting a precise \"why\" question that digs deeper into the root cause.",
+        "previousAnswer": "Previous Answer:",
+        "generatedAnswer": "Generated Answer:",
+        "formulate": "Formulate a 'Why' question about this learning problem:",
+        "formulateNext": "Formulate the next 'Why' question based on: \"{previous}\"",
+        "writeQuestion": "Write a specific 'why' question that will help uncover deeper causes...",
+        "questionTip": "Focus on asking the right question. The answer will be generated automatically to help your learning.",
+        "showTips": "Show Question Crafting Tips",
+        "hideTips": "Hide Question Crafting Tips",
+        "tipTitle": "Question Crafting Tips",
+        "tips": {
+          "start": "Start with \"Why\" to focus on causes, not symptoms",
+          "specific": "Be specific rather than vague in your questioning",
+          "challenge": "Challenge assumptions in your previous answer",
+          "systemic": "Look for systemic or structural causes",
+          "perspectives": "Consider multiple perspectives on the problem"
+        },
+        "skillFocus": "Critical Thinking Skill Focus"
+      },
+      "buttons": {
+        "previous": "Previous",
+        "next": "Next Step",
+        "start": "Start Analysis",
+        "complete": "Complete",
+        "readyToBegin": "Ready to begin",
+        "analysisComplete": "Analysis complete",
+        "stepsCompleted": "{{completed}}/{{total}} steps completed"
+      },
+      "toast": {
+        "defineProblem": {
+          "title": "Define Your Problem First",
+          "description": "Please describe the learning challenge you want to analyze"
+        },
+        "completeStep": {
+          "title": "Complete This Step",
+          "description": "Please formulate a 'why' question before proceeding"
+        },
+        "answerGenerated": {
+          "title": "Answer Generated!",
+          "description": "Your question has been answered. Review it and continue."
+        },
+        "analysisReset": {
+          "title": "Analysis Reset",
+          "description": "Ready to start a new 5 Whys critical thinking exercise"
+        },
+        "analysisComplete": {
+          "title": "Critical Thinking Analysis Complete!",
+          "description": "You've developed deeper insight through {{count}} levels of analysis"
+        },
+        "continueAnalysis": {
+          "title": "Continue Your Analysis",
+          "description": "Complete at least 3 steps to develop meaningful insights"
+        },
+        "contentLoaded": {
+          "title": "Content Loaded",
+          "description": "Now let's analyze this learning challenge step by step"
+        }
+      }
+    },
+    "api": {
+      "errors": {
+        "flashQuiz": "Failed to fetch flashcard quiz: {status}",
+        "elix": "Failed to fetch ELIx explanation: {status}",
+        "mindMap": "Failed to fetch mindmap: {status}",
+        "generic": "An error occurred. Please try again."
+      }
+    },
+    "trendingTopics": {
+      "plantPhotosynthesis": "Plant photosynthesis",
+      "bloodCirculation": "Blood circulation system",
+      "indonesianIndependence": "History of Indonesian independence",
+      "quadraticEquations": "Quadratic equations",
+      "gravityPlanetaryMotion": "Gravity and planetary motion",
+      "atomicStructure": "Atomic structure"
+    },
+    "subjectCategories": {
+      "mathematics": {
+        "quadraticEquations": "Quadratic equations",
+        "calculus": "Calculus",
+        "geometry": "Geometry",
+        "statistics": "Statistics",
+        "linearAlgebra": "Linear algebra",
+        "trigonometry": "Trigonometry",
+        "logarithms": "Logarithms",
+        "matrices": "Matrices",
+        "functionLimits": "Function limits",
+        "integrals": "Integrals",
+        "differentials": "Differentials",
+        "probability": "Probability"
+      },
+      "science": {
+        "plantPhotosynthesis": "Plant photosynthesis",
+        "bloodCirculation": "Blood circulation system",
+        "evolution": "Evolution",
+        "ecosystems": "Ecosystems",
+        "genetics": "Genetics",
+        "cellularRespiration": "Cellular respiration",
+        "nervousSystem": "Nervous system",
+        "mitosisMeiosis": "Mitosis and meiosis",
+        "naturalSelection": "Natural selection",
+        "foodChain": "Food chain",
+        "digestiveSystem": "Digestive system",
+        "hormones": "Hormones"
+      },
+      "history": {
+        "indonesianIndependence": "History of Indonesian independence",
+        "worldWarII": "World War II",
+        "industrialRevolution": "Industrial Revolution",
+        "majapahitKingdom": "Majapahit Kingdom",
+        "reformation": "Reformation",
+        "independenceProclamation": "Independence proclamation",
+        "diponegoroWar": "Diponegoro War",
+        "youthPledge": "Youth Pledge",
+        "asiaAfricaConference": "Asia-Africa Conference",
+        "newOrder": "New Order",
+        "sriwijayaKingdom": "Sriwijaya Kingdom"
+      },
+      "geography": {
+        "tectonicPlates": "Tectonic plates",
+        "tropicalClimate": "Tropical climate",
+        "topographicMaps": "Topographic maps",
+        "volcanoes": "Volcanoes",
+        "longestRivers": "Longest rivers",
+        "continentsOceans": "Continents and oceans",
+        "weatherClimate": "Weather and climate",
+        "soilRocks": "Soil and rocks",
+        "rainForests": "Tropical rainforests",
+        "populationDistribution": "Population distribution",
+        "urbanization": "Urbanization",
+        "globalization": "Globalization"
+      },
+      "physics": {
+        "gravityPlanetaryMotion": "Gravity and planetary motion",
+        "newtonsLaws": "Newton's laws",
+        "electromagneticWaves": "Electromagnetic waves",
+        "relativity": "Relativity",
+        "quantumMechanics": "Quantum mechanics",
+        "kineticEnergy": "Kinetic energy",
+        "momentum": "Momentum",
+        "thermodynamics": "Thermodynamics",
+        "optics": "Optics",
+        "electricityMagnetism": "Electricity and magnetism",
+        "harmonicMotion": "Harmonic motion",
+        "fluids": "Fluids"
+      },
+      "chemistry": {
+        "atomicStructure": "Atomic structure",
+        "chemicalBonds": "Chemical bonds",
+        "redoxReactions": "Redox reactions",
+        "periodicTable": "Periodic table",
+        "thermochemistry": "Thermochemistry",
+        "acidsBases": "Acids and bases",
+        "electrolysis": "Electrolysis",
+        "chemicalEquilibrium": "Chemical equilibrium",
+        "reactionRate": "Reaction rate",
+        "organicChemistry": "Organic chemistry",
+        "stoichiometry": "Stoichiometry",
+        "solutions": "Solutions"
+      }
+    },
+    "questionSuggestions": {
+      "practicalApplications": "How can I practice this directly?",
+      "commonMistakes": "What common mistakes should I avoid?",
+      "dailyApplications": "How to apply this in daily life?",
+      "prerequisites": "What prerequisites do I need to understand?",
+      "compareWithOtherConcepts": "Compare with other concepts",
+      "simpleAnalogy": "Give me a simple analogy to understand"
+    },
+    "generatedBy": "Generated by Lentera AI"
+  },
+  "loading": {
+    "messages": {
+      "searching": "Searching for results...",
+      "preparing": "Preparing AI Tutor...",
+      "loadingResults": "Loading results..."
+    },
+    "educationalFacts": {
+      "0": "Humans learn about 70% from experience, 20% from others, and 10% from books.",
+      "1": "Reading aloud increases memory retention by up to 15%.",
+      "2": "Our brains can store approximately 2.5 petabytes of information.",
+      "3": "Sleeping after studying improves memory recall by up to 30%.",
+      "4": "Teaching others is the best way to understand a topic.",
+      "5": "Taking handwritten notes improves comprehension more than typing.",
+      "6": "Studying for 30-50 minutes with short breaks is more effective than marathon sessions.",
+      "7": "Using different colors when taking notes increases memory recall by up to 25%.",
+      "8": "Studying in the same place every day helps the brain recognize that it's time to learn.",
+      "9": "Emotional involvement in learning improves long-term retention.",
+      "10": "Walking for 20 minutes can boost creativity and thinking power.",
+      "11": "Repeating information at specific intervals (spaced repetition) is highly effective for remembering.",
+      "12": "Mind mapping helps organize ideas and improve understanding of complex concepts.",
+      "13": "Keeping your body hydrated is important because even mild dehydration can impair focus.",
+      "14": "Making connections between new information and existing knowledge strengthens memory.",
+      "15": "Learning with various methods (visual, auditory, kinesthetic) helps reinforce concepts.",
+      "16": "Practice tests are more effective than re-reading material for testing understanding.",
+      "17": "Group studying can improve academic performance."
+    }
+  },
+  "ageRanges": {
+    "preschool": {
+      "label": "3-5 years",
+      "description": "Preschooler"
+    },
+    "earlyElementary": {
+      "label": "6-8 years",
+      "description": "Early Elementary"
+    },
+    "elementary": {
+      "label": "9-12 years",
+      "description": "Elementary School"
+    },
+    "middleSchool": {
+      "label": "13-15 years",
+      "description": "Middle School"
+    },
+    "highSchool": {
+      "label": "16-18 years",
+      "description": "High School"
+    },
+    "adult": {
+      "label": "Adult",
+      "description": "General"
+    }
+  }
+}

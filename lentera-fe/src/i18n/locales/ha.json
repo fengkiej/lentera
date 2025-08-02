@@ -1,0 +1,924 @@
+{
+  "components": {
+    "interactiveFlashcard": {
+      "correct": "Daidai!",
+      "incorrect": "Ba daidai ba!",
+      "correctShort": "Daidai",
+      "incorrectShort": "Ba daidai ba",
+      "seeExplanation": "Duba Bayani",
+      "next": "Na gaba",
+      "explanation": "Bayani",
+      "correctAnswer": "Amsa mai daidai:",
+      "tryAgain": "Sake Gwadawa"
+    },
+    "fiveWhys": {
+      "title": "Horar da Tunani mai Muhimmanci ta Me Yasa 5",
+      "description": "Ƙara inganta ƙwarewarku ta aikin nazari ta hanyar bincika ƙalubalen koyo a hanyar tsari",
+      "criticalThinking": {
+        "lookBeyondSurface": {
+          "title": "Duba Fiye da Fuskanci",
+          "description": "Kada ka karɓi amsar farko. Tona cikin neman dalilai na zahiri.",
+          "example": "A maimakon 'Ba ni da damar lissafi', tambaya 'Wane ɓangare ne na lissafi ake wahalar da ni?'"
+        },
+        "questionAssumptions": {
+          "title": "Tambayar Hasashe",
+          "description": "Ka ƙarfafa abin da kake tunanin ka sani. Hasashenka daidai ne?",
+          "example": "Shin matsalar ita ce hanyar koyarwa, ko kuma ina buƙatar wasu gabatarwa da daban?"
+        },
+        "multipleViews": {
+          "title": "Duba Hanyoyi Daban-daban",
+          "description": "Duba matsalar daga hanyoyi daban-daban da ra'ayoyi.",
+          "example": "Ta yaya malami, abokai, ko gwani za su dubi wannan ƙalubalen koyo?"
+        },
+        "rootCauses": {
+          "title": "Mayar da Hankali kan Tushen Dalilan",
+          "description": "Gano abin da ke haifar da matsalar, ba kawai alamu ba.",
+          "example": "Ƙarancin ƙima alama ce. Wane al'ada ko nakasun koyo ke haifar da su?"
+        },
+        "connections": {
+          "title": "Yin Haɗin Kai",
+          "description": "Haɗa wannan matsalar da tsarin koyo na gaba ɗaya.",
+          "example": "Shin wannan yana da alaƙa da yadda nake fuskantar sauran fannoni ko ƙwarewa?"
+        }
+      },
+      "intro": {
+        "quickStart": "Fara da Sauri tare da Abun Ciki:",
+        "defineChallenge": "Ko Bayyana Kalubalen Ka:",
+        "textarea": "Bayyana kalubalen koyo na musamman da kake fuskanta...",
+        "whatYouWillLearn": "Abin da Za ku Koya",
+        "skills": {
+          "analyze": "Yadda ake nazarin matsaloli a hanyar tsari",
+          "questioning": "Dabaru na tambayoyin tunani mai zurfi",
+          "rootCause": "Ƙwarewa wajen gano tushen dalili",
+          "reasoning": "Yin hukunci akan shaida"
+        }
+      },
+      "step": {
+        "stepOf": "Matakin {step} daga {{total}}",
+        "stepOfWithTitle": "Matakin {step} daga {{total}} - {title}",
+        "focus": "Mayar da hankali kan ƙirƙirar tambayar \"me yasa\" mai inganci wadda ke tona tushen dalili.",
+        "previousAnswer": "Amsar da ta gabata:",
+        "generatedAnswer": "Amsar da aka samar:",
+        "questionLabel": "Ƙirƙiri tambayar 'Me yasa' game da wannan matsalar koyo:",
+        "nextQuestionLabel": "Ƙirƙiri tambayar 'Me yasa' ta gaba bisa ga: \"{previous}\"",
+        "placeholder": "Rubuta tambayar 'me yasa' mai ƙayatarwa da za ta taimaka wajen gano dalilai masu zurfi...",
+        "questionTip": "Mayar da hankali kan tambayar daidai. Za a samar da amsa ta atomatik don taimaka maka koyo.",
+        "showTips": "Nuna Shawarwari na Ƙirƙirar Tambaya",
+        "hideTips": "Ɓoye Shawarwari na Ƙirƙirar Tambaya",
+        "tipTitle": "Shawarwari na Ƙirƙirar Tambaya",
+        "tips": {
+          "start": "Fara da \"Me yasa\" don mayar da hankali kan dalilai, ba alamu ba",
+          "specific": "Ka zama mai ƙayatarwa ba mai yaudara ba a tambayoyin ku",
+          "challenge": "Ƙarfafa hasashe da ke cikin amsa da ta gabata",
+          "systemic": "Nemi dalilan da suka shafi tsari ko haɗuwa",
+          "perspectives": "Duba ra'ayoyi daban-daban game da matsalar"
+        },
+        "skillFocus": "Mayar da Hankali kan Ƙwarewar Tunani mai Zurfi"
+      },
+      "summary": {
+        "title": "An Kammala Nazari!",
+        "description": "An yi nasarar amfani da tunani mai zurfi don fahimtar kalubalen koyo",
+        "yourAnalysis": "Nazarinku na Me Yasa 5:",
+        "learningChallenge": "Kalubalen Koyo:",
+        "question": "Tambaya #{number}",
+        "generatedAnswer": "Amsar da aka Samar",
+        "skillsTitle": "Ƙwarewar Tunani mai Zurfi da aka Samar",
+        "actionPlan": "Samar da Shirin Aiki",
+        "newAnalysis": "Fara Sabon Nazari"
+      },
+      "buttons": {
+        "previous": "Na baya",
+        "next": "Matakin gaba",
+        "start": "Fara Nazari",
+        "complete": "Kammala",
+        "introduction": "Gabatarwa",
+        "summary": "Taƙaitawa"
+      }
+    }
+  },
+  "modals": {
+    "mindMap": {
+      "title": "Taswirar Tunani: {{topic}}",
+      "error": "An kasa loda taswirar tunani. Da fatan a sake gwadawa daga baya.",
+      "aspectsNote": "Fasaloli {{count}} masu muhimmanci don fahimtar batu gaba ɗaya",
+      "sources": "Tushe:",
+      "relatedQuestions": "Tambayoyi Masu Alaƙa:",
+      "close": "Rufe",
+      "mainTopic": "Babban Batu",
+      "readMore": "Kara karatu",
+      "importantAspect": "Fanni mai muhimmanci",
+      "facets": {
+        "explanation": "Fahimtar Asali",
+        "interpretation": "Fassarar Tunani",
+        "application": "Amfani a Aiki",
+        "perspective": "Hanyoyin Kallo Daban-daban",
+        "empathy": "Sashe na Tunani",
+        "selfKnowledge": "Nazarin Kai"
+      },
+      "explorationTitle": "🔍 Binciken Ilimi"
+    },
+    "elix": {
+      "title": "ELIx: Bayyana Kamar Ina da X",
+      "adaptiveExplanation": "Bayani mai daidaitawa bisa ga shekaru",
+      "selectAgeRange": "Zaɓi Tsawon Shekaru:",
+      "emptySummary": "Babu Taƙaitawa",
+      "enterSummary": "Da fatan a shigar da taƙaitawa ta farko",
+      "error": "An Sami Kuskure",
+      "adaptationFailed": "An kasa daidaita bayani. Da fatan a sake gwadawa.",
+      "mainSummary": "Taƙaitawa ta Farko:",
+      "summaryPlaceholder": "Shigar da taƙaitawar da kake son daidaita bisa ga shekaru...",
+      "adaptFor": "Daidaita don Shekara {{ageRange}}",
+      "explanationFor": "Bayani don Shekara {{ageRange}}:",
+      "reset": "Sake saita",
+      "copied": "An kwafi!",
+      "explanationCopied": "An kwafi bayani zuwa allo",
+      "editSummary": "Gyara Taƙaitawa",
+      "adaptationNote": "Daidaita bayani bisa ga shekaru don koyo mai tasiri",
+      "adaptingExplanation": "Ana daidaita bayani...",
+      "adult": "Babba"
+    },
+    "fiveWhys": {
+      "title": "Horar da Tunani mai Muhimmanci ta Me Yasa 5",
+      "description": "Ƙara inganta ƙwarewarku ta aikin nazari ta hanyar bincika ƙalubalen koyo a hanyar tsari",
+      "stepProgress": "Matakin {step} daga {{total}} - {title}",
+      "stepGuidance": {
+        "defineProblem": {
+          "title": "Bayyana Matsalar Koyo",
+          "guidance": "A bayyana kalubalen koyo da kuke fuskanta. Ku zama masu ƙayatarwa kuma ku guji bayani mai yaudara.",
+          "prompts": [
+            "Mene ne kuke wahalar fahimta?",
+            "Yaushe ne wannan matsalar take faruwa?",
+            "Ta yaya wannan take shafar burin koyo naku?"
+          ],
+          "criticalThinking": "Tunani mai zurfi na farawa da haske. Matsala mai bayani da kyau tana da rabin magani."
+        },
+        "firstWhy": {
+          "title": "Me Yasa na Farko - Dalili na Zahiri",
+          "guidance": "Tambaya me yasa wannan matsalar koyo take kasancewa. Mayar da hankali kan dalili na zahiri.",
+          "prompts": [
+            "Mene ne dalili na zahiri na wannan wahala?",
+            "Mene ne yake faruwa kafin ku fuskanci wannan matsala?",
+            "Mene ne yake sa wannan batu ya zama mai wahala?"
+          ],
+          "criticalThinking": "Nemi amsoshi da ke bisa shaida, ba hasashe ko ji ba."
+        },
+        "secondWhy": {
+          "title": "Me Yasa na Biyu - Nazari mai Zurfi",
+          "guidance": "Yanzu tambaya me yasa dalili na farko yake kasancewa. Fara tona dalilan da ke cikin ƙasa.",
+          "prompts": [
+            "Me yasa wannan dalili na farko yake faruwa?",
+            "Wane hali ke haifar da wannan matsala?",
+            "Mene ne ke rasa da zai hana wannan dalili?"
+          ],
+          "criticalThinking": "Tambaya ko amsar ku ta farko cikakkiya ce. Akwai dalilan da ke ɓoye?"
+        },
+        "thirdWhy": {
+          "title": "Me Yasa na Uku - Matakin Tsari",
+          "guidance": "Bincika tsari, ayyuka, ko salon da ke haifar da dalilan da ke zurfi.",
+          "prompts": [
+            "Me yasa waɗannan halayen suke kasancewa a yanayin koyo naku?",
+            "Wane salon ko al'ada ke taimaka wajen wannan?",
+            "Ta yaya abubuwan waje ke shafar wannan hali?"
+          ],
+          "criticalThinking": "Tunani game da tsari. Ta yaya daban-daban suke haɗa waje guda don haifar da wannan matsala?"
+        },
+        "fourthWhy": {
+          "title": "Me Yasa na Huɗu - Dalilan Asali",
+          "guidance": "Duba ƙwarewar asali, raguwar sani, ko matsalolin haɗuwa.",
+          "prompts": [
+            "Me yasa waɗannan salolin suke ci gaba?",
+            "Wane ƙwarewar asali ko sani ke rasa?",
+            "Mene ne ya kamata ya canza don hana wannan matsala?"
+          ],
+          "criticalThinking": "Duba salon dogon lokaci da tushen abubuwa."
+        },
+        "fifthWhy": {
+          "title": "Me Yasa na Biyar - Tushen Dalili",
+          "guidance": "Gano dalili mafi zurfi, mafi muhimmanci da, idan an magance, zai warware matsalar.",
+          "prompts": [
+            "Me yasa waɗannan matsalolin asali suke kasancewa?",
+            "Mene ne tushen wannan kalubalen koyo?",
+            "Idan za ku iya canza abu guda don magance wannan, mene ne zai kasance?"
+          ],
+          "criticalThinking": "Tushen dalili ya kamata ya zama abin da za a yi aiki, kuma a cikin ƙarfin ku."
+        }
+      },
+      "contentLoaded": "An samu abun ciki. Yanzu bari mu nazari wannan kalubalen koyo matakin baya matakin.",
+      "readyToBegin": "Shirye don farawa",
+      "analysisComplete": "An kammala nazari",
+      "stepsCompleted": "An kammala mataki {{completed}}/{{total}}",
+      "quickStart": "Fara da Sauri tare da Abun Ciki:",
+      "defineChallenge": "Ko Bayyana Kalubalen Ka:",
+      "topicDifficulty": "Ina fama da koyon game da \"{{topic}}\"",
+      "textareaPlaceholder": "Bayyana kalubalen koyo na musamman da kake fuskanta..."
+    },
+    "flashcard": {
+      "loadingFlashquiz": "Ana loda flashquiz...",
+      "error": "An Sami Kuskure",
+      "errorMessage": "An kasa loda gwajin. Da fatan a sake gwadawa daga baya.",
+      "noQuestions": "Babu Tambayoyi",
+      "noQuestionsAvailable": "Babu tambayoyi don wannan batu.",
+      "back": "Koma",
+      "close": "Rufe",
+      "congratulations": "Taya murna!",
+      "completed": "An kammala {{completed}} daga {{total}} tambayoyi",
+      "sources": "Tushe:",
+      "retry": "Sake gwadawa",
+      "learnWithFlashcard": "Koyi da Flashcard",
+      "previous": "Na baya",
+      "next": "Na gaba",
+      "finish": "Kammala",
+      "question": "Tambaya {{current}} daga {{total}}",
+      "correctAnswerPrefix": "Amsar daidai ita ce:"
+    },
+    "mindmap": {
+      "loadingMindmap": "Loading MindMap ..."
+    }
+  },
+  "pageHeader": {
+    "lenteraChat": "Lentera Chat"
+  },
+  "pageFooter": {
+    "madeWith": "An yi da ❤️",
+    "copyright": "© 2025 Lentera AI"
+  },
+  "nav": {
+    "home": "Gida",
+    "explore": "Bincike",
+    "about": "Game da mu",
+    "contact": "Tuntuɓar mu",
+    "library": "Library",
+    "aboutLentera": "About Lentera",
+    "exploreLibrary": "Explore Library",
+    "lenteraChatAI": "Lentera Chat AI"
+  },
+  "hero": {
+    "title": "Koyi komai da",
+    "subtitle": "Dandamalin koyo na wayo wanda ke taimaka maka fahimtar abubuwa ta hanyar da ta fi dacewa da kai",
+    "cta": {
+      "explore": "Start Exploring",
+      "learn": "Learn More"
+    }
+  },
+  "features": {
+    "offline": {
+      "title": "Ba tare da Intanet ba da farko",
+      "description": "Samun abun ciki ko da ba tare da haɗin intanet ba"
+    },
+    "ai": {
+      "title": "Ana sarrafa shi da AI",
+      "description": "Koyarwa ta musamman da wayo na ɗan adam"
+    },
+    "multilingual": {
+      "title": "Goyan bayan harsuna da yawa",
+      "description": "Koyi da yaren uwar ka"
+    },
+    "accessible": {
+      "title": "Zane mai sauƙi",
+      "description": "Ya haɗa duk nau'ikan ɗalibai"
+    },
+    "title": "Powerful Features for Everyone"
+  },
+  "common": {
+    "loading": "Ana ɗauka...",
+    "error": "Kuskure",
+    "retry": "Sake gwadawa",
+    "close": "Rufe",
+    "open": "Buɗe",
+    "save": "Ajiye",
+    "cancel": "Soke",
+    "delete": "Share",
+    "edit": "Gyara",
+    "copy": "Copy",
+    "adult": "Adult",
+    "language": "Language Persistence Test",
+    "languageDescription": "This component tests whether language settings are properly saved and translations work",
+    "currentLanguage": "Current active language:",
+    "storedLanguage": "Stored in localStorage:",
+    "none": "None",
+    "translationSamples": "Translation Samples:",
+    "instructions": "Instructions to test:",
+    "step1": "Select a language using the language switcher",
+    "step2": "Observe how the translations above change",
+    "step3": "Refresh the page to verify persistence",
+    "refresh": "Refresh Page"
+  },
+  "search": {
+    "placeholder": "Nemo abun ciki...",
+    "button": "Nema",
+    "noResults": "Ba a sami sakamako ba",
+    "loading": "Ana nema...",
+    "sources": "tushe"
+  },
+  "splash": {
+    "platformLoading": "Ana ɗaukar dandamali...",
+    "preparingAI": "Ana shirya AI...",
+    "readyToLearn": "Shirye don koyo!",
+    "brandName": "Lentera AI",
+    "tagline": "Dandamalin Koyo na AI",
+    "features": {
+      "aiLearning": "AI Learning",
+      "digitalLibrary": "Digital Library",
+      "fastLearning": "Fast Learning"
+    }
+  },
+  "index": {
+    "hero": {
+      "title": "Koyi komai da {aiTutor}",
+      "aiTutor": "Malamin AI",
+      "subtitle": "Dandamalin koyo na wayo wanda ke taimaka maka fahimtar abubuwa ta hanyar da ta fi dacewa da kai",
+      "searchPlaceholder": "What do you want to learn today?",
+      "startLearning": "Start Learning",
+      "start": "Start",
+      "askAIDirect": "Ask AI Directly",
+      "askAI": "Ask AI",
+      "exploreTopics": "Explore Topics"
+    },
+    "features": {
+      "title": "Me yasa Lentera?",
+      "subtitle": "Gano yadda dandamalinmu zai iya canza yadda kake koyo",
+      "learning": "Learning",
+      "personalLearning": {
+        "title": "Personal Learning",
+        "description": "AI that understands your learning style and automatically adapts material"
+      },
+      "interactiveTools": {
+        "title": "Interactive Tools",
+        "description": "Flashcards, quizzes, mind maps, and other learning tools created automatically"
+      },
+      "offlineAccess": {
+        "title": "Offline Access",
+        "description": "Learn anytime, anywhere, even without internet connection"
+      }
+    },
+    "tools": {
+      "title": "Kayan aikin Koyo",
+      "subtitle": "Bincike kayan aikinmu na musamman don salon koyo daban-daban",
+      "learning": "Learning",
+      "viewAllTools": "View All Tools"
+    },
+    "stats": {
+      "title": "Tasirinmu",
+      "subtitle": "Lambobi da ke nuna yadda muke canza ilimi",
+      "learningMaterials": "Learning Materials",
+      "activeUsers": "Active Users",
+      "satisfactionRate": "Satisfaction Rate"
+    },
+    "cta": {
+      "title": "Shirye don farawa?",
+      "subtitle": "Haɗu da dubban ɗalibai da suka canza yadda suke koyo",
+      "button": "Fara Kyauta Yanzu",
+      "startNow": "Start Learning Now",
+      "demoAI": "Demo AI Tutor"
+    },
+    "footer": {
+      "copyright": "© 2024 Lentera",
+      "tagline": "AI Learning Platform",
+      "madeWith": "Made with ❤️"
+    }
+  },
+  "explore": {
+    "title": "Binciken Ilimi",
+    "subtitle": "Gano, koyi kuma ƙware kan kowane batu da taimakon AI",
+    "searchPlaceholder": "Rubuta batun da kake son koyo...",
+    "trending": "Mai tasiri",
+    "subjects": {
+      "math": "Lissafi",
+      "science": "Kimiyya",
+      "history": "Tarihi",
+      "geography": "Yanayin ƙasa",
+      "physics": "Kimiyyar motsi",
+      "chemistry": "Sinadarai",
+      "mathematics": "Lissafi",
+      "random": "Bazuwar"
+    },
+    "tools": {
+      "fiveWhys": "Me yasa 5",
+      "flashcards": "Katuna",
+      "quiz": "Gwajin",
+      "mindMap": "Taswirar tunani",
+      "summary": "Taƙaitawa",
+      "simple": "Sauƙi",
+      "practice": "Atisaye",
+      "timeline": "Layinka",
+      "solver": "Mai warwarewa"
+    },
+    "qaMode": {
+      "greeting": "Hello! I'm ready to help you understand more about \"{{topic}}\". Please ask any question!",
+      "placeholder": "Ask your question...",
+      "send": "Send"
+    },
+    "exploration": "Exploration",
+    "voiceSearchActive": "Voice search active",
+    "popularTopics": "Popular Topics Examples",
+    "randomTopics": "Random Topics",
+    "subjectTopics": "Topics"
+  },
+  "about": {
+    "title": "Fitilar Dijital don",
+    "subtitle": "Koyon Gobe",
+    "platformDescription": "Lentera dandamali ne na koyo na AI wanda ya kawo sauyi, wanda aka tsara ya zama fitilar dijital da ke haskaka tafiyar koyo na kowane mutum da fasaha ta zamani.",
+    "mission": {
+      "title": "Manufarmu",
+      "description": "Bayar da damar samun ilimi mai inganci ga kowa da kowa, ko ina suke.",
+      "personal": "Koyo na musamman",
+      "access": "Damar kowa",
+      "quality": "Inganci da aka tabbatar",
+      "personalLearning": {
+        "title": "Personal Learning",
+        "description": "AI that understands each individual's unique learning style"
+      },
+      "accessForAll": {
+        "title": "Access for All",
+        "description": "Platform accessible anytime, anywhere"
+      },
+      "qualityAssured": {
+        "title": "Quality Assured",
+        "description": "High-quality and verified learning materials"
+      }
+    },
+    "features": {
+      "title": "Fasalolin Dandamali",
+      "subtitle": "Fasaha ta zamani da aka tsara musamman don inganta yadda kake koyo",
+      "ai": "AI na Koyo mai Wayo",
+      "library": "Ɗakin karatu na Dijital",
+      "adaptive": "Koyo mai daidaitawa",
+      "offline": "Damar ba tare da intanet ba",
+      "smartAI": {
+        "title": "Smart AI Learning",
+        "description": "Cutting-edge AI technology that understands each user's unique learning style"
+      },
+      "digitalLibrary": {
+        "title": "Complete Digital Library",
+        "description": "Access to thousands of high-quality learning materials from various sources"
+      },
+      "adaptiveLearning": {
+        "title": "Adaptive Learning",
+        "description": "Learning speed that adapts to your abilities and progress"
+      },
+      "offlineAccess": {
+        "title": "Offline Access",
+        "description": "Learn anytime, anywhere, even without internet connection"
+      }
+    },
+    "values": {
+      "title": "Dabi'unmu",
+      "subtitle": "Ka'idodin da ke jagorantar kowane ci gaba da sabbin abubuwa a Lentera",
+      "focus": "Mayar da hankali kan sakamako",
+      "humanistic": "Koyo na mutane",
+      "privacy": "Sirri da aka tabbatar",
+      "innovation": "Sabbin abubuwa na kullum",
+      "resultFocused": {
+        "title": "Result Focused",
+        "description": "Every feature is designed to maximize understanding and knowledge retention"
+      },
+      "humanisticLearning": {
+        "title": "Humanistic Learning",
+        "description": "AI that understands that everyone has a different way of learning"
+      },
+      "privacyGuaranteed": {
+        "title": "Privacy Guaranteed",
+        "description": "Your learning data is safe and not shared with third parties"
+      },
+      "continuousInnovation": {
+        "title": "Continuous Innovation",
+        "description": "Continuously developing learning technology for a better future"
+      }
+    },
+    "stats": {
+      "materials": "Kayan Koyo",
+      "users": "Masu amfani masu aiki",
+      "satisfaction": "Adadin jin daɗi",
+      "languages": "Harsunan da aka goyi baya",
+      "learningMaterials": "Learning Materials",
+      "activeUsers": "Active Users",
+      "satisfactionRate": "Satisfaction Rate",
+      "supportedLanguages": "Supported Languages"
+    },
+    "cta": {
+      "title": "Shirye don fara tafiyar koyo?",
+      "subtitle": "Haɗu da dubban ɗalibai da suka gwada bambanci a koyo da Lentera",
+      "start": "Fara Koyo Kyauta",
+      "back": "Koma Gida",
+      "startFree": "Start Learning Free",
+      "backHome": "Back to Home"
+    },
+    "future": "Future"
+  },
+  "notFound": {
+    "title": "Ba a Sami Shafin ba",
+    "description": "Kai! Shafin da kake nema baya kasancewa ko an matsar da shi.",
+    "backToHome": "Koma Gida",
+    "exploreContent": "Bincika Koyo",
+    "backToPrevious": "Koma Shafin da Ya Gabata",
+    "helpText": "Kuna buƙatar taimako? Gwada neman batun da kake son koyo a shafin bincike."
+  },
+  "loading": {
+    "messages": {
+      "searching": "Ana neman sakamakon...",
+      "preparing": "Ana shirya Malamin AI...",
+      "loadingResults": "Ana lodar sakamakon..."
+    },
+    "educationalFacts": [
+      "Yan Adam suna koyo kusan 70% daga ƙwarewar aiki, 20% daga wasu, da 10% daga littattafai.",
+      "Karatu da murya mai ƙarfi yana ƙara iya tunawa zuwa 15%.",
+      "Ƙwayoyin mu na iya adana wajen baiti 2.5 na bayani.",
+      "Barci bayan koyo yana inganta tunawar bayanai zuwa 30%.",
+      "Koyar da wasu ita ce mafi kyau don fahimtar batu.",
+      "Rubutu da hannu yana ƙara fahimta fiye da bugawa.",
+      "Koyo na minti 30-50 tare da hutu yana da tasiri fiye da koyo na dogon lokaci.",
+      "Amfani da launuka daban-daban lokacin rubutu yana ƙara tunawar abubuwa zuwa 25%.",
+      "Koyo a wuri guda kowace rana yana taimakawa ƙwaƙwalwa gane lokacin koyo ne.",
+      "Shiga koyo da tunani yana inganta iya tunawa na dogon lokaci.",
+      "Tafiya na minti 20 tana ƙara ƙwarewar ƙirƙira da tunani.",
+      "Maimaita bayani a lokuta na musamman (maimaita tare da tazara) yana da tasiri don tunawa.",
+      "Taswirar tunani tana taimakawa wajen shirya ra'ayoyi da inganta fahimta.",
+      "Kasancewa da ruwa a jiki yana da muhimmanci domin ƙarancin ruwa yana rage iya mayar da hankali.",
+      "Haɗa sabon bayani da ilimin da ke akwai yana ƙarfafa tunani.",
+      "Koyo ta hanyoyi daban-daban (gani, ji, motsi) yana taimakawa wajen ƙara fahimta.",
+      "Gwajin koyo mafi tasiri ne don gano yadda aka fahimta fiye da sake karatu.",
+      "Koyo tare da ƙungiya yana iya inganta ci gaban koyo."
+    ]
+  },
+  "ageRanges": {
+    "preschool": {
+      "label": "Shekara 3-5",
+      "description": "Yara Kanana"
+    },
+    "earlyElementary": {
+      "label": "Shekara 6-8",
+      "description": "Firamare na Farko"
+    },
+    "elementary": {
+      "label": "Shekara 9-12",
+      "description": "Makarantar Firamare"
+    },
+    "middleSchool": {
+      "label": "Shekara 13-15",
+      "description": "Makarantar Matsakaici"
+    },
+    "highSchool": {
+      "label": "Shekara 16-18",
+      "description": "Makarantar Sakandare"
+    },
+    "adult": {
+      "label": "Babba",
+      "description": "Gaba ɗaya"
+    }
+  },
+  "explorePage": {
+    "search": {
+      "button": "Search",
+      "error": "An error occurred while searching. Please try again.",
+      "placeholder": "Type the topic you want to learn...",
+      "results": "Search Results",
+      "showing": "Showing {{count}} search results ({time} seconds)",
+      "loadingSummary": "Loading summary...",
+      "failedSummary": "Failed to load summary",
+      "completeSummary": "Complete Summary",
+      "basicSummary": "Basic Summary",
+      "noResults": "No results found",
+      "startSearching": "Start searching to see results summary",
+      "checkConnection": "Please check your connection and try again",
+      "noContent": "No content available"
+    },
+    "topics": {
+      "popular": "Popular Topics Examples",
+      "random": "Random Topics",
+      "subject": "Topics"
+    },
+    "summary": {
+      "title": "Summary:",
+      "sources": "Sources",
+      "generatedBy": "Generated by Lentera AI",
+      "unavailable": "No summary available. Click the \"Read Summary\" button to generate a summary."
+    },
+    "actions": {
+      "readSummary": "Read Summary",
+      "openArticle": "Open Article",
+      "watchVideo": "Watch Video",
+      "askQuestion": "Ask a Question",
+      "backToResults": "Back to Results"
+    },
+    "qa": {
+      "greeting": "Hello! I'm ready to help you understand more about \"{{topic}}\". Please ask any question!",
+      "placeholder": "Ask anything about this topic...",
+      "send": "Send",
+      "simulatedResponse": "Based on the topic \"{{topic}}\", here's an explanation for your question: \"{question}\". This is a simulated response that would be replaced by real AI.",
+      "suggestions": "Smart question suggestions:",
+      "assistant": "Lentera AI Assistant",
+      "exploring": "Exploring topic: {{topic}}",
+      "context": "Context & Tools",
+      "activeTopic": "Active Topic",
+      "relatedSources": "Related Sources",
+      "learningTools": "Learning Tools",
+      "sessionStats": "Session Stats",
+      "messages": "Messages",
+      "questions": "Questions",
+      "suggestionButtons": {
+        "explainSimpler": "Explain more simply",
+        "giveExamples": "Give examples",
+        "deeperAnalysis": "Deeper analysis"
+      },
+      "contextPanel": {
+        "title": "Context & Tools",
+        "activeTopic": "Active Topic",
+        "relatedSources": "Related Sources",
+        "learningTools": "Learning Tools",
+        "sessionStats": "Session Stats"
+      }
+    },
+    "fiveWhys": {
+      "title": "5 Whys Critical Thinking Trainer",
+      "description": "Develop your analytical skills by systematically examining learning challenges",
+      "stepProgress": "Step {step} of 6 - {title}",
+      "introduction": "Introduction",
+      "summary": {
+        "title": "Analysis Complete!",
+        "description": "You've successfully applied critical thinking to understand your learning challenge",
+        "analysis": "Your 5 Whys Analysis:",
+        "challenge": "Learning Challenge:",
+        "question": "Question #{number}",
+        "generatedAnswer": "Generated Answer",
+        "skillsTitle": "Critical Thinking Skills Developed",
+        "actionPlan": "Generate Action Plan",
+        "newAnalysis": "Start New Analysis"
+      },
+      "criticalThinking": {
+        "tips": {
+          "lookBeyond": {
+            "title": "Look Beyond the Surface",
+            "description": "Don't accept the first answer. Dig deeper to find underlying causes.",
+            "example": "Instead of 'I'm bad at math', ask 'What specific math concepts am I struggling with?'"
+          },
+          "questionAssumptions": {
+            "title": "Question Assumptions",
+            "description": "Challenge what you think you know. Are your assumptions correct?",
+            "example": "Is the teaching method the problem, or do I need different prerequisites?"
+          },
+          "multipleViews": {
+            "title": "Consider Multiple Perspectives",
+            "description": "Look at the problem from different angles and viewpoints.",
+            "example": "How would a teacher, peer, or expert view this learning challenge?"
+          },
+          "rootCauses": {
+            "title": "Focus on Root Causes",
+            "description": "Identify what's really causing the issue, not just symptoms.",
+            "example": "Poor grades are a symptom. What learning habits or gaps cause them?"
+          },
+          "connections": {
+            "title": "Make Connections",
+            "description": "Link this problem to broader patterns in your learning.",
+            "example": "Does this connect to how I approach other subjects or skills?"
+          }
+        }
+      },
+      "intro": {
+        "quickStart": "Quick Start with Your Content:",
+        "defineChallenge": "Or Define Your Own Challenge:",
+        "textarea": "Describe a specific learning challenge you're facing...",
+        "whatLearn": "What You'll Learn",
+        "learn": {
+          "systematic": "How to analyze problems systematically",
+          "questioning": "Critical thinking questioning techniques",
+          "rootCause": "Root cause identification skills",
+          "reasoning": "Evidence-based reasoning"
+        }
+      },
+      "steps": {
+        "guidance": {
+          "1": {
+            "title": "Define the Learning Problem",
+            "guidance": "Clearly state what specific learning challenge you're facing. Be precise and avoid vague statements.",
+            "prompts": {
+              "0": "What exactly are you struggling to understand?",
+              "1": "When does this problem occur most?",
+              "2": "How does this affect your learning goals?"
+            },
+            "criticalThinking": "Critical thinking starts with clarity. A well-defined problem is half solved."
+          },
+          "2": {
+            "title": "First Why - Immediate Cause",
+            "guidance": "Ask why this learning problem exists. Focus on the most direct, observable cause.",
+            "prompts": {
+              "0": "What is the immediate reason for this difficulty?",
+              "1": "What happens right before you encounter this problem?",
+              "2": "What makes this topic particularly challenging?"
+            },
+            "criticalThinking": "Look for evidence-based answers, not assumptions or emotions."
+          },
+          "3": {
+            "title": "Second Why - Deeper Analysis",
+            "guidance": "Now ask why that first cause exists. Start digging into underlying factors.",
+            "prompts": {
+              "0": "Why does that immediate cause happen?",
+              "1": "What conditions create this situation?",
+              "2": "What's missing that would prevent this cause?"
+            },
+            "criticalThinking": "Question whether your first answer is complete. Are there hidden factors?"
+          },
+          "4": {
+            "title": "Third Why - System Level",
+            "guidance": "Examine the systems, processes, or patterns that create the deeper causes.",
+            "prompts": {
+              "0": "Why do these conditions exist in your learning environment?",
+              "1": "What patterns or habits contribute to this?",
+              "2": "How do external factors influence this situation?"
+            },
+            "criticalThinking": "Think systemically. How do different elements interact to create this problem?"
+          },
+          "5": {
+            "title": "Fourth Why - Fundamental Factors",
+            "guidance": "Look at fundamental skills, knowledge gaps, or structural issues.",
+            "prompts": {
+              "0": "Why do these patterns persist?",
+              "1": "What fundamental skills or knowledge are missing?",
+              "2": "What would need to change to prevent this problem?"
+            },
+            "criticalThinking": "Consider long-term patterns and foundational elements."
+          },
+          "6": {
+            "title": "Fifth Why - Root Cause",
+            "guidance": "Identify the deepest, most fundamental cause that, if addressed, would solve the problem.",
+            "prompts": {
+              "0": "Why do these fundamental issues exist?",
+              "1": "What's the ultimate root of this learning challenge?",
+              "2": "If you could change one thing to solve this, what would it be?"
+            },
+            "criticalThinking": "The root cause should be actionable and within your power to influence."
+          }
+        }
+      },
+      "step": {
+        "stepOf": "Step {{current}} of {{total}}",
+        "focus": "Focus on crafting a precise \"why\" question that digs deeper into the root cause.",
+        "previousAnswer": "Previous Answer:",
+        "generatedAnswer": "Generated Answer:",
+        "formulate": "Formulate a 'Why' question about this learning problem:",
+        "formulateNext": "Formulate the next 'Why' question based on: \"{previous}\"",
+        "writeQuestion": "Write a specific 'why' question that will help uncover deeper causes...",
+        "questionTip": "Focus on asking the right question. The answer will be generated automatically to help your learning.",
+        "showTips": "Show Question Crafting Tips",
+        "hideTips": "Hide Question Crafting Tips",
+        "tipTitle": "Question Crafting Tips",
+        "tips": {
+          "start": "Start with \"Why\" to focus on causes, not symptoms",
+          "specific": "Be specific rather than vague in your questioning",
+          "challenge": "Challenge assumptions in your previous answer",
+          "systemic": "Look for systemic or structural causes",
+          "perspectives": "Consider multiple perspectives on the problem"
+        },
+        "skillFocus": "Critical Thinking Skill Focus"
+      },
+      "buttons": {
+        "previous": "Previous",
+        "next": "Next Step",
+        "start": "Start Analysis",
+        "complete": "Complete",
+        "readyToBegin": "Ready to begin",
+        "analysisComplete": "Analysis complete",
+        "stepsCompleted": "{{completed}}/{{total}} steps completed"
+      },
+      "toast": {
+        "defineProblem": {
+          "title": "Define Your Problem First",
+          "description": "Please describe the learning challenge you want to analyze"
+        },
+        "completeStep": {
+          "title": "Complete This Step",
+          "description": "Please formulate a 'why' question before proceeding"
+        },
+        "answerGenerated": {
+          "title": "Answer Generated!",
+          "description": "Your question has been answered. Review it and continue."
+        },
+        "analysisReset": {
+          "title": "Analysis Reset",
+          "description": "Ready to start a new 5 Whys critical thinking exercise"
+        },
+        "analysisComplete": {
+          "title": "Critical Thinking Analysis Complete!",
+          "description": "You've developed deeper insight through {{count}} levels of analysis"
+        },
+        "continueAnalysis": {
+          "title": "Continue Your Analysis",
+          "description": "Complete at least 3 steps to develop meaningful insights"
+        },
+        "contentLoaded": {
+          "title": "Content Loaded",
+          "description": "Now let's analyze this learning challenge step by step"
+        }
+      }
+    },
+    "api": {
+      "errors": {
+        "flashQuiz": "Failed to fetch flashcard quiz: {status}",
+        "elix": "Failed to fetch ELIx explanation: {status}",
+        "mindMap": "Failed to fetch mindmap: {status}",
+        "generic": "An error occurred. Please try again."
+      }
+    },
+    "trendingTopics": {
+      "plantPhotosynthesis": "Plant photosynthesis",
+      "bloodCirculation": "Blood circulation system",
+      "indonesianIndependence": "History of Indonesian independence",
+      "quadraticEquations": "Quadratic equations",
+      "gravityPlanetaryMotion": "Gravity and planetary motion",
+      "atomicStructure": "Atomic structure"
+    },
+    "subjectCategories": {
+      "mathematics": {
+        "quadraticEquations": "Quadratic equations",
+        "calculus": "Calculus",
+        "geometry": "Geometry",
+        "statistics": "Statistics",
+        "linearAlgebra": "Linear algebra",
+        "trigonometry": "Trigonometry",
+        "logarithms": "Logarithms",
+        "matrices": "Matrices",
+        "functionLimits": "Function limits",
+        "integrals": "Integrals",
+        "differentials": "Differentials",
+        "probability": "Probability"
+      },
+      "science": {
+        "plantPhotosynthesis": "Plant photosynthesis",
+        "bloodCirculation": "Blood circulation system",
+        "evolution": "Evolution",
+        "ecosystems": "Ecosystems",
+        "genetics": "Genetics",
+        "cellularRespiration": "Cellular respiration",
+        "nervousSystem": "Nervous system",
+        "mitosisMeiosis": "Mitosis and meiosis",
+        "naturalSelection": "Natural selection",
+        "foodChain": "Food chain",
+        "digestiveSystem": "Digestive system",
+        "hormones": "Hormones"
+      },
+      "history": {
+        "indonesianIndependence": "History of Indonesian independence",
+        "worldWarII": "World War II",
+        "industrialRevolution": "Industrial Revolution",
+        "majapahitKingdom": "Majapahit Kingdom",
+        "reformation": "Reformation",
+        "independenceProclamation": "Independence proclamation",
+        "diponegoroWar": "Diponegoro War",
+        "youthPledge": "Youth Pledge",
+        "asiaAfricaConference": "Asia-Africa Conference",
+        "newOrder": "New Order",
+        "sriwijayaKingdom": "Sriwijaya Kingdom"
+      },
+      "geography": {
+        "tectonicPlates": "Tectonic plates",
+        "tropicalClimate": "Tropical climate",
+        "topographicMaps": "Topographic maps",
+        "volcanoes": "Volcanoes",
+        "longestRivers": "Longest rivers",
+        "continentsOceans": "Continents and oceans",
+        "weatherClimate": "Weather and climate",
+        "soilRocks": "Soil and rocks",
+        "rainForests": "Tropical rainforests",
+        "populationDistribution": "Population distribution",
+        "urbanization": "Urbanization",
+        "globalization": "Globalization"
+      },
+      "physics": {
+        "gravityPlanetaryMotion": "Gravity and planetary motion",
+        "newtonsLaws": "Newton's laws",
+        "electromagneticWaves": "Electromagnetic waves",
+        "relativity": "Relativity",
+        "quantumMechanics": "Quantum mechanics",
+        "kineticEnergy": "Kinetic energy",
+        "momentum": "Momentum",
+        "thermodynamics": "Thermodynamics",
+        "optics": "Optics",
+        "electricityMagnetism": "Electricity and magnetism",
+        "harmonicMotion": "Harmonic motion",
+        "fluids": "Fluids"
+      },
+      "chemistry": {
+        "atomicStructure": "Atomic structure",
+        "chemicalBonds": "Chemical bonds",
+        "redoxReactions": "Redox reactions",
+        "periodicTable": "Periodic table",
+        "thermochemistry": "Thermochemistry",
+        "acidsBases": "Acids and bases",
+        "electrolysis": "Electrolysis",
+        "chemicalEquilibrium": "Chemical equilibrium",
+        "reactionRate": "Reaction rate",
+        "organicChemistry": "Organic chemistry",
+        "stoichiometry": "Stoichiometry",
+        "solutions": "Solutions"
+      }
+    },
+    "questionSuggestions": {
+      "practicalApplications": "How can I practice this directly?",
+      "commonMistakes": "What common mistakes should I avoid?",
+      "dailyApplications": "How to apply this in daily life?",
+      "prerequisites": "What prerequisites do I need to understand?",
+      "compareWithOtherConcepts": "Compare with other concepts",
+      "simpleAnalogy": "Give me a simple analogy to understand"
+    },
+    "generatedBy": "Generated by Lentera AI"
+  }
+}

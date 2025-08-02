@@ -1,0 +1,934 @@
+{
+  "components": {
+    "interactiveFlashcard": {
+      "correct": "Benar!",
+      "incorrect": "Salah!",
+      "correctShort": "Benar",
+      "incorrectShort": "Salah",
+      "seeExplanation": "Lihat Penjelasan",
+      "next": "Selanjutnya",
+      "explanation": "Penjelasan",
+      "correctAnswer": "Jawaban yang benar:",
+      "tryAgain": "Coba Lagi"
+    },
+    "fiveWhys": {
+      "title": "Pelatih Berpikir Kritis 5 Mengapa",
+      "description": "Kembangkan keterampilan analitis Anda dengan secara sistematis memeriksa tantangan pembelajaran",
+      "criticalThinking": {
+        "lookBeyondSurface": {
+          "title": "Lihat di Balik Permukaan",
+          "description": "Jangan menerima jawaban pertama. Gali lebih dalam untuk menemukan penyebab mendasar.",
+          "example": "Alih-alih 'Saya buruk dalam matematika', tanyakan 'Konsep matematika apa yang saya kesulitan pahami?'"
+        },
+        "questionAssumptions": {
+          "title": "Pertanyakan Asumsi",
+          "description": "Tantang apa yang Anda pikir Anda ketahui. Apakah asumsi Anda benar?",
+          "example": "Apakah metode pengajaran yang menjadi masalah, atau saya membutuhkan prasyarat yang berbeda?"
+        },
+        "multipleViews": {
+          "title": "Pertimbangkan Berbagai Perspektif",
+          "description": "Lihat masalah dari sudut dan pandangan yang berbeda.",
+          "example": "Bagaimana seorang guru, teman sebaya, atau ahli melihat tantangan pembelajaran ini?"
+        },
+        "rootCauses": {
+          "title": "Fokus pada Akar Penyebab",
+          "description": "Identifikasi apa yang benar-benar menyebabkan masalah, bukan hanya gejala.",
+          "example": "Nilai buruk adalah gejala. Kebiasaan belajar atau kesenjangan apa yang menyebabkannya?"
+        },
+        "connections": {
+          "title": "Buat Koneksi",
+          "description": "Hubungkan masalah ini dengan pola yang lebih luas dalam pembelajaran Anda.",
+          "example": "Apakah ini terhubung dengan bagaimana saya mendekati subjek atau keterampilan lain?"
+        }
+      },
+      "intro": {
+        "quickStart": "Mulai Cepat dengan Konten Anda:",
+        "defineChallenge": "Atau Tentukan Tantangan Anda Sendiri:",
+        "textarea": "Jelaskan tantangan pembelajaran spesifik yang Anda hadapi...",
+        "whatYouWillLearn": "Apa yang Akan Anda Pelajari",
+        "skills": {
+          "analyze": "Cara menganalisis masalah secara sistematis",
+          "questioning": "Teknik bertanya berpikir kritis",
+          "rootCause": "Keterampilan identifikasi akar penyebab",
+          "reasoning": "Penalaran berbasis bukti"
+        }
+      },
+      "step": {
+        "stepOf": "Langkah {step} dari {{total}}",
+        "stepOfWithTitle": "Langkah {step} dari {{total}} - {title}",
+        "focus": "Fokus pada membuat pertanyaan \"mengapa\" yang tepat yang menggali lebih dalam ke akar penyebab.",
+        "previousAnswer": "Jawaban Sebelumnya:",
+        "generatedAnswer": "Jawaban yang Dihasilkan:",
+        "questionLabel": "Rumuskan pertanyaan 'Mengapa' tentang masalah pembelajaran ini:",
+        "nextQuestionLabel": "Rumuskan pertanyaan 'Mengapa' berikutnya berdasarkan: \"{previous}\"",
+        "placeholder": "Tulis pertanyaan 'mengapa' spesifik yang akan membantu mengungkap penyebab yang lebih dalam...",
+        "questionTip": "Fokus pada mengajukan pertanyaan yang tepat. Jawabannya akan dibuat secara otomatis untuk membantu pembelajaran Anda.",
+        "showTips": "Tampilkan Tips Pembuatan Pertanyaan",
+        "hideTips": "Sembunyikan Tips Pembuatan Pertanyaan",
+        "tipTitle": "Tips Pembuatan Pertanyaan",
+        "tips": {
+          "start": "Mulai dengan \"Mengapa\" untuk fokus pada penyebab, bukan gejala",
+          "specific": "Lebih spesifik daripada samar-samar dalam pertanyaan Anda",
+          "challenge": "Tantang asumsi dalam jawaban sebelumnya Anda",
+          "systemic": "Cari penyebab sistemik atau struktural",
+          "perspectives": "Pertimbangkan berbagai perspektif pada masalah"
+        },
+        "skillFocus": "Fokus Keterampilan Berpikir Kritis"
+      },
+      "summary": {
+        "title": "Analisis Selesai!",
+        "description": "Anda telah berhasil menerapkan pemikiran kritis untuk memahami tantangan pembelajaran Anda",
+        "yourAnalysis": "Analisis 5 Mengapa Anda:",
+        "learningChallenge": "Tantangan Pembelajaran:",
+        "question": "Pertanyaan #{number}",
+        "generatedAnswer": "Jawaban yang Dihasilkan",
+        "skillsTitle": "Keterampilan Berpikir Kritis yang Dikembangkan",
+        "actionPlan": "Buat Rencana Tindakan",
+        "newAnalysis": "Mulai Analisis Baru"
+      },
+      "buttons": {
+        "previous": "Sebelumnya",
+        "next": "Langkah Selanjutnya",
+        "start": "Mulai Analisis",
+        "complete": "Selesai",
+        "introduction": "Pendahuluan",
+        "summary": "Ringkasan"
+      }
+    }
+  },
+  "nav": {
+    "home": "Beranda",
+    "explore": "Jelajahi",
+    "about": "Tentang",
+    "contact": "Kontak",
+    "library": "Library",
+    "aboutLentera": "About Lentera",
+    "exploreLibrary": "Explore Library",
+    "lenteraChatAI": "Lentera Chat AI"
+  },
+  "hero": {
+    "title": "Belajar Apa Saja dengan",
+    "subtitle": "Platform pembelajaran cerdas yang membantu Anda memahami materi dengan cara yang paling sesuai untuk Anda",
+    "cta": {
+      "explore": "Start Exploring",
+      "learn": "Learn More"
+    }
+  },
+  "features": {
+    "offline": {
+      "title": "Offline First",
+      "description": "Akses konten bahkan tanpa koneksi internet"
+    },
+    "ai": {
+      "title": "Bertenaga AI",
+      "description": "Pembelajaran personal dengan kecerdasan buatan"
+    },
+    "multilingual": {
+      "title": "Dukungan Multibahasa",
+      "description": "Belajar dalam bahasa ibu Anda"
+    },
+    "accessible": {
+      "title": "Desain Aksesibel",
+      "description": "Inklusif untuk semua jenis pembelajar"
+    },
+    "title": "Powerful Features for Everyone"
+  },
+  "common": {
+    "loading": "Memuat...",
+    "error": "Error",
+    "retry": "Coba Lagi",
+    "close": "Tutup",
+    "open": "Buka",
+    "save": "Simpan",
+    "cancel": "Batal",
+    "delete": "Hapus",
+    "edit": "Edit",
+    "copy": "Salin",
+    "adult": "Dewasa",
+    "language": "Language Persistence Test",
+    "languageDescription": "This component tests whether language settings are properly saved and translations work",
+    "currentLanguage": "Current active language:",
+    "storedLanguage": "Stored in localStorage:",
+    "none": "None",
+    "translationSamples": "Translation Samples:",
+    "instructions": "Instructions to test:",
+    "step1": "Select a language using the language switcher",
+    "step2": "Observe how the translations above change",
+    "step3": "Refresh the page to verify persistence",
+    "refresh": "Refresh Page"
+  },
+  "modals": {
+    "mindMap": {
+      "title": "Peta Pikiran: {{topic}}",
+      "error": "Gagal memuat peta pikiran. Silakan coba lagi nanti.",
+      "aspectsNote": "{{count}} aspek penting untuk memahami topik secara menyeluruh",
+      "sources": "Sumber:",
+      "relatedQuestions": "Pertanyaan Terkait:",
+      "close": "Tutup",
+      "mainTopic": "Topik Utama",
+      "readMore": "Baca selengkapnya",
+      "importantAspect": "Aspek penting",
+      "facets": {
+        "explanation": "Pemahaman Dasar",
+        "interpretation": "Interpretasi Konsep",
+        "application": "Penerapan Praktis",
+        "perspective": "Sudut Pandang Berbeda",
+        "empathy": "Dimensi Emosional",
+        "selfKnowledge": "Refleksi Diri"
+      },
+      "explorationTitle": "🔍 Eksplorasi Pengetahuan"
+    },
+    "elix": {
+      "title": "ELIx: Jelaskan Seperti Saya Berusia X",
+      "adaptiveExplanation": "Penjelasan adaptif berdasarkan rentang usia",
+      "selectAgeRange": "Pilih Rentang Usia:",
+      "emptySummary": "Ringkasan Kosong",
+      "enterSummary": "Masukkan ringkasan utama terlebih dahulu",
+      "error": "Terjadi Kesalahan",
+      "adaptationFailed": "Gagal mengadaptasi penjelasan. Silakan coba lagi.",
+      "mainSummary": "Ringkasan Utama:",
+      "summaryPlaceholder": "Masukkan ringkasan yang ingin diadaptasi berdasarkan usia...",
+      "adaptFor": "Adaptasi",
+      "explanationFor": "Penjelasan untuk Usia {{ageRange}}:",
+      "reset": "Reset",
+      "copied": "Disalin!",
+      "explanationCopied": "Penjelasan telah disalin ke clipboard",
+      "editSummary": "Edit Ringkasan",
+      "adaptationNote": "Adaptasi penjelasan berdasarkan rentang usia untuk pembelajaran yang lebih efektif",
+      "adaptingExplanation": "Mengadaptasi penjelasan...",
+      "adult": "Dewasa"
+    },
+    "fiveWhys": {
+      "title": "Pelatih Berpikir Kritis 5 Mengapa",
+      "description": "Kembangkan keterampilan analitis Anda dengan secara sistematis memeriksa tantangan pembelajaran",
+      "stepProgress": "Langkah {step} dari {{total}} - {title}",
+      "stepGuidance": {
+        "defineProblem": {
+          "title": "Definisikan Masalah Pembelajaran",
+          "guidance": "Nyatakan dengan jelas tantangan pembelajaran spesifik yang Anda hadapi. Bersikaplah tepat dan hindari pernyataan yang samar.",
+          "prompts": [
+            "Apa tepatnya yang sulit Anda pahami?",
+            "Kapan masalah ini paling sering terjadi?",
+            "Bagaimana ini memengaruhi tujuan belajar Anda?"
+          ],
+          "criticalThinking": "Pemikiran kritis dimulai dengan kejelasan. Masalah yang didefinisikan dengan baik setengah teratasi."
+        },
+        "firstWhy": {
+          "title": "Mengapa Pertama - Penyebab Langsung",
+          "guidance": "Tanyakan mengapa masalah pembelajaran ini ada. Fokus pada penyebab langsung yang dapat diamati.",
+          "prompts": [
+            "Apa alasan langsung dari kesulitan ini?",
+            "Apa yang terjadi tepat sebelum Anda menghadapi masalah ini?",
+            "Apa yang membuat topik ini sangat menantang?"
+          ],
+          "criticalThinking": "Carilah jawaban berdasarkan bukti, bukan asumsi atau emosi."
+        },
+        "secondWhy": {
+          "title": "Mengapa Kedua - Analisis Lebih Dalam",
+          "guidance": "Sekarang tanyakan mengapa penyebab pertama itu ada. Mulailah menggali faktor-faktor yang mendasarinya.",
+          "prompts": [
+            "Mengapa penyebab langsung itu terjadi?",
+            "Kondisi apa yang menciptakan situasi ini?",
+            "Apa yang hilang yang akan mencegah penyebab ini?"
+          ],
+          "criticalThinking": "Pertanyakan apakah jawaban pertama Anda lengkap. Adakah faktor tersembunyi?"
+        },
+        "thirdWhy": {
+          "title": "Mengapa Ketiga - Tingkat Sistem",
+          "guidance": "Periksa sistem, proses, atau pola yang menciptakan penyebab yang lebih dalam.",
+          "prompts": [
+            "Mengapa kondisi ini ada di lingkungan belajar Anda?",
+            "Pola atau kebiasaan apa yang berkontribusi pada hal ini?",
+            "Bagaimana faktor eksternal memengaruhi situasi ini?"
+          ],
+          "criticalThinking": "Berpikirlah secara sistemik. Bagaimana elemen yang berbeda berinteraksi untuk menciptakan masalah ini?"
+        },
+        "fourthWhy": {
+          "title": "Mengapa Keempat - Faktor Fundamental",
+          "guidance": "Lihat keterampilan dasar, kesenjangan pengetahuan, atau masalah struktural.",
+          "prompts": [
+            "Mengapa pola ini bertahan?",
+            "Keterampilan atau pengetahuan dasar apa yang hilang?",
+            "Apa yang perlu diubah untuk mencegah masalah ini?"
+          ],
+          "criticalThinking": "Pertimbangkan pola jangka panjang dan elemen mendasar."
+        },
+        "fifthWhy": {
+          "title": "Mengapa Kelima - Akar Penyebab",
+          "guidance": "Identifikasi penyebab paling mendasar yang, jika diatasi, akan menyelesaikan masalah.",
+          "prompts": [
+            "Mengapa masalah fundamental ini ada?",
+            "Apa akar utama dari tantangan pembelajaran ini?",
+            "Jika Anda bisa mengubah satu hal untuk menyelesaikan ini, apa itu?"
+          ],
+          "criticalThinking": "Akar penyebab harus dapat ditindaklanjuti dan dalam kekuatan Anda untuk memengaruhi."
+        }
+      },
+      "contentLoaded": "Konten dimuat. Sekarang mari analisis tantangan pembelajaran ini langkah demi langkah.",
+      "readyToBegin": "Siap untuk memulai",
+      "analysisComplete": "Analisis selesai",
+      "stepsCompleted": "{{completed}}/{{total}} langkah selesai",
+      "quickStart": "Mulai Cepat dengan Konten Anda:",
+      "defineChallenge": "Atau Definisikan Tantangan Anda Sendiri:",
+      "topicDifficulty": "Saya kesulitan belajar tentang \"{{topic}}\"",
+      "textareaPlaceholder": "Jelaskan tantangan pembelajaran spesifik yang Anda hadapi..."
+    },
+    "flashcard": {
+      "loadingFlashquiz": "Memuat flashquiz...",
+      "error": "Terjadi Kesalahan",
+      "errorMessage": "Gagal memuat kuis. Silakan coba lagi nanti.",
+      "noQuestions": "Tidak Ada Pertanyaan",
+      "noQuestionsAvailable": "Tidak ada pertanyaan tersedia untuk topik ini.",
+      "back": "Kembali",
+      "close": "Tutup",
+      "congratulations": "Selamat!",
+      "completed": "Anda telah menyelesaikan {{completed}} dari {{total}} pertanyaan",
+      "sources": "Sumber:",
+      "retry": "Ulangi",
+      "learnWithFlashcard": "Belajar dengan Flashcard",
+      "previous": "Sebelumnya",
+      "next": "Selanjutnya",
+      "finish": "Selesai",
+      "question": "Pertanyaan {{current}} dari {{total}}",
+      "correctAnswerPrefix": "Jawaban yang benar adalah:"
+    }
+  },
+  "pageHeader": {
+    "lenteraChat": "Lentera Chat"
+  },
+  "pageFooter": {
+    "madeWith": "Dibuat dengan ❤️",
+    "copyright": "© 2025 Lentera AI"
+  },
+  "search": {
+    "placeholder": "Cari konten...",
+    "button": "Cari",
+    "noResults": "Tidak ada hasil ditemukan",
+    "loading": "Mencari...",
+    "sources": "sumber"
+  },
+  "splash": {
+    "platformLoading": "Memuat platform...",
+    "preparingAI": "Menyiapkan AI...",
+    "readyToLearn": "Siap belajar!",
+    "brandName": "Lentera AI",
+    "tagline": "Platform Pembelajaran AI",
+    "features": {
+      "aiLearning": "Pembelajaran AI",
+      "digitalLibrary": "Perpustakaan Digital",
+      "fastLearning": "Pembelajaran Cepat"
+    }
+  },
+  "index": {
+    "hero": {
+      "title": "Belajar Apa Saja dengan {aiTutor}",
+      "aiTutor": "AI Tutor",
+      "subtitle": "Platform pembelajaran cerdas yang membantu Anda memahami materi dengan cara yang paling sesuai untuk Anda",
+      "searchPlaceholder": "What do you want to learn today?",
+      "startLearning": "Start Learning",
+      "start": "Start",
+      "askAIDirect": "Ask AI Directly",
+      "askAI": "Ask AI",
+      "exploreTopics": "Explore Topics"
+    },
+    "features": {
+      "title": "Mengapa Lentera?",
+      "subtitle": "Temukan bagaimana platform kami dapat mengubah pengalaman belajar Anda",
+      "learning": "Learning",
+      "personalLearning": {
+        "title": "Personal Learning",
+        "description": "AI that understands your learning style and automatically adapts material"
+      },
+      "interactiveTools": {
+        "title": "Interactive Tools",
+        "description": "Flashcards, quizzes, mind maps, and other learning tools created automatically"
+      },
+      "offlineAccess": {
+        "title": "Offline Access",
+        "description": "Learn anytime, anywhere, even without internet connection"
+      }
+    },
+    "tools": {
+      "title": "Alat Pembelajaran",
+      "subtitle": "Jelajahi alat-alat khusus kami untuk berbagai gaya belajar",
+      "learning": "Learning",
+      "viewAllTools": "View All Tools"
+    },
+    "stats": {
+      "title": "Dampak Kami",
+      "subtitle": "Angka yang menunjukkan bagaimana kami mengubah pendidikan",
+      "learningMaterials": "Learning Materials",
+      "activeUsers": "Active Users",
+      "satisfactionRate": "Satisfaction Rate"
+    },
+    "cta": {
+      "title": "Siap untuk Memulai?",
+      "subtitle": "Bergabunglah dengan ribuan siswa yang telah mengubah cara belajar mereka",
+      "button": "Mulai Gratis Sekarang",
+      "startNow": "Start Learning Now",
+      "demoAI": "Demo AI Tutor"
+    },
+    "footer": {
+      "copyright": "© 2024 Lentera",
+      "tagline": "AI Learning Platform",
+      "madeWith": "Made with ❤️"
+    }
+  },
+  "explore": {
+    "title": "Eksplorasi Pengetahuan",
+    "subtitle": "Temukan, pelajari, dan kuasai topik apa pun dengan bantuan AI",
+    "searchPlaceholder": "Ketik topik yang ingin dipelajari...",
+    "trending": "Trending",
+    "subjects": {
+      "mathematics": "Matematika",
+      "science": "Sains",
+      "history": "Sejarah",
+      "geography": "Geografi",
+      "physics": "Fisika",
+      "chemistry": "Kimia",
+      "random": "Acak"
+    },
+    "popularTopics": "Contoh Topik Populer",
+    "randomTopics": "Topik Acak",
+    "subjectTopics": "Topik",
+    "tools": {
+      "fiveWhys": "5 Mengapa",
+      "flashcards": "Flashcard",
+      "quiz": "Kuis",
+      "mindMap": "Peta Pikiran",
+      "summary": "Ringkasan",
+      "simple": "Sederhana",
+      "practice": "Latihan",
+      "timeline": "Timeline",
+      "solver": "Pemecah"
+    },
+    "qaMode": {
+      "greeting": "Hello! I'm ready to help you understand more about \"{{topic}}\". Please ask any question!",
+      "placeholder": "Ask your question...",
+      "send": "Send"
+    },
+    "exploration": "Exploration",
+    "voiceSearchActive": "Voice search active"
+  },
+  "explorePage": {
+    "trendingTopics": {
+      "plantPhotosynthesis": "Fotosintesis tumbuhan",
+      "bloodCirculation": "Sistem peredaran darah",
+      "indonesianIndependence": "Sejarah kemerdekaan Indonesia",
+      "quadraticEquations": "Persamaan kuadrat",
+      "gravityPlanetaryMotion": "Gravitasi dan gerak planet",
+      "atomicStructure": "Struktur atom"
+    },
+    "subjectCategories": {
+      "mathematics": {
+        "quadraticEquations": "Persamaan kuadrat",
+        "calculus": "Kalkulus",
+        "geometry": "Geometri",
+        "statistics": "Statistika",
+        "linearAlgebra": "Aljabar linear",
+        "trigonometry": "Trigonometri",
+        "logarithms": "Logaritma",
+        "matrices": "Matriks",
+        "functionLimits": "Limit fungsi",
+        "integrals": "Integral",
+        "differentials": "Diferensial",
+        "probability": "Probabilitas"
+      },
+      "science": {
+        "plantPhotosynthesis": "Fotosintesis tumbuhan",
+        "bloodCirculation": "Sistem peredaran darah",
+        "evolution": "Evolusi",
+        "ecosystems": "Ekosistem",
+        "genetics": "Genetika",
+        "cellularRespiration": "Respirasi seluler",
+        "nervousSystem": "Sistem saraf",
+        "mitosisMeiosis": "Mitosis dan meiosis",
+        "naturalSelection": "Seleksi alam",
+        "foodChain": "Rantai makanan",
+        "digestiveSystem": "Sistem pencernaan",
+        "hormones": "Hormon"
+      },
+      "history": {
+        "indonesianIndependence": "Sejarah kemerdekaan Indonesia",
+        "worldWarII": "Perang Dunia II",
+        "industrialRevolution": "Revolusi industri",
+        "majapahitKingdom": "Kerajaan Majapahit",
+        "reformation": "Reformasi",
+        "independenceProclamation": "Proklamasi kemerdekaan",
+        "diponegoroWar": "Perang Diponegoro",
+        "youthPledge": "Sumpah Pemuda",
+        "asiaAfricaConference": "Konferensi Asia Afrika",
+        "newOrder": "Orde Baru",
+        "sriwijayaKingdom": "Kerajaan Sriwijaya"
+      },
+      "geography": {
+        "tectonicPlates": "Lempeng tektonik",
+        "tropicalClimate": "Iklim tropis",
+        "topographicMaps": "Peta topografi",
+        "volcanoes": "Gunung berapi",
+        "longestRivers": "Sungai terpanjang",
+        "continentsOceans": "Benua dan samudra",
+        "weatherClimate": "Cuaca dan iklim",
+        "soilRocks": "Tanah dan batuan",
+        "rainForests": "Hutan hujan tropis",
+        "populationDistribution": "Persebaran penduduk",
+        "urbanization": "Urbanisasi",
+        "globalization": "Globalisasi"
+      },
+      "physics": {
+        "gravityPlanetaryMotion": "Gravitasi dan gerak planet",
+        "newtonsLaws": "Hukum Newton",
+        "electromagneticWaves": "Gelombang elektromagnetik",
+        "relativity": "Relativitas",
+        "quantumMechanics": "Mekanika kuantum",
+        "kineticEnergy": "Energi kinetik",
+        "momentum": "Momentum",
+        "thermodynamics": "Termodinamika",
+        "optics": "Optik",
+        "electricityMagnetism": "Listrik dan magnet",
+        "harmonicMotion": "Gerak harmonik",
+        "fluids": "Fluida"
+      },
+      "chemistry": {
+        "atomicStructure": "Struktur atom",
+        "chemicalBonds": "Ikatan kimia",
+        "redoxReactions": "Reaksi redoks",
+        "periodicTable": "Tabel periodik",
+        "thermochemistry": "Termokimia",
+        "acidsBases": "Asam basa",
+        "electrolysis": "Elektrolisis",
+        "chemicalEquilibrium": "Kesetimbangan kimia",
+        "reactionRate": "Laju reaksi",
+        "organicChemistry": "Kimia organik",
+        "stoichiometry": "Stoikiometri",
+        "solutions": "Larutan"
+      }
+    },
+    "questionSuggestions": {
+      "practicalApplications": "Bagaimana cara praktik langsung?",
+      "commonMistakes": "Apa kesalahan umum yang harus dihindari?",
+      "dailyApplications": "Bagaimana menerapkan ini dalam kehidupan sehari-hari?",
+      "prerequisites": "Apa prasyarat yang perlu dipahami?",
+      "compareWithOtherConcepts": "Bandingkan dengan konsep lain",
+      "simpleAnalogy": "Berikan analogi yang mudah dipahami"
+    },
+    "generatedBy": "Dibuat oleh Lentera AI",
+    "loadingMessages": {
+      "searching": "Mencari...",
+      "loadingResults": "Memuat hasil..."
+    },
+    "statusMessages": {
+      "searchingFor": "Mencari hasil...",
+      "resultsFound": "Hasil ditemukan untuk {query}",
+      "noResults": "Tidak ada hasil ditemukan"
+    },
+    "pagination": {
+      "previous": "Sebelumnya",
+      "next": "Selanjutnya",
+      "page": "Halaman {page} dari {{total}}"
+    },
+    "search": {
+      "button": "Cari",
+      "error": "Terjadi kesalahan saat mencari. Silakan coba lagi.",
+      "placeholder": "Ketik topik yang ingin dipelajari...",
+      "results": "Hasil Pencarian",
+      "showing": "Menampilkan {{count}} hasil pencarian ({time} detik)",
+      "loadingSummary": "Memuat ringkasan...",
+      "failedSummary": "Gagal memuat ringkasan",
+      "completeSummary": "Ringkasan Lengkap",
+      "basicSummary": "Ringkasan Dasar",
+      "noResults": "Tidak ada hasil ditemukan",
+      "startSearching": "Mulai mencari untuk melihat ringkasan hasil",
+      "checkConnection": "Silakan periksa koneksi Anda dan coba lagi",
+      "noContent": "Tidak ada konten tersedia"
+    },
+    "summary": {
+      "title": "Ringkasan:",
+      "sources": "Sumber",
+      "generatedBy": "Dibuat oleh Lentera AI",
+      "unavailable": "Tidak ada ringkasan tersedia. Klik tombol \"Baca Ringkasan\" untuk menghasilkan ringkasan."
+    },
+    "actions": {
+      "readSummary": "Baca Ringkasan",
+      "openArticle": "Buka Artikel",
+      "watchVideo": "Tonton Video",
+      "askQuestion": "Ajukan Pertanyaan",
+      "backToResults": "Kembali ke Hasil"
+    },
+    "qa": {
+      "greeting": "Halo! Saya siap membantu Anda memahami lebih banyak tentang \"{{topic}}\". Silakan ajukan pertanyaan!",
+      "placeholder": "Tanyakan apa saja tentang topik ini...",
+      "send": "Kirim",
+      "simulatedResponse": "Berdasarkan topik \"{{topic}}\", berikut penjelasan untuk pertanyaan Anda: \"{question}\". Ini adalah respons simulasi yang akan digantikan oleh AI asli.",
+      "suggestions": "Saran pertanyaan pintar:",
+      "assistant": "Asisten AI Lentera",
+      "exploring": "Menjelajahi topik: {{topic}}",
+      "context": "Konteks & Alat",
+      "activeTopic": "Topik Aktif",
+      "relatedSources": "Sumber Terkait",
+      "learningTools": "Alat Pembelajaran",
+      "sessionStats": "Statistik Sesi",
+      "messages": "Pesan",
+      "questions": "Pertanyaan",
+      "suggestionButtons": {
+        "explainSimpler": "Jelaskan lebih sederhana",
+        "giveExamples": "Berikan contoh",
+        "deeperAnalysis": "Analisis lebih dalam"
+      },
+      "contextPanel": {
+        "title": "Konteks & Alat",
+        "activeTopic": "Topik Aktif",
+        "relatedSources": "Sumber Terkait",
+        "learningTools": "Alat Pembelajaran",
+        "sessionStats": "Statistik Sesi"
+      }
+    },
+    "topics": {
+      "popular": "Popular Topics Examples",
+      "random": "Random Topics",
+      "subject": "Topics"
+    },
+    "fiveWhys": {
+      "title": "5 Whys Critical Thinking Trainer",
+      "description": "Develop your analytical skills by systematically examining learning challenges",
+      "stepProgress": "Step {step} of 6 - {title}",
+      "introduction": "Introduction",
+      "summary": {
+        "title": "Analysis Complete!",
+        "description": "You've successfully applied critical thinking to understand your learning challenge",
+        "analysis": "Your 5 Whys Analysis:",
+        "challenge": "Learning Challenge:",
+        "question": "Question #{number}",
+        "generatedAnswer": "Generated Answer",
+        "skillsTitle": "Critical Thinking Skills Developed",
+        "actionPlan": "Generate Action Plan",
+        "newAnalysis": "Start New Analysis"
+      },
+      "criticalThinking": {
+        "tips": {
+          "lookBeyond": {
+            "title": "Look Beyond the Surface",
+            "description": "Don't accept the first answer. Dig deeper to find underlying causes.",
+            "example": "Instead of 'I'm bad at math', ask 'What specific math concepts am I struggling with?'"
+          },
+          "questionAssumptions": {
+            "title": "Question Assumptions",
+            "description": "Challenge what you think you know. Are your assumptions correct?",
+            "example": "Is the teaching method the problem, or do I need different prerequisites?"
+          },
+          "multipleViews": {
+            "title": "Consider Multiple Perspectives",
+            "description": "Look at the problem from different angles and viewpoints.",
+            "example": "How would a teacher, peer, or expert view this learning challenge?"
+          },
+          "rootCauses": {
+            "title": "Focus on Root Causes",
+            "description": "Identify what's really causing the issue, not just symptoms.",
+            "example": "Poor grades are a symptom. What learning habits or gaps cause them?"
+          },
+          "connections": {
+            "title": "Make Connections",
+            "description": "Link this problem to broader patterns in your learning.",
+            "example": "Does this connect to how I approach other subjects or skills?"
+          }
+        }
+      },
+      "intro": {
+        "quickStart": "Quick Start with Your Content:",
+        "defineChallenge": "Or Define Your Own Challenge:",
+        "textarea": "Describe a specific learning challenge you're facing...",
+        "whatLearn": "What You'll Learn",
+        "learn": {
+          "systematic": "How to analyze problems systematically",
+          "questioning": "Critical thinking questioning techniques",
+          "rootCause": "Root cause identification skills",
+          "reasoning": "Evidence-based reasoning"
+        }
+      },
+      "steps": {
+        "guidance": {
+          "1": {
+            "title": "Define the Learning Problem",
+            "guidance": "Clearly state what specific learning challenge you're facing. Be precise and avoid vague statements.",
+            "prompts": {
+              "0": "What exactly are you struggling to understand?",
+              "1": "When does this problem occur most?",
+              "2": "How does this affect your learning goals?"
+            },
+            "criticalThinking": "Critical thinking starts with clarity. A well-defined problem is half solved."
+          },
+          "2": {
+            "title": "First Why - Immediate Cause",
+            "guidance": "Ask why this learning problem exists. Focus on the most direct, observable cause.",
+            "prompts": {
+              "0": "What is the immediate reason for this difficulty?",
+              "1": "What happens right before you encounter this problem?",
+              "2": "What makes this topic particularly challenging?"
+            },
+            "criticalThinking": "Look for evidence-based answers, not assumptions or emotions."
+          },
+          "3": {
+            "title": "Second Why - Deeper Analysis",
+            "guidance": "Now ask why that first cause exists. Start digging into underlying factors.",
+            "prompts": {
+              "0": "Why does that immediate cause happen?",
+              "1": "What conditions create this situation?",
+              "2": "What's missing that would prevent this cause?"
+            },
+            "criticalThinking": "Question whether your first answer is complete. Are there hidden factors?"
+          },
+          "4": {
+            "title": "Third Why - System Level",
+            "guidance": "Examine the systems, processes, or patterns that create the deeper causes.",
+            "prompts": {
+              "0": "Why do these conditions exist in your learning environment?",
+              "1": "What patterns or habits contribute to this?",
+              "2": "How do external factors influence this situation?"
+            },
+            "criticalThinking": "Think systemically. How do different elements interact to create this problem?"
+          },
+          "5": {
+            "title": "Fourth Why - Fundamental Factors",
+            "guidance": "Look at fundamental skills, knowledge gaps, or structural issues.",
+            "prompts": {
+              "0": "Why do these patterns persist?",
+              "1": "What fundamental skills or knowledge are missing?",
+              "2": "What would need to change to prevent this problem?"
+            },
+            "criticalThinking": "Consider long-term patterns and foundational elements."
+          },
+          "6": {
+            "title": "Fifth Why - Root Cause",
+            "guidance": "Identify the deepest, most fundamental cause that, if addressed, would solve the problem.",
+            "prompts": {
+              "0": "Why do these fundamental issues exist?",
+              "1": "What's the ultimate root of this learning challenge?",
+              "2": "If you could change one thing to solve this, what would it be?"
+            },
+            "criticalThinking": "The root cause should be actionable and within your power to influence."
+          }
+        }
+      },
+      "step": {
+        "stepOf": "Step {{current}} of {{total}}",
+        "focus": "Focus on crafting a precise \"why\" question that digs deeper into the root cause.",
+        "previousAnswer": "Previous Answer:",
+        "generatedAnswer": "Generated Answer:",
+        "formulate": "Formulate a 'Why' question about this learning problem:",
+        "formulateNext": "Formulate the next 'Why' question based on: \"{previous}\"",
+        "writeQuestion": "Write a specific 'why' question that will help uncover deeper causes...",
+        "questionTip": "Focus on asking the right question. The answer will be generated automatically to help your learning.",
+        "showTips": "Show Question Crafting Tips",
+        "hideTips": "Hide Question Crafting Tips",
+        "tipTitle": "Question Crafting Tips",
+        "tips": {
+          "start": "Start with \"Why\" to focus on causes, not symptoms",
+          "specific": "Be specific rather than vague in your questioning",
+          "challenge": "Challenge assumptions in your previous answer",
+          "systemic": "Look for systemic or structural causes",
+          "perspectives": "Consider multiple perspectives on the problem"
+        },
+        "skillFocus": "Critical Thinking Skill Focus"
+      },
+      "buttons": {
+        "previous": "Previous",
+        "next": "Next Step",
+        "start": "Start Analysis",
+        "complete": "Complete",
+        "readyToBegin": "Ready to begin",
+        "analysisComplete": "Analysis complete",
+        "stepsCompleted": "{{completed}}/{{total}} steps completed"
+      },
+      "toast": {
+        "defineProblem": {
+          "title": "Define Your Problem First",
+          "description": "Please describe the learning challenge you want to analyze"
+        },
+        "completeStep": {
+          "title": "Complete This Step",
+          "description": "Please formulate a 'why' question before proceeding"
+        },
+        "answerGenerated": {
+          "title": "Answer Generated!",
+          "description": "Your question has been answered. Review it and continue."
+        },
+        "analysisReset": {
+          "title": "Analysis Reset",
+          "description": "Ready to start a new 5 Whys critical thinking exercise"
+        },
+        "analysisComplete": {
+          "title": "Critical Thinking Analysis Complete!",
+          "description": "You've developed deeper insight through {{count}} levels of analysis"
+        },
+        "continueAnalysis": {
+          "title": "Continue Your Analysis",
+          "description": "Complete at least 3 steps to develop meaningful insights"
+        },
+        "contentLoaded": {
+          "title": "Content Loaded",
+          "description": "Now let's analyze this learning challenge step by step"
+        }
+      }
+    },
+    "api": {
+      "errors": {
+        "flashQuiz": "Failed to fetch flashcard quiz: {status}",
+        "elix": "Failed to fetch ELIx explanation: {status}",
+        "mindMap": "Failed to fetch mindmap: {status}",
+        "generic": "An error occurred. Please try again."
+      }
+    }
+  },
+  "notFound": {
+    "title": "Halaman Tidak Ditemukan",
+    "description": "Oops! Halaman yang Anda cari tidak ada atau telah dipindahkan.",
+    "backToHome": "Kembali ke Beranda",
+    "exploreContent": "Jelajahi Pembelajaran",
+    "backToPrevious": "Kembali ke Halaman Sebelumnya",
+    "helpText": "Butuh bantuan? Coba cari topik yang ingin Anda pelajari di halaman eksplorasi."
+  },
+  "about": {
+    "title": "Lentera Digital untuk",
+    "subtitle": "Pembelajaran Masa Depan",
+    "platformDescription": "Lentera adalah platform pembelajaran AI yang revolusioner, dirancang untuk menjadi lentera digital yang menerangi perjalanan belajar setiap individu dengan teknologi terdepan.",
+    "mission": {
+      "title": "Misi Kami",
+      "description": "Memberikan akses pendidikan berkualitas tinggi untuk semua orang, di mana pun mereka berada.",
+      "personal": "Pembelajaran Personal",
+      "access": "Akses untuk Semua",
+      "quality": "Kualitas Terjamin",
+      "personalLearning": {
+        "title": "Personal Learning",
+        "description": "AI that understands each individual's unique learning style"
+      },
+      "accessForAll": {
+        "title": "Access for All",
+        "description": "Platform accessible anytime, anywhere"
+      },
+      "qualityAssured": {
+        "title": "Quality Assured",
+        "description": "High-quality and verified learning materials"
+      }
+    },
+    "features": {
+      "title": "Fitur Unggulan Platform",
+      "subtitle": "Teknologi canggih yang dirancang khusus untuk meningkatkan pengalaman belajar Anda",
+      "ai": "AI Pembelajaran Cerdas",
+      "library": "Pustaka Digital Lengkap",
+      "adaptive": "Pembelajaran Adaptif",
+      "offline": "Akses Offline",
+      "smartAI": {
+        "title": "Smart AI Learning",
+        "description": "Cutting-edge AI technology that understands each user's unique learning style"
+      },
+      "digitalLibrary": {
+        "title": "Complete Digital Library",
+        "description": "Access to thousands of high-quality learning materials from various sources"
+      },
+      "adaptiveLearning": {
+        "title": "Adaptive Learning",
+        "description": "Learning speed that adapts to your abilities and progress"
+      },
+      "offlineAccess": {
+        "title": "Offline Access",
+        "description": "Learn anytime, anywhere, even without internet connection"
+      }
+    },
+    "values": {
+      "title": "Nilai-Nilai Kami",
+      "subtitle": "Prinsip-prinsip yang memandu setiap pengembangan dan inovasi di Lentera",
+      "focus": "Fokus pada Hasil",
+      "humanistic": "Pembelajaran Humanis",
+      "privacy": "Privasi Terjamin",
+      "innovation": "Inovasi Berkelanjutan",
+      "resultFocused": {
+        "title": "Result Focused",
+        "description": "Every feature is designed to maximize understanding and knowledge retention"
+      },
+      "humanisticLearning": {
+        "title": "Humanistic Learning",
+        "description": "AI that understands that everyone has a different way of learning"
+      },
+      "privacyGuaranteed": {
+        "title": "Privacy Guaranteed",
+        "description": "Your learning data is safe and not shared with third parties"
+      },
+      "continuousInnovation": {
+        "title": "Continuous Innovation",
+        "description": "Continuously developing learning technology for a better future"
+      }
+    },
+    "stats": {
+      "materials": "Materi Pembelajaran",
+      "users": "Pengguna Aktif",
+      "satisfaction": "Tingkat Kepuasan",
+      "languages": "Bahasa Didukung",
+      "learningMaterials": "Learning Materials",
+      "activeUsers": "Active Users",
+      "satisfactionRate": "Satisfaction Rate",
+      "supportedLanguages": "Supported Languages"
+    },
+    "cta": {
+      "title": "Siap Memulai Perjalanan Belajar?",
+      "subtitle": "Bergabunglah dengan ribuan pelajar yang sudah merasakan perbedaan belajar dengan Lentera",
+      "start": "Mulai Belajar Gratis",
+      "back": "Kembali ke Beranda",
+      "startFree": "Start Learning Free",
+      "backHome": "Back to Home"
+    },
+    "future": "Future"
+  },
+  "loading": {
+    "messages": {
+      "searching": "Mencari hasil...",
+      "preparing": "Menyiapkan AI Tutor...",
+      "loadingResults": "Memuat hasil..."
+    },
+    "educationalFacts": [
+      "Manusia rata-rata belajar 70% dari pengalaman, 20% dari orang lain, dan 10% dari buku.",
+      "Membaca dengan suara keras meningkatkan retensi memori hingga 15%.",
+      "Otak kita dapat menyimpan sekitar 2,5 petabyte informasi.",
+      "Tidur setelah belajar meningkatkan kemampuan mengingat hingga 30%.",
+      "Mengajarkan orang lain adalah cara terbaik untuk memahami suatu topik.",
+      "Menulis catatan dengan tangan meningkatkan pemahaman lebih baik dari mengetik.",
+      "Belajar 30-50 menit dengan istirahat pendek lebih efektif dari marathon belajar.",
+      "Menggunakan warna berbeda saat mencatat meningkatkan daya ingat hingga 25%.",
+      "Belajar di tempat yang sama setiap hari membantu otak mengenali bahwa saat itu adalah waktu belajar.",
+      "Keterlibatan emosional dalam pembelajaran meningkatkan retensi jangka panjang.",
+      "Berjalan kaki selama 20 menit dapat meningkatkan kreativitas dan daya pikir.",
+      "Mengulang informasi dalam interval tertentu (spaced repetition) sangat efektif untuk mengingat.",
+      "Mind mapping membantu mengorganisir ide dan meningkatkan pemahaman konsep kompleks.",
+      "Menjaga hidrasi tubuh penting karena dehidrasi ringan pun bisa mengganggu fokus.",
+      "Membuat koneksi antara informasi baru dan pengetahuan lama memperkuat ingatan.",
+      "Belajar dengan variasi metode (visual, auditori, kinestetik) membantu memperkuat konsep.",
+      "Latihan soal lebih efektif dari membaca ulang materi untuk menguji pemahaman.",
+      "Belajar bersama dapat meningkatkan performa akademik."
+    ]
+  },
+  "ageRanges": {
+    "preschool": {
+      "label": "3-5 tahun",
+      "description": "Anak balita"
+    },
+    "earlyElementary": {
+      "label": "6-8 tahun",
+      "description": "Anak kecil"
+    },
+    "elementary": {
+      "label": "9-12 tahun",
+      "description": "Anak SD"
+    },
+    "middleSchool": {
+      "label": "13-15 tahun",
+      "description": "Remaja SMP"
+    },
+    "highSchool": {
+      "label": "16-18 tahun",
+      "description": "Remaja SMA"
+    },
+    "adult": {
+      "label": "Dewasa",
+      "description": "Umum"
+    }
+  }
+}

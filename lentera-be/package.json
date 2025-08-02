@@ -1,0 +1,25 @@
+{
+  "name": "lentera-be",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "init-db": "bun run scripts/run-init-db.ts",
+    "init-content-library": "bun run scripts/run-init-content-library.ts",
+    "init-search-summaries": "bun run scripts/run-init-search-summaries.ts",
+    "init-flashquiz": "bun run scripts/run-init-flashquiz.ts",
+    "init-mindmap": "bun run scripts/run-init-mindmap.ts"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.15.10",
+    "axios": "^1.11.0",
+    "fast-cosine-similarity": "^1.2.2",
+    "fast-xml-parser": "^5.2.5",
+    "hono": "^4.8.5",
+    "jsonrepair": "^3.13.0",
+    "ollama": "^0.5.16",
+    "openai": "^5.10.2",
+    "p-limit": "^6.2.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
