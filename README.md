@@ -126,7 +126,7 @@ LENTERA leverages Gemma 3n's unique capabilities:
 - **Storage**: 128GB SSD storage for educational content
 - **Network**: Wi-Fi adapter with hotspot capability
 
-### Installation (Local)
+### Installation (Local Network)
 
 1. Clone this repository:
    ```bash
