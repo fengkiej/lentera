@@ -8,6 +8,7 @@ import InteractiveFlashcard from './interactive-flashcard';
 import { fetchFlashQuiz, FlashQuizResponse, QuizItem, Source } from '@/services/api';
 import { LoadingOverlay } from './loading-overlay';
 import { getApiLanguageParameter } from '@/utils/language-utils';
+import { API_ENDPOINTS, API_BASE_URL, LIBRARY_URL, buildApiUrl } from "@/config/api.config"
 
 // Sample flashcard questions
 const sampleQuestions = [
@@ -271,7 +272,7 @@ const FlashcardLearning = ({ topic = "Umum", searchId, onClose }: FlashcardLearn
                     <li key={index} className="flex items-start">
                       <span className="mr-2">•</span>
                       <a
-                        href={source.link}
+                        href={`${LIBRARY_URL}${source.link}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:text-primary hover:underline truncate"

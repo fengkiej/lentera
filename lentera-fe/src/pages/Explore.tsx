@@ -902,7 +902,7 @@ const Explore = () => {
                                   <div className="h-1.5 w-1.5 rounded-full bg-secondary flex-shrink-0"></div>
                                   <span
                                     className="text-primary hover:text-primary/80 hover:underline transition-colors cursor-pointer text-left"
-                                    onClick={() => window.open(source.link, '_blank')}
+                                    onClick={() => window.open(`${LIBRARY_URL}${source.link}`, '_blank')}
                                     title={source.title}
                                     style={{
                                       whiteSpace: "nowrap",

@@ -8,6 +8,7 @@ import { getApiLanguageParameter } from "@/utils/language-utils"
 import { motion } from "framer-motion"
 import { fetchMindMap, MindMapResponse, MindMapNode, Source } from "@/services/api"
 import { LoadingOverlay } from "./loading-overlay"
+import { API_ENDPOINTS, API_BASE_URL, LIBRARY_URL, buildApiUrl } from "@/config/api.config"
 
 interface MindMapModalProps {
   isOpen: boolean
@@ -453,7 +454,7 @@ export const MindMapModal = ({ isOpen, onClose, topic, searchId, language, onSea
                 {mindMapData.mindmap.sources.slice(0, 3).map((source, idx) => (
                   <a
                     key={idx}
-                    href={source.link}
+                    href={`${LIBRARY_URL}${source.link}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:underline truncate max-w-[200px]"
