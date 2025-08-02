@@ -8,9 +8,9 @@ LENTERA (meaning "light" in Bahasa Indonesia) is a lightweight, offline AI micro
 
 **Demo URL:** http://homelab.buddylabs.ai/ *(Note: Hosted on a personal homelab instance that may have limited availability)*
 
-## ⚠️ The Problem: AI Divide in Education
+## ⚠️ The Problem: Internet & AI Divide in Education
 
-While 2.2 billion children and young people worldwide lack internet at home, AI is rapidly transforming educational possibilities for those with access. This creates a devastating new "AI divide" where disconnected communities are doubly disadvantaged:
+While 2.2 billion children and young people worldwide lack internet at home, AI is rapidly transforming educational possibilities for those with access. On top of current "information divide", this situation also creates a devastating new "AI divide" where disconnected communities are doubly disadvantaged:
 
 - No access to basic online resources
 - No access to emerging AI educational tools
