@@ -98,7 +98,7 @@ Return ONLY a valid JSON array (no markdown, no comments), format:
     quizzes: parsed,
     sources: topResults.map(r => ({
       title: r.title,
-      link: `${CONTENT_FETCH_BASE}${r.link}`
+      link: `${r.link}`
     }))
   };
 }

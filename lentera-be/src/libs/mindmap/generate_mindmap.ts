@@ -94,7 +94,7 @@ Return ONLY a valid JSON object (no markdown, no comments), format:
     ...parsed,
     sources: topResults.map(r => ({
       title: r.title,
-      link: `${CONTENT_FETCH_BASE}${r.link}`
+      link: `${r.link}`
     }))
   };
 }

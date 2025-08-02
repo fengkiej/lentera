@@ -77,7 +77,7 @@ export async function generateSearchSummary(
     answer: responseContent,
     sources: topResults.map(r => ({
       title: r.title,
-      link: `${CONTENT_FETCH_BASE}${r.link}`
+      link: `${r.link}`
     }))
   };
 }
