@@ -143,7 +143,7 @@ LENTERA leverages Gemma 3n's unique capabilities:
 
 3. Initialize the database and content:
    ```bash
-   chmod +x && ./db-init.sh
+   chmod +x ./db-init.sh && ./db-init.sh
    ```
 
 4. Start the containers:
