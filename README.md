@@ -41,35 +41,72 @@ All without requiring internet, subscriptions, or cloud services - at just 3.6-5
 
 LENTERA uses a containerized microservices architecture:
 
-```
-┌─────────────────────────────────────────────────┐
-│                 User Devices                     │
-│  (Connect via Local Wi-Fi - No Internet Needed)  │
-└───────────────┬─────────────┬──────────────┬────┘
-                │             │              │
-                ▼             ▼              ▼
-┌──────────┐ ┌─────────┐ ┌─────────┐  ┌────────────┐
-│ Frontend │ │ Open    │ │ Kiwix   │  │ Backend    │
-│ Service  │ │ WebUI   │ │ Viewer  │  │ Service    │
-│ (React/  │ │         │ │         │  │ (Bun/Hono) │
-│  Vite)   │ │         │ │         │  │            │
-└────┬─────┘ └────┬────┘ └────┬────┘  └──────┬─────┘
-     │            │           │              │
-     └────────────┴───────────┼──────────────┘
-                              │
-                ┌─────────────┴─────────────┐
-                │                           │
-          ┌─────┴─────┐             ┌──────┴──────┐
-          │ Kiwix     │             │ Ollama      │
-          │ Server    │             │ (Gemma 3n)  │
-          │ (Content) │             │             │
-          └───────────┘             └─────────────┘
-                │                          │
-                │                          │
-          ┌─────┴──────────────────────────┴─────┐
-          │           LibSQL Database            │
-          │  (Embeddings, Cache, User Data)      │
-          └────────────────────────────────────────
+```mermaid
+flowchart LR
+    User[User Devices<br>Laptop, Smartphone, Tablet]
+    
+    %% User connections to web services
+    User -->|Wi-Fi : 8091| FE[Frontend<br/>Vite + React]
+    User -->|Wi-Fi : 8080| WebUI[OpenWebUI]
+    User -->|Wi-Fi : 8090| KiwixViewer[Kiwix Viewer<br/>Web Interface]
+    
+    %% Internal service connections
+    FE -->|API : 3000| BE[Backend<br/>Hono + Bun]
+    WebUI -->|Inference : 11434| Ollama[Ollama Service]
+    BE -->|Inference : 11434| Ollama
+    BE -->|Content : 8090| KiwixServer[Kiwix Server<br/>Content Service]
+    BE -->|Data : 30000| DB[(LibSQL Database)]
+    
+    %% AI model connections
+    Ollama -.-> Gemma[Gemma 3B]
+    Ollama -.-> MiniLM[all-MiniLM-L12-v2]
+    
+    %% Storage connection
+    KiwixServer -.-> ZIM[ZIM Files]
+    DB -.-> DBFile[Database File<br/>.db]
+    
+    %% Viewer-Server connection
+    KiwixViewer -->|Content Request| KiwixServer
+    
+    subgraph Server["🖥️ LENTERA Microserver"]
+        direction TB
+        
+        subgraph WS["🌐 Web Services"]
+            FE
+            WebUI  
+            KiwixViewer
+        end
+        
+        subgraph CS["⚙️ Core Services"]
+            BE
+        end
+        
+        subgraph AI["🤖 AI Services"]
+            Ollama
+            Gemma
+            MiniLM
+        end
+        
+        subgraph ST["💾 Storage"]
+            DB
+            DBFile
+            ZIM
+            KiwixServer
+        end
+    end
+    
+    %% Styling
+    classDef userNode fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    classDef webService fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
+    classDef coreService fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px
+    classDef aiService fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    classDef storage fill:#fce4ec,stroke:#880e4f,stroke-width:2px
+    
+    class User userNode
+    class FE,WebUI,KiwixViewer webService
+    class BE coreService
+    class Ollama,Gemma,MiniLM aiService
+    class DB,ZIM,KiwixServer,DBFile storage
 ```
 
 ### How Gemma 3n Powers LENTERA
