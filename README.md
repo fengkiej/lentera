@@ -1,4 +1,4 @@
-# LENTERA: Offline AI Education Microserver
+# LENTERA: Offline AI Microserver for Remote Schools
 
 > **LENTERA**: Bringing Light to the Most Unreachable Corners of the Earth.
 
