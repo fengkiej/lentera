@@ -10,7 +10,8 @@ export default defineConfig({
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
-    server: {
+  },
+  server: {
       allowedHosts: ["homelab.buddylabs.ai"]
     }
   },
