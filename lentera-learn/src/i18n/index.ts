@@ -45,8 +45,8 @@ const resources = {
   },
 };
 
-// Get saved language from localStorage or default to Indonesian
-const savedLanguage = localStorage.getItem('lentera-language') || 'id';
+// Get saved language from localStorage or default to English
+const savedLanguage = localStorage.getItem('lentera-language') || 'en';
 
 i18n
   .use(LanguageDetector)
