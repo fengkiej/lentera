@@ -88,6 +88,34 @@ export const PageHeader = ({
                 <span>{t('pageHeader.lenteraChat')}</span>
               )}
             </Button>
+            <Button
+              variant="ghost"
+              size="sm"
+              asChild
+              className="text-muted-foreground hover:text-foreground hover:bg-muted/50 transition-all duration-200 px-3 py-2 rounded-lg hover:shadow-sm"
+            >
+              {true ? (
+                <a href="http://homelab.buddylabs.ai:8092" target="_blank" rel="noopener noreferrer">
+                   Lentera Learn
+                </a>
+              ) : (
+                <span>Lentera Learn</span>
+              )}
+            </Button>
+                        <Button
+              variant="ghost"
+              size="sm"
+              asChild
+              className="text-muted-foreground hover:text-foreground hover:bg-muted/50 transition-all duration-200 px-3 py-2 rounded-lg hover:shadow-sm"
+            >
+              {true ? (
+                <a href="http://homelab.buddylabs.ai:8092" target="_blank" rel="noopener noreferrer">
+                   Lentera Learn Admin
+                </a>
+              ) : (
+                <span>Lentera Learn Admin</span>
+              )}
+            </Button>
           </nav>
           
           <div className="h-6 w-px bg-border hidden lg:block"></div>

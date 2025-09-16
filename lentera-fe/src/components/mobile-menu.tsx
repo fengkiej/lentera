@@ -21,7 +21,7 @@ export const MobileMenu = ({
       label: 'nav.library',
       to: import.meta.env.VITE_LIBRARY_URL || '/library',
       isExternal: Boolean(import.meta.env.VITE_LIBRARY_URL)
-    }
+    },
   ]
 }: MobileMenuProps) => {
   const [isOpen, setIsOpen] = useState(false)
@@ -89,6 +89,36 @@ export const MobileMenu = ({
             ) : (
               <button className="block w-full text-left p-3 rounded-lg hover:bg-muted/50 text-muted-foreground hover:text-foreground transition-colors">
                 Lentera Chat
+              </button>
+            )}
+            {true ? (
+              <a
+                href="http://homelab.buddylabs.ai:8092"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full text-left p-3 rounded-lg hover:bg-muted/50 text-muted-foreground hover:text-foreground transition-colors"
+                onClick={() => setIsOpen(false)}
+              >
+                Lentera Learn
+              </a>
+            ) : (
+              <button className="block w-full text-left p-3 rounded-lg hover:bg-muted/50 text-muted-foreground hover:text-foreground transition-colors">
+                Lentera Learn
+              </button>
+            )}
+            {true ? (
+              <a
+                href="http://homelab.buddylabs.ai:8093"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full text-left p-3 rounded-lg hover:bg-muted/50 text-muted-foreground hover:text-foreground transition-colors"
+                onClick={() => setIsOpen(false)}
+              >
+                Lentera Learn Admin
+              </a>
+            ) : (
+              <button className="block w-full text-left p-3 rounded-lg hover:bg-muted/50 text-muted-foreground hover:text-foreground transition-colors">
+                Lentera Learn Admin
               </button>
             )}
           </nav>
