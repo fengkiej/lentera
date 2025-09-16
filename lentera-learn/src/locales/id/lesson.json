@@ -1,0 +1,80 @@
+{
+  "difficulty": {
+    "beginner": "Pemula",
+    "intermediate": "Menengah",
+    "advanced": "Lanjutan",
+    "unknown": "Tidak Diketahui"
+  },
+  "duration": {
+    "minutes": "menit",
+    "hours": "jam",
+    "hoursShort": "j",
+    "minutesShort": "m"
+  },
+  "error": {
+    "loadLesson": "Gagal memuat pelajaran. Silakan coba lagi."
+  },
+  "actions": {
+    "backToLessons": "Kembali ke Pelajaran",
+    "nextToExamples": "Lanjut ke Contoh",
+    "nextToPractice": "Lanjut ke Latihan",
+    "completeLesson": "Selesaikan Pelajaran"
+  },
+  "reviewMode": "Mode Ulasan",
+  "progress": {
+    "title": "Progres"
+  },
+  "tabs": {
+    "content": "Konten",
+    "examples": "Contoh",
+    "practice": "Latihan"
+  },
+  "sections": {
+    "learningObjectives": "Tujuan Pembelajaran",
+    "prerequisites": "Prasyarat",
+    "content": "Konten Pelajaran",
+    "keyConcepts": "Konsep Kunci",
+    "practicalApplications": "Aplikasi Praktis",
+    "examples": "Contoh"
+  },
+  "content": {
+    "placeholder": "Tidak ada konten tersedia untuk pelajaran ini."
+  },
+  "examples": {
+    "of": "dari",
+    "explanation": "Penjelasan",
+    "audioAvailable": "Audio tersedia",
+    "noExamples": "Tidak ada contoh tersedia untuk pelajaran ini."
+  },
+  "practice": {
+    "title": "Soal Latihan",
+    "question": "Pertanyaan",
+    "chooseAnswer": "Pilih jawaban Anda",
+    "true": "Benar",
+    "false": "Salah",
+    "fillBlankInstruction": "Ketuk kata yang benar untuk mengisi bagian kosong",
+    "submitAnswer": "Kirim Jawaban",
+    "correctAnswer": "Benar!",
+    "wrongAnswer": "Salah",
+    "points": "poin",
+    "nextQuestion": "Pertanyaan Selanjutnya",
+    "finishPractice": "Selesai Latihan",
+    "noPractice": "Tidak ada soal latihan tersedia untuk pelajaran ini."
+  },
+  "celebration": {
+    "excellent": "Luar Biasa!",
+    "great": "Hebat Sekali!",
+    "good": "Bagus!",
+    "keepTrying": "Terus Semangat!",
+    "practiceComplete": "Latihan Selesai!",
+    "lessonCompleted": "Anda telah menyelesaikan pelajaran \"{lessonTitle}\" dengan baik.",
+    "practiceScore": "Skor Latihan: {score} poin",
+    "motivational": {
+      "perfect": "Sempurna! Anda benar-benar menguasai materi ini! 🎯",
+      "excellent": "Sangat baik! Anda hampir sempurna! ⭐",
+      "good": "Bagus! Terus tingkatkan pemahaman Anda! 📚",
+      "keepTrying": "Jangan menyerah! Setiap latihan membuat Anda lebih baik! 💪"
+    },
+    "finish": "Selesai"
+  }
+}

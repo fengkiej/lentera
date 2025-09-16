@@ -1,0 +1,45 @@
+{
+  "success": {
+    "created": "Berhasil dibuat",
+    "updated": "Berhasil diperbarui",
+    "deleted": "Berhasil dihapus",
+    "saved": "Berhasil disimpan"
+  },
+  "error": {
+    "createFailed": "Gagal membuat",
+    "updateFailed": "Gagal memperbarui",
+    "deleteFailed": "Gagal menghapus",
+    "saveFailed": "Gagal menyimpan",
+    "loadFailed": "Gagal memuat data",
+    "networkError": "Kesalahan jaringan",
+    "serverError": "Kesalahan server"
+  },
+  "confirmation": {
+    "delete": "Apakah Anda yakin ingin menghapus item ini?",
+    "unsavedChanges": "Ada perubahan yang belum disimpan. Apakah Anda yakin ingin keluar?"
+  },
+  "info": {
+    "loading": "Memuat...",
+    "processing": "Memproses...",
+    "noData": "Tidak ada data",
+    "noResults": "Tidak ada hasil ditemukan"
+  },
+  "practice": {
+    "generating": "Menghasilkan soal latihan...",
+    "generated": "Soal latihan berhasil dihasilkan",
+    "generationFailed": "Gagal menghasilkan soal latihan",
+    "multipleChoice": "Pilihan Ganda",
+    "fillInTheBlank": "Isi Titik-titik",
+    "essay": "Esai",
+    "difficulty": {
+      "beginner": "Pemula",
+      "intermediate": "Menengah",
+      "advanced": "Lanjutan"
+    }
+  },
+  "selectQuestionTypeFirst": "Pilih jenis soal terlebih dahulu",
+  "practiceGeneratedSuccess": "Soal latihan berhasil dihasilkan",
+  "practiceGenerationFailed": "Gagal menghasilkan soal latihan",
+  "practiceGenerationError": "Terjadi kesalahan saat menghasilkan soal latihan",
+  "lessonIdRequired": "ID pelajaran diperlukan"
+}

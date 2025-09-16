@@ -1,0 +1,73 @@
+{
+  "title": "Pencapaian",
+  "categories": {
+    "learning": "Pembelajaran",
+    "practice": "Latihan",
+    "streak": "Konsistensi",
+    "consistency": "Konsistensi",
+    "pronunciation": "Pelafalan",
+    "mastery": "Penguasaan",
+    "points": "Poin",
+    "time": "Waktu",
+    "completion": "Penyelesaian",
+    "other": "Lainnya"
+  },
+  "badges": {
+    "firstLesson": "Pelajaran Pertama",
+    "firstPractice": "Latihan Pertama",
+    "weekStreak": "Seminggu Beruntun",
+    "monthStreak": "Sebulan Beruntun",
+    "perfectScore": "Skor Sempurna",
+    "fastLearner": "Pembelajar Cepat",
+    "dedicated": "Berdedikasi",
+    "achiever": "Pencapai"
+  },
+  "descriptions": {
+    "firstLesson": "Menyelesaikan pelajaran pertama",
+    "firstPractice": "Menyelesaikan latihan pertama",
+    "weekStreak": "Belajar selama 7 hari berturut-turut",
+    "monthStreak": "Belajar selama 30 hari berturut-turut",
+    "perfectScore": "Mendapat skor 100% dalam latihan",
+    "fastLearner": "Menyelesaikan 10 pelajaran dalam sehari",
+    "dedicated": "Belajar selama 100 jam",
+    "achiever": "Mengumpulkan 1000 poin"
+  },
+  "status": {
+    "unlocked": "Terbuka",
+    "locked": "Terkunci",
+    "inProgress": "Sedang Berlangsung",
+    "completed": "Selesai"
+  },
+  "progress": {
+    "current": "Saat ini",
+    "target": "Target",
+    "percentage": "{{percent}}% tercapai",
+    "overall": "Kemajuan Keseluruhan",
+    "unlockedAchievements": "Pencapaian Terbuka",
+    "label": "Kemajuan"
+  },
+  "stats": {
+    "totalAchievements": "Total Pencapaian",
+    "unlockedAchievements": "Pencapaian Terbuka",
+    "completionRate": "Tingkat Penyelesaian",
+    "recentAchievements": "Pencapaian Terbaru",
+    "lessonsCompleted": "Pelajaran Selesai",
+    "totalPoints": "Total Poin"
+  },
+  "loading": {
+    "achievements": "Memuat pencapaian..."
+  },
+  "error": {
+    "loadAchievements": "Gagal memuat pencapaian"
+  },
+  "allAchievements": "Semua Pencapaian",
+  "points": "poin",
+  "motivation": {
+    "title": "Terus Semangat!",
+    "message": "Setiap pencapaian membawa Anda lebih dekat menuju kesuksesan."
+  },
+  "empty": {
+    "noAchievements": "Belum ada pencapaian",
+    "startLearning": "Mulai belajar untuk membuka pencapaian pertama Anda!"
+  }
+}

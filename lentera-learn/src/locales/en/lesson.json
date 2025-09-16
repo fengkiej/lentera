@@ -1,0 +1,80 @@
+{
+  "difficulty": {
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced",
+    "unknown": "Unknown"
+  },
+  "duration": {
+    "minutes": "minutes",
+    "hours": "hours",
+    "hoursShort": "h",
+    "minutesShort": "m"
+  },
+  "error": {
+    "loadLesson": "Failed to load lesson. Please try again."
+  },
+  "actions": {
+    "backToLessons": "Back to Lessons",
+    "nextToExamples": "Continue to Examples",
+    "nextToPractice": "Continue to Practice",
+    "completeLesson": "Complete Lesson"
+  },
+  "reviewMode": "Review Mode",
+  "progress": {
+    "title": "Progress"
+  },
+  "tabs": {
+    "content": "Content",
+    "examples": "Examples",
+    "practice": "Practice"
+  },
+  "sections": {
+    "learningObjectives": "Learning Objectives",
+    "prerequisites": "Prerequisites",
+    "content": "Lesson Content",
+    "keyConcepts": "Key Concepts",
+    "practicalApplications": "Practical Applications",
+    "examples": "Examples"
+  },
+  "content": {
+    "placeholder": "No content available for this lesson."
+  },
+  "examples": {
+    "of": "of",
+    "explanation": "Explanation",
+    "audioAvailable": "Audio available",
+    "noExamples": "No examples available for this lesson."
+  },
+  "practice": {
+    "title": "Practice",
+    "question": "Question",
+    "chooseAnswer": "Choose your answer",
+    "true": "True",
+    "false": "False",
+    "fillBlankInstruction": "Tap the correct word to fill in the blank",
+    "submitAnswer": "Submit Answer",
+    "correctAnswer": "Correct!",
+    "wrongAnswer": "Incorrect",
+    "points": "points",
+    "nextQuestion": "Next Question",
+    "finishPractice": "Finish Practice",
+    "noPractice": "No practice questions available for this lesson."
+  },
+  "celebration": {
+    "excellent": "Outstanding!",
+    "great": "Great Job!",
+    "good": "Good!",
+    "keepTrying": "Keep Going!",
+    "practiceComplete": "Practice Complete!",
+    "lessonCompleted": "You have successfully completed the lesson \"{lessonTitle}\".",
+    "practiceScore": "Practice Score: {score} points",
+    "motivational": {
+      "perfect": "Perfect! You truly mastered this material! 🎯",
+      "excellent": "Very good! You're almost perfect! ⭐",
+      "good": "Good! Keep improving your understanding! 📚",
+      "keepTrying": "Don't give up! Every practice makes you better! 💪"
+    },
+    "finish": "Finish"
+  }
+}

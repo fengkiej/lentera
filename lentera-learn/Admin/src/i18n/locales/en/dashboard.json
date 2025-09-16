@@ -1,0 +1,62 @@
+{
+  "title": "Dashboard",
+  "description": "Learning system overview and statistics",
+  "loading": "Loading...",
+  "error": "An error occurred while loading data",
+  "stats": {
+    "totalSubjects": "Total Subjects",
+    "activeSubjects": "Active Subjects",
+    "totalTopics": "Total Topics",
+    "learningTopics": "Learning Topics",
+    "totalLessons": "Total Lessons",
+    "availableLessons": "Available Lessons",
+    "practiceQuestions": "Practice Questions",
+    "availableQuestions": "Available Questions"
+  },
+  "tabs": {
+    "overview": "Overview",
+    "recentActivity": "Recent Activity",
+    "performance": "Performance"
+  },
+  "userStats": {
+    "title": "User Statistics",
+    "description": "User activity summary",
+    "activeUsers": "Active Users",
+    "completionRate": "Completion Rate"
+  },
+  "contentStats": {
+    "title": "Content Statistics",
+    "description": "Learning content summary",
+    "totalExamples": "Total Examples",
+    "averageQuestionsPerLesson": "Average Questions Per Lesson"
+  },
+  "recentActivity": {
+    "title": "Recent Activity",
+    "description": "System activity in the last 24 hours",
+    "by": "by",
+    "actions": {
+      "created": "created",
+      "updated": "updated",
+      "deleted": "deleted"
+    }
+  },
+  "timeAgo": {
+    "minutesAgo": "minutes ago",
+    "hoursAgo": "hours ago",
+    "daysAgo": "days ago"
+  },
+  "performance": {
+    "contentTrend": {
+      "title": "Content Trend",
+      "description": "Content growth over time",
+      "chartPlaceholder": "Content trend chart will be displayed here",
+      "featureInDevelopment": "Feature in development"
+    },
+    "dailyActivity": {
+      "title": "Daily Activity",
+      "description": "Daily user activity",
+      "chartPlaceholder": "Daily activity chart will be displayed here",
+      "featureInDevelopment": "Feature in development"
+    }
+  }
+}

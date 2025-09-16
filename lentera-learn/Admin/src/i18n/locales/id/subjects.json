@@ -1,0 +1,30 @@
+{
+  "title": "Mata Pelajaran",
+  "createNew": "Buat Mata Pelajaran Baru",
+  "list": "Daftar Mata Pelajaran",
+  "noSubjects": "Belum ada mata pelajaran",
+  "actions": {
+    "create": "Buat Mata Pelajaran",
+    "edit": "Edit Mata Pelajaran",
+    "delete": "Hapus Mata Pelajaran",
+    "view": "Lihat Mata Pelajaran"
+  },
+  "form": {
+    "title": "Judul Mata Pelajaran",
+    "description": "Deskripsi Mata Pelajaran",
+    "titlePlaceholder": "Masukkan judul mata pelajaran",
+    "descriptionPlaceholder": "Masukkan deskripsi mata pelajaran"
+  },
+  "validation": {
+    "titleRequired": "Judul mata pelajaran wajib diisi",
+    "descriptionRequired": "Deskripsi mata pelajaran wajib diisi"
+  },
+  "messages": {
+    "createSuccess": "Mata pelajaran berhasil dibuat",
+    "updateSuccess": "Mata pelajaran berhasil diperbarui",
+    "deleteSuccess": "Mata pelajaran berhasil dihapus",
+    "createError": "Gagal membuat mata pelajaran",
+    "updateError": "Gagal memperbarui mata pelajaran",
+    "deleteError": "Gagal menghapus mata pelajaran"
+  }
+}

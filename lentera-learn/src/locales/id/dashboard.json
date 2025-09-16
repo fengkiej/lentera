@@ -1,0 +1,42 @@
+{
+  "welcome": {
+    "title": "Selamat Datang",
+    "subtitle": "Teruskan semangat belajar Anda hari ini"
+  },
+  "loading": {
+    "dashboard": "Memuat data dashboard..."
+  },
+  "toast": {
+    "loadDataFailed": "Gagal memuat data",
+    "usingOfflineData": "Menggunakan data offline. Periksa koneksi internet Anda."
+  },
+  "overview": {
+    "title": "Ringkasan Pembelajaran",
+    "lessonsThisWeek": "pelajaran minggu ini",
+    "weeklyTarget": "Target Mingguan"
+  },
+  "stats": {
+    "quickStats": "Statistik Cepat",
+    "activeSubjects": "Mata Pelajaran Aktif",
+    "completedTopics": "Topik Selesai",
+    "achievements": "Pencapaian",
+    "weeklyTarget": "Target Mingguan",
+    "consecutiveDays": "Hari Beruntun",
+    "totalPoints": "Total Poin",
+    "studyTime": "Waktu Belajar"
+  },
+  "continueLearning": {
+    "title": "Lanjutkan Belajar",
+    "inProgress": "Sedang Dipelajari",
+    "continue": "Lanjutkan",
+    "start": "Mulai",
+    "minutes": "menit"
+  },
+  "defaultData": {
+    "demoUser": "Pengguna Demo",
+    "firstLesson": "Mulai Pembelajaran Pertama",
+    "generalSubject": "Mata Pelajaran Umum",
+    "introduction": "Pengenalan",
+    "easy": "Mudah"
+  }
+}

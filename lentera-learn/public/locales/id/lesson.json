@@ -1,0 +1,65 @@
+{
+  "difficulty": {
+    "beginner": "Pemula",
+    "intermediate": "Menengah",
+    "advanced": "Lanjutan",
+    "unknown": "Tidak Diketahui"
+  },
+  "duration": {
+    "minutes": "menit",
+    "hoursShort": "j",
+    "minutesShort": "m",
+    "hours": "jam"
+  },
+  "error": {
+    "loadLesson": "Gagal memuat pelajaran. Silakan coba lagi."
+  },
+  "actions": {
+    "backToLessons": "Kembali ke Daftar Pelajaran",
+    "nextToExamples": "Lanjut ke Contoh",
+    "nextToPractice": "Lanjut ke Latihan",
+    "completeLesson": "Selesaikan Pelajaran"
+  },
+  "reviewMode": "Mode Tinjau",
+  "progress": {
+    "title": "Progress Pelajaran",
+    "label": "Progress"
+  },
+  "tabs": {
+    "content": "Materi",
+    "examples": "Contoh",
+    "practice": "Latihan"
+  },
+  "sections": {
+    "learningObjectives": "Tujuan Pembelajaran",
+    "prerequisites": "Prasyarat",
+    "content": "Konten Pelajaran",
+    "keyConcepts": "Konsep Kunci",
+    "practicalApplications": "Penerapan Praktis",
+    "examples": "Contoh Pembelajaran"
+  },
+  "content": {
+    "placeholder": "Konten pelajaran akan ditampilkan di sini."
+  },
+  "examples": {
+    "of": "dari",
+    "explanation": "Penjelasan:",
+    "audioAvailable": "Audio tersedia",
+    "noExamples": "Belum ada contoh untuk pelajaran ini."
+  },
+  "practice": {
+    "title": "Latihan Soal",
+    "question": "Pertanyaan",
+    "chooseAnswer": "Pilih jawaban",
+    "true": "Benar",
+    "false": "Salah",
+    "fillBlankInstruction": "Pilih salah satu opsi di bawah untuk mengisi titik titik di atas",
+    "submitAnswer": "Submit Jawaban",
+    "noPractice": "Belum ada latihan untuk pelajaran ini.",
+    "correctAnswer": "Jawaban Benar!",
+    "wrongAnswer": "Jawaban Salah",
+    "points": "poin",
+    "nextQuestion": "Soal Berikutnya",
+    "finishPractice": "Selesaikan Latihan"
+  }
+}

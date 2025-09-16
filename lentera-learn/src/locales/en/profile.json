@@ -1,0 +1,73 @@
+{
+  "title": "Profile",
+  "loading": {
+    "profile": "Loading profile..."
+  },
+  "error": {
+    "loadProfile": "An error occurred while loading your profile.",
+    "updateProfile": "Failed to update profile. Please try again.",
+    "changePassword": "Failed to change password. Please try again.",
+    "logout": "Failed to logout. Please try again."
+  },
+  "header": {
+    "logout": "Logout"
+  },
+  "info": {
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "joinedDate": "Joined Date",
+    "memberSince": "Member since",
+    "personalInformation": "Personal Information"
+  },
+  "actions": {
+    "editProfile": "Edit Profile",
+    "editProfileDesc": "Update your personal information",
+    "changePassword": "Change Password",
+    "changePasswordDesc": "Change your account password",
+    "languageSettings": "Language Settings",
+    "languageSettingsDesc": "Change your language preference"
+  },
+  "modals": {
+    "editProfile": {
+      "title": "Edit Profile",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "Enter your full name",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "Enter your email address",
+      "cancel": "Cancel",
+      "save": "Save Changes",
+      "saving": "Saving..."
+    },
+    "changePassword": {
+      "title": "Change Password",
+      "currentPasswordLabel": "Current Password",
+      "currentPasswordPlaceholder": "Enter current password",
+      "newPasswordLabel": "New Password",
+      "newPasswordPlaceholder": "Enter new password (min. 6 characters)",
+      "confirmPasswordLabel": "Confirm New Password",
+      "confirmPasswordPlaceholder": "Confirm new password",
+      "cancel": "Cancel",
+      "change": "Change Password",
+      "changing": "Changing..."
+    },
+    "languageSettings": {
+      "title": "Language Settings",
+      "description": "Choose your preferred language for the application interface.",
+      "switcherMoved": "Language settings are now available in the top right corner of the page.",
+      "close": "Close"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "language": {
+      "title": "Language Preference",
+      "description": "Select your preferred language",
+      "current": "Current: {{language}}"
+    }
+  },
+  "success": {
+    "profileUpdated": "Profile updated successfully!",
+    "passwordChanged": "Password changed successfully!",
+    "languageChanged": "Language preference updated!"
+  }
+}

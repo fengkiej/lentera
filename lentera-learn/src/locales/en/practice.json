@@ -1,0 +1,58 @@
+{
+  "title": "Practice",
+  "questionTypes": {
+    "multipleChoice": "Multiple Choice",
+    "trueFalse": "True/False",
+    "fillInTheBlank": "Fill in the Blank",
+    "shortAnswer": "Short Answer",
+    "essay": "Essay"
+  },
+  "answers": {
+    "correct": "Correct",
+    "incorrect": "Incorrect",
+    "yourAnswer": "Your Answer",
+    "correctAnswer": "Correct Answer",
+    "explanation": "Explanation"
+  },
+  "actions": {
+    "startPractice": "Start Practice",
+    "nextQuestion": "Next Question",
+    "previousQuestion": "Previous Question",
+    "submitAnswer": "Submit Answer",
+    "finishPractice": "Finish Practice",
+    "reviewAnswers": "Review Answers",
+    "retryPractice": "Retry Practice"
+  },
+  "progress": {
+    "questionOf": "Question {{current}} of {{total}}",
+    "timeRemaining": "Time remaining: {{time}}",
+    "score": "Score: {{score}}/{{total}}",
+    "percentage": "{{percent}}%"
+  },
+  "results": {
+    "title": "Practice Results",
+    "score": "Your Score",
+    "correctAnswers": "Correct Answers",
+    "totalQuestions": "Total Questions",
+    "timeSpent": "Time Spent",
+    "accuracy": "Accuracy",
+    "excellent": "Excellent!",
+    "good": "Good!",
+    "needsImprovement": "Needs Improvement"
+  },
+  "difficulty": {
+    "easy": "Easy",
+    "medium": "Medium",
+    "hard": "Hard"
+  },
+  "loading": {
+    "questions": "Loading questions...",
+    "submitting": "Submitting answer...",
+    "results": "Loading results..."
+  },
+  "errors": {
+    "loadQuestions": "Failed to load questions",
+    "submitAnswer": "Failed to submit answer",
+    "loadResults": "Failed to load results"
+  }
+}

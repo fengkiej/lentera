@@ -1,0 +1,49 @@
+{
+  "title": "Belajar",
+  "subtitle": "Jelajahi pelajaran dan tingkatkan pengetahuan Anda",
+  "lessonsAvailable": "pelajaran tersedia",
+  "difficulty": {
+    "beginner": "Pemula",
+    "intermediate": "Menengah",
+    "advanced": "Lanjutan"
+  },
+  "duration": {
+    "minutes": "menit",
+    "hours": "jam",
+    "hoursShort": "j",
+    "minutesShort": "m"
+  },
+  "status": {
+    "completed": "Selesai",
+    "continue": "Lanjutkan",
+    "start": "Mulai"
+  },
+  "error": {
+    "loadLessons": "Gagal memuat pelajaran. Silakan coba lagi."
+  },
+  "results": {
+    "showing": "Menampilkan",
+    "lessons": "pelajaran",
+    "page": "halaman",
+    "of": "dari",
+    "total": "total",
+    "forSearch": "untuk pencarian",
+    "withFilters": "dengan filter"
+  },
+  "empty": {
+    "title": "Belum Ada Pelajaran",
+    "message": "Belum ada pelajaran yang tersedia saat ini."
+  },
+  "progress": {
+    "label": "Progress"
+  },
+  "lesson": {
+    "defaultSummary": "Ringkasan pelajaran tidak tersedia."
+  },
+  "navigation": {
+    "next": "Selanjutnya",
+    "previous": "Sebelumnya",
+    "derivative": "Kata Turunan",
+    "startPractice": "Mulai Latihan"
+  }
+}

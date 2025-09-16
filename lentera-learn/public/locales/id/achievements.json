@@ -1,0 +1,32 @@
+{
+  "title": "Pencapaian",
+  "loading": {
+    "achievements": "Memuat pencapaian..."
+  },
+  "error": {
+    "loadAchievements": "Terjadi kesalahan saat memuat pencapaian Anda."
+  },
+  "categories": {
+    "learning": "Pembelajaran",
+    "pronunciation": "Pengucapan",
+    "consistency": "Konsistensi",
+    "mastery": "Penguasaan",
+    "points": "Poin",
+    "other": "Lainnya"
+  },
+  "stats": {
+    "lessonsCompleted": "Pelajaran Selesai",
+    "totalPoints": "Total Poin"
+  },
+  "progress": {
+    "overall": "Progress Keseluruhan",
+    "unlockedAchievements": "Pencapaian Terbuka",
+    "label": "Progress"
+  },
+  "allAchievements": "Semua Pencapaian",
+  "points": "poin",
+  "motivation": {
+    "title": "Terus Semangat!",
+    "message": "Setiap langkah kecil membawa Anda lebih dekat untuk memahami Al-Quran dengan lebih baik."
+  }
+}

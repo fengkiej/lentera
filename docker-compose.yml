@@ -123,6 +123,69 @@ services:
     networks:
       - lentera-network
 
+  # Lentera Learn Frontend service
+  lentera-learn:
+    container_name: lentera-learn
+    build:
+      context: ./lentera-learn
+      dockerfile: Dockerfile
+    ports:
+      - "8092:8080"
+    volumes:
+      - ./lentera-learn:/app
+      - /app/node_modules
+    depends_on:
+      - backend
+      - lentera-learn-backend
+    environment:
+      - VITE_API_BASE_URL=http://${SERVER_IP:-localhost}:3001/api/v1
+      - VITE_API_PROXY_TARGET=http://lentera-learn-backend:3001
+      - NODE_ENV=development
+    restart: unless-stopped
+    networks:
+      - lentera-network
+      
+  # Lentera Learn Backend service
+  lentera-learn-backend:
+    container_name: lentera-learn-backend
+    build:
+      context: ./lentera-learn/backend
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./lentera-learn/backend:/app
+      - /app/node_modules
+      - ./lentera-learn/backend/database:/app/database
+    depends_on:
+      - ollama
+    env_file:
+      - ./lentera-learn/backend/.env.docker
+    restart: unless-stopped
+    networks:
+      - lentera-network
+      
+  # Lentera Learn Admin service
+  lentera-learn-admin:
+    container_name: lentera-learn-admin
+    build:
+      context: ./lentera-learn/Admin
+      dockerfile: Dockerfile
+    ports:
+      - "8093:8080"
+    volumes:
+      - ./lentera-learn/Admin:/app
+      - /app/node_modules
+    depends_on:
+      - lentera-learn-backend
+    environment:
+      - VITE_API_BASE_URL=http://${SERVER_IP:-localhost}:3001/api/v1
+      - VITE_API_PROXY_TARGET=http://lentera-learn-backend:3001
+      - NODE_ENV=development
+    restart: unless-stopped
+    networks:
+      - lentera-network
+
 networks:
   lentera-network:
     driver: bridge

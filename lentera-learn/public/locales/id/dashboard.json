@@ -1,0 +1,32 @@
+{
+  "toast": {
+    "loadDataFailed": "Gagal memuat data",
+    "usingOfflineData": "Menggunakan data offline"
+  },
+  "defaultData": {
+    "demoUser": "Pengguna Demo",
+    "firstLesson": "Pelajaran Pertama",
+    "generalSubject": "Mata Pelajaran Umum",
+    "introduction": "Pengenalan",
+    "easy": "Mudah"
+  },
+  "loading": {
+    "dashboard": "Memuat dashboard..."
+  },
+  "welcome": {
+    "title": "Selamat Datang Kembali,",
+    "subtitle": "Mari lanjutkan perjalanan belajar Anda"
+  },
+  "overview": {
+    "title": "Ringkasan Pembelajaran",
+    "lessonsThisWeek": "pelajaran minggu ini",
+    "weeklyTarget": "Target Mingguan"
+  },
+  "continueLearning": {
+    "title": "Lanjutkan Belajar",
+    "minutes": "menit",
+    "inProgress": "Sedang Berlangsung",
+    "continue": "Lanjutkan",
+    "start": "Mulai"
+  }
+}

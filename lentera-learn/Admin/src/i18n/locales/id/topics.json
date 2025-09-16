@@ -1,0 +1,33 @@
+{
+  "title": "Topik",
+  "createNew": "Buat Topik Baru",
+  "list": "Daftar Topik",
+  "noTopics": "Belum ada topik",
+  "actions": {
+    "create": "Buat Topik",
+    "edit": "Edit Topik",
+    "delete": "Hapus Topik",
+    "view": "Lihat Topik"
+  },
+  "form": {
+    "title": "Judul Topik",
+    "description": "Deskripsi Topik",
+    "subject": "Mata Pelajaran",
+    "titlePlaceholder": "Masukkan judul topik",
+    "descriptionPlaceholder": "Masukkan deskripsi topik",
+    "subjectPlaceholder": "Pilih mata pelajaran"
+  },
+  "validation": {
+    "titleRequired": "Judul topik wajib diisi",
+    "descriptionRequired": "Deskripsi topik wajib diisi",
+    "subjectRequired": "Mata pelajaran wajib dipilih"
+  },
+  "messages": {
+    "createSuccess": "Topik berhasil dibuat",
+    "updateSuccess": "Topik berhasil diperbarui",
+    "deleteSuccess": "Topik berhasil dihapus",
+    "createError": "Gagal membuat topik",
+    "updateError": "Gagal memperbarui topik",
+    "deleteError": "Gagal menghapus topik"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "title": "Learning",
+  "subjects": {
+    "title": "Subjects",
+    "selectSubject": "Select Subject",
+    "noSubjects": "No subjects available"
+  },
+  "topics": {
+    "title": "Topics",
+    "selectTopic": "Select Topic",
+    "noTopics": "No topics available"
+  },
+  "lessons": {
+    "title": "Lessons",
+    "startLesson": "Start Lesson",
+    "continueLesson": "Continue Lesson",
+    "completeLesson": "Complete Lesson",
+    "lessonCompleted": "Lesson Completed",
+    "noLessons": "No lessons available"
+  },
+  "progress": {
+    "completed": "Completed",
+    "inProgress": "In Progress",
+    "notStarted": "Not Started",
+    "percentage": "{{percent}}% completed",
+    "label": "Progress"
+  },
+  "difficulty": {
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced"
+  },
+  "loading": {
+    "subjects": "Loading subjects...",
+    "topics": "Loading topics...",
+    "lessons": "Loading lessons...",
+    "content": "Loading content..."
+  },
+  "error": {
+    "loadSubjects": "Failed to load subjects",
+    "loadTopics": "Failed to load topics",
+    "loadLessons": "Failed to load lessons. Please try again.",
+    "loadContent": "Failed to load content"
+  },
+  "duration": {
+    "minutes": "minutes",
+    "hours": "hours",
+    "hoursShort": "h",
+    "minutesShort": "m"
+  },
+  "status": {
+    "notStarted": "Not Started",
+    "inProgress": "In Progress",
+    "completed": "Completed",
+    "continue": "Continue",
+    "start": "Start"
+  },
+  "subtitle": "Find the lessons you want to learn",
+  "lessonsAvailable": "lessons available",
+  "results": {
+    "showing": "Showing",
+    "lessons": "lessons",
+    "page": "page",
+    "of": "of",
+    "total": "total",
+    "forSearch": "for search",
+    "withFilters": "with active subject filters"
+  },
+  "empty": {
+    "title": "No Lessons Available",
+    "message": "Lessons will be available soon."
+  },
+  "lesson": {
+    "defaultSummary": "Lesson summary will be displayed here."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Topics",
+  "createNew": "Create New Topic",
+  "list": "Topic List",
+  "noTopics": "No topics available",
+  "actions": {
+    "create": "Create Topic",
+    "edit": "Edit Topic",
+    "delete": "Delete Topic",
+    "view": "View Topic"
+  },
+  "form": {
+    "title": "Topic Title",
+    "description": "Topic Description",
+    "subject": "Subject",
+    "titlePlaceholder": "Enter topic title",
+    "descriptionPlaceholder": "Enter topic description",
+    "subjectPlaceholder": "Select subject"
+  },
+  "validation": {
+    "titleRequired": "Topic title is required",
+    "descriptionRequired": "Topic description is required",
+    "subjectRequired": "Subject is required"
+  },
+  "messages": {
+    "createSuccess": "Topic created successfully",
+    "updateSuccess": "Topic updated successfully",
+    "deleteSuccess": "Topic deleted successfully",
+    "createError": "Failed to create topic",
+    "updateError": "Failed to update topic",
+    "deleteError": "Failed to delete topic"
+  }
+}

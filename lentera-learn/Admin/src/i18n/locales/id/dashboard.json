@@ -1,0 +1,62 @@
+{
+  "title": "Dashboard",
+  "description": "Ringkasan dan statistik sistem pembelajaran",
+  "loading": "Memuat...",
+  "error": "Terjadi kesalahan saat memuat data",
+  "stats": {
+    "totalSubjects": "Total Mata Pelajaran",
+    "activeSubjects": "Mata Pelajaran Aktif",
+    "totalTopics": "Total Topik",
+    "learningTopics": "Topik Pembelajaran",
+    "totalLessons": "Total Pelajaran",
+    "availableLessons": "Pelajaran Tersedia",
+    "practiceQuestions": "Soal Latihan",
+    "availableQuestions": "Soal Tersedia"
+  },
+  "tabs": {
+    "overview": "Ringkasan",
+    "recentActivity": "Aktivitas Terbaru",
+    "performance": "Performa"
+  },
+  "userStats": {
+    "title": "Statistik Pengguna",
+    "description": "Ringkasan aktivitas pengguna",
+    "activeUsers": "Pengguna Aktif",
+    "completionRate": "Tingkat Penyelesaian"
+  },
+  "contentStats": {
+    "title": "Statistik Konten",
+    "description": "Ringkasan konten pembelajaran",
+    "totalExamples": "Total Contoh",
+    "averageQuestionsPerLesson": "Rata-rata Soal per Pelajaran"
+  },
+  "recentActivity": {
+    "title": "Aktivitas Terbaru",
+    "description": "Aktivitas sistem dalam 24 jam terakhir",
+    "by": "oleh",
+    "actions": {
+      "created": "dibuat",
+      "updated": "diperbarui",
+      "deleted": "dihapus"
+    }
+  },
+  "timeAgo": {
+    "minutesAgo": "menit yang lalu",
+    "hoursAgo": "jam yang lalu",
+    "daysAgo": "hari yang lalu"
+  },
+  "performance": {
+    "contentTrend": {
+      "title": "Tren Konten",
+      "description": "Pertumbuhan konten dari waktu ke waktu",
+      "chartPlaceholder": "Grafik tren konten akan ditampilkan di sini",
+      "featureInDevelopment": "Fitur dalam pengembangan"
+    },
+    "dailyActivity": {
+      "title": "Aktivitas Harian",
+      "description": "Aktivitas pengguna harian",
+      "chartPlaceholder": "Grafik aktivitas harian akan ditampilkan di sini",
+      "featureInDevelopment": "Fitur dalam pengembangan"
+    }
+  }
+}

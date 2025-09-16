@@ -1,0 +1,43 @@
+{
+  "appName": "Lentera",
+  "appDescription": "Platform Pembelajaran AI untuk semua mata pelajaran",
+  "navigation": {
+    "dashboard": "Dashboard",
+    "subjects": "Mata Pelajaran",
+    "topics": "Topik",
+    "lessons": "Pelajaran"
+  },
+  "title": "Judul",
+  "description": "Deskripsi",
+  "stats": {
+    "totalSubjects": "Total Mata Pelajaran",
+    "activeSubjects": "Mata Pelajaran Aktif",
+    "totalTopics": "Total Topik",
+    "learningTopics": "Topik Pembelajaran",
+    "totalLessons": "Total Pelajaran",
+    "availableLessons": "Pelajaran Tersedia",
+    "practiceQuestions": "Soal Latihan",
+    "availableQuestions": "Soal Tersedia"
+  },
+  "tabs": {
+    "overview": "Ringkasan",
+    "recentActivity": "Aktivitas Terbaru",
+    "performance": "Performa"
+  },
+  "userStats": {
+    "title": "Statistik Pengguna",
+    "description": "Ringkasan aktivitas pengguna",
+    "activeUsers": "Pengguna Aktif",
+    "completionRate": "Tingkat Penyelesaian"
+  },
+  "contentStats": {
+    "title": "Statistik Konten",
+    "description": "Ringkasan konten pembelajaran",
+    "totalExamples": "Total Contoh",
+    "averageQuestionsPerLesson": "Rata-rata Soal per Pelajaran"
+  },
+  "language": {
+    "switchLanguage": "Ganti Bahasa"
+  },
+  "loading": "Memuat..."
+}

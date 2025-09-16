@@ -1,0 +1,70 @@
+{
+  "actions": {
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "previous": "Sebelumnya",
+    "save": "Simpan",
+    "cancel": "Batal",
+    "delete": "Hapus",
+    "edit": "Edit",
+    "add": "Tambah",
+    "create": "Buat",
+    "update": "Perbarui",
+    "view": "Lihat",
+    "submit": "Kirim",
+    "close": "Tutup",
+    "confirm": "Konfirmasi",
+    "retry": "Coba Lagi",
+    "loading": "Memuat...",
+    "search": "Cari...",
+    "filter": "Filter",
+    "sort": "Urutkan",
+    "reload": "Muat Ulang",
+    "clearFilters": "Hapus Filter"
+  },
+  "loading": {
+    "default": "Memuat...",
+    "application": "Memuat aplikasi..."
+  },
+  "status": {
+    "loading": "Memuat...",
+    "error": "Terjadi kesalahan",
+    "success": "Berhasil",
+    "failed": "Gagal",
+    "completed": "Selesai",
+    "inProgress": "Sedang Berlangsung",
+    "notStarted": "Belum Dimulai",
+    "unknown": "Tidak Diketahui"
+  },
+  "labels": {
+    "name": "Nama",
+    "title": "Judul",
+    "description": "Deskripsi",
+    "date": "Tanggal",
+    "time": "Waktu",
+    "duration": "Durasi",
+    "level": "Tingkat",
+    "type": "Tipe",
+    "category": "Kategori",
+    "progress": "Progres",
+    "score": "Skor",
+    "points": "Poin"
+  },
+  "messages": {
+    "noData": "Tidak ada data",
+    "noResults": "Tidak ada hasil ditemukan",
+    "connectionError": "Gagal terhubung ke server",
+    "serverError": "Terjadi kesalahan pada server",
+    "unauthorized": "Anda tidak memiliki akses",
+    "notFound": "Halaman tidak ditemukan"
+  },
+  "error": {
+    "title": "Kesalahan"
+  },
+  "navigation": {
+    "home": "Beranda",
+    "learn": "Belajar",
+    "achievements": "Pencapaian",
+    "profile": "Profil"
+  }
+}

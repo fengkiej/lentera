@@ -1,0 +1,31 @@
+{
+  "actions": {
+    "search": "Cari...",
+    "clearFilters": "Hapus Filter",
+    "reload": "Muat Ulang",
+    "continue": "Lanjutkan",
+    "start": "Mulai",
+    "returnHome": "Kembali ke Beranda"
+  },
+  "error": {
+    "title": "Kesalahan",
+    "message": "Terjadi kesalahan yang tidak terduga",
+    "tryAgain": "Coba Lagi",
+    "pageNotFound": "Oops! Halaman tidak ditemukan",
+    "loadSubjects": "Gagal memuat daftar mata pelajaran. Silakan coba lagi."
+  },
+  "loading": {
+    "default": "Memuat...",
+    "please_wait": "Mohon tunggu..."
+  },
+  "status": {
+    "completed": "Selesai",
+    "in_progress": "Sedang Berlangsung",
+    "not_started": "Belum Dimulai"
+  },
+  "time": {
+    "minutes": "menit",
+    "hours": "jam",
+    "days": "hari"
+  }
+}

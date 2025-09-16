@@ -1,0 +1,30 @@
+{
+  "title": "Subjects",
+  "createNew": "Create New Subject",
+  "list": "Subject List",
+  "noSubjects": "No subjects available",
+  "actions": {
+    "create": "Create Subject",
+    "edit": "Edit Subject",
+    "delete": "Delete Subject",
+    "view": "View Subject"
+  },
+  "form": {
+    "title": "Subject Title",
+    "description": "Subject Description",
+    "titlePlaceholder": "Enter subject title",
+    "descriptionPlaceholder": "Enter subject description"
+  },
+  "validation": {
+    "titleRequired": "Subject title is required",
+    "descriptionRequired": "Subject description is required"
+  },
+  "messages": {
+    "createSuccess": "Subject created successfully",
+    "updateSuccess": "Subject updated successfully",
+    "deleteSuccess": "Subject deleted successfully",
+    "createError": "Failed to create subject",
+    "updateError": "Failed to update subject",
+    "deleteError": "Failed to delete subject"
+  }
+}

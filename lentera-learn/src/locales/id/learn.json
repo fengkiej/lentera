@@ -1,0 +1,77 @@
+{
+  "title": "Pembelajaran",
+  "subjects": {
+    "title": "Mata Pelajaran",
+    "selectSubject": "Pilih Mata Pelajaran",
+    "noSubjects": "Belum ada mata pelajaran"
+  },
+  "topics": {
+    "title": "Topik",
+    "selectTopic": "Pilih Topik",
+    "noTopics": "Belum ada topik"
+  },
+  "lessons": {
+    "title": "Pelajaran",
+    "startLesson": "Mulai Pelajaran",
+    "continueLesson": "Lanjutkan Pelajaran",
+    "completeLesson": "Selesaikan Pelajaran",
+    "lessonCompleted": "Pelajaran Selesai",
+    "noLessons": "Belum ada pelajaran"
+  },
+  "progress": {
+    "completed": "Selesai",
+    "inProgress": "Sedang Dipelajari",
+    "notStarted": "Belum Dimulai",
+    "percentage": "{{percent}}% selesai",
+    "label": "Progres"
+  },
+  "difficulty": {
+    "beginner": "Pemula",
+    "intermediate": "Menengah",
+    "advanced": "Lanjutan"
+  },
+  "loading": {
+    "subjects": "Memuat mata pelajaran...",
+    "topics": "Memuat topik...",
+    "lessons": "Memuat pelajaran...",
+    "content": "Memuat konten..."
+  },
+  "error": {
+    "loadSubjects": "Gagal memuat mata pelajaran",
+    "loadTopics": "Gagal memuat topik",
+    "loadLessons": "Gagal memuat daftar pelajaran. Silakan coba lagi.",
+    "loadContent": "Gagal memuat konten"
+  },
+  "duration": {
+    "minutes": "menit",
+    "hours": "jam",
+    "hoursShort": "j",
+    "minutesShort": "m"
+  },
+  "status": {
+    "notStarted": "Belum Dimulai",
+    "inProgress": "Sedang Berlangsung",
+    "completed": "Selesai",
+    "continue": "Lanjutkan",
+    "start": "Mulai"
+  },
+  "title": "Pembelajaran",
+  "subtitle": "Temukan pelajaran yang ingin Anda pelajari",
+  "lessonsAvailable": "pelajaran tersedia",
+  "results": {
+    "showing": "Menampilkan",
+    "lessons": "pelajaran",
+    "page": "halaman",
+    "of": "dari",
+    "total": "total",
+    "forSearch": "untuk pencarian",
+    "withFilters": "dengan filter subjek aktif"
+  },
+  "empty": {
+    "title": "Belum Ada Pelajaran",
+    "message": "Pelajaran akan segera tersedia."
+  },
+  "lesson": {
+    "defaultSummary": "Ringkasan pelajaran akan ditampilkan di sini."
+  }
+}

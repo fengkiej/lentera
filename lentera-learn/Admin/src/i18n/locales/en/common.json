@@ -1,0 +1,43 @@
+{
+  "appName": "Lentera",
+  "appDescription": "AI Learning Platform for all subject you want",
+  "navigation": {
+    "dashboard": "Dashboard",
+    "subjects": "Subjects",
+    "topics": "Topics",
+    "lessons": "Lessons"
+  },
+  "title": "Title",
+  "description": "Description",
+  "stats": {
+    "totalSubjects": "Total Subjects",
+    "activeSubjects": "Active Subjects",
+    "totalTopics": "Total Topics",
+    "learningTopics": "Learning Topics",
+    "totalLessons": "Total Lessons",
+    "availableLessons": "Available Lessons",
+    "practiceQuestions": "Practice Questions",
+    "availableQuestions": "Available Questions"
+  },
+  "tabs": {
+    "overview": "Overview",
+    "recentActivity": "Recent Activity",
+    "performance": "Performance"
+  },
+  "userStats": {
+    "title": "User Statistics",
+    "description": "User activity summary",
+    "activeUsers": "Active Users",
+    "completionRate": "Completion Rate"
+  },
+  "contentStats": {
+    "title": "Content Statistics",
+    "description": "Learning content summary",
+    "totalExamples": "Total Examples",
+    "averageQuestionsPerLesson": "Average Questions Per Lesson"
+  },
+  "language": {
+    "switchLanguage": "Switch Language"
+  },
+  "loading": "Loading..."
+}

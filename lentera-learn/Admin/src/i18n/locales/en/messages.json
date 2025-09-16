@@ -1,0 +1,45 @@
+{
+  "success": {
+    "created": "Successfully created",
+    "updated": "Successfully updated",
+    "deleted": "Successfully deleted",
+    "saved": "Successfully saved"
+  },
+  "error": {
+    "createFailed": "Failed to create",
+    "updateFailed": "Failed to update",
+    "deleteFailed": "Failed to delete",
+    "saveFailed": "Failed to save",
+    "loadFailed": "Failed to load data",
+    "networkError": "Network error",
+    "serverError": "Server error"
+  },
+  "confirmation": {
+    "delete": "Are you sure you want to delete this item?",
+    "unsavedChanges": "You have unsaved changes. Are you sure you want to leave?"
+  },
+  "info": {
+    "loading": "Loading...",
+    "processing": "Processing...",
+    "noData": "No data available",
+    "noResults": "No results found"
+  },
+  "practice": {
+    "generating": "Generating practice questions...",
+    "generated": "Practice questions generated successfully",
+    "generationFailed": "Failed to generate practice questions",
+    "multipleChoice": "Multiple Choice",
+    "fillInTheBlank": "Fill in the Blank",
+    "essay": "Essay",
+    "difficulty": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    }
+  },
+  "selectQuestionTypeFirst": "Please select question type first",
+  "practiceGeneratedSuccess": "Practice questions generated successfully",
+  "practiceGenerationFailed": "Failed to generate practice questions",
+  "practiceGenerationError": "An error occurred while generating practice questions",
+  "lessonIdRequired": "Lesson ID is required"
+}

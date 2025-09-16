@@ -1,0 +1,42 @@
+{
+  "welcome": {
+    "title": "Welcome",
+    "subtitle": "Continue your learning journey today"
+  },
+  "loading": {
+    "dashboard": "Loading dashboard data..."
+  },
+  "toast": {
+    "loadDataFailed": "Failed to load data",
+    "usingOfflineData": "Using offline data. Please check your internet connection."
+  },
+  "overview": {
+    "title": "Learning Overview",
+    "lessonsThisWeek": "lessons this week",
+    "weeklyTarget": "Weekly Target"
+  },
+  "stats": {
+    "quickStats": "Quick Stats",
+    "activeSubjects": "Active Subjects",
+    "completedTopics": "Completed Topics",
+    "achievements": "Achievements",
+    "weeklyTarget": "Weekly Target",
+    "consecutiveDays": "Consecutive Days",
+    "totalPoints": "Total Points",
+    "studyTime": "Study Time"
+  },
+  "continueLearning": {
+    "title": "Continue Learning",
+    "inProgress": "In Progress",
+    "continue": "Continue",
+    "start": "Start",
+    "minutes": "minutes"
+  },
+  "defaultData": {
+    "demoUser": "Demo User",
+    "firstLesson": "Start Your First Lesson",
+    "generalSubject": "General Subject",
+    "introduction": "Introduction",
+    "easy": "Easy"
+  }
+}

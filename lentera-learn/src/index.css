@@ -1,0 +1,160 @@
+@import "./styles/design-system.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 255 255 255; /* Warm Beige */
+    --foreground: 35 53 37; /* Dark Green */
+
+    --card: 255 255 255;
+    --card-foreground: 35 53 37;
+
+    --popover: 255 255 255;
+    --popover-foreground: 35 53 37;
+
+    --primary: 4 107 75; /* Brand Deep Green */
+    --primary-foreground: 255 255 255;
+
+    --secondary: 184 134 11; /* Brand Desert Gold */
+    --secondary-foreground: 255 255 255;
+
+    --muted: 240 240 235;
+    --muted-foreground: 115 115 115;
+
+    --accent: 0 123 167; /* Brand Cerulean Blue */
+    --accent-foreground: 255 255 255;
+
+    --destructive: 220 38 38;
+    --destructive-foreground: 255 255 255;
+
+    --border: 220 220 210;
+    --input: 255 255 255;
+    --ring: 4 107 75;
+
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 255 255 255; /* Warm Beige - keep same for consistency */
+    --foreground: 35 53 37; /* Dark Green */
+
+    --card: 255 255 255; /* Keep cards white even in dark mode */
+    --card-foreground: 35 53 37;
+
+    --popover: 255 255 255;
+    --popover-foreground: 35 53 37;
+
+    --primary: 4 107 75; /* Brand Deep Green */
+    --primary-foreground: 255 255 255;
+
+    --secondary: 184 134 11; /* Brand Desert Gold */
+    --secondary-foreground: 255 255 255;
+
+    --muted: 240 240 235;
+    --muted-foreground: 115 115 115;
+
+    --accent: 0 123 167; /* Brand Cerulean Blue */
+    --accent-foreground: 255 255 255;
+
+    --destructive: 220 38 38;
+    --destructive-foreground: 255 255 255;
+
+    --border: 220 220 210;
+    --input: 255 255 255;
+    --ring: 4 107 75;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    @apply bg-background;
+    min-height: 100vh;
+    min-height: 100dvh; /* Dynamic viewport height for mobile */
+    /* Prevent yellow background on overscroll */
+    background-color: rgb(255 255 255);
+    overscroll-behavior: none;
+  }
+
+  body {
+    @apply bg-background text-foreground font-inter;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    min-height: 100vh;
+    min-height: 100dvh; /* Dynamic viewport height for mobile */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* Prevent yellow background on overscroll */
+    background-color: rgb(255 255 255);
+    overscroll-behavior: none;
+    /* Prevent pull-to-refresh */
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #root {
+    @apply bg-background;
+    min-height: 100vh;
+    min-height: 100dvh;
+    /* Ensure root also has white background */
+    background-color: rgb(255 255 255);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-merriweather;
+  }
+}
+
+@layer components {
+  .arabic-text {
+    font-family: "Amiri", serif;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    text-align: right;
+    direction: rtl;
+  }
+}
+
+/* Mobile specific fixes */
+@media (max-width: 768px) {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Prevent yellow highlight on mobile */
+  input,
+  textarea,
+  button,
+  select,
+  a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+  /* Additional mobile overscroll fixes */
+  html,
+  body {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+
+  #root {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+  }
+}

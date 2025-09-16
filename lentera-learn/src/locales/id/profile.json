@@ -1,0 +1,73 @@
+{
+  "title": "Profil",
+  "loading": {
+    "profile": "Memuat profil..."
+  },
+  "error": {
+    "loadProfile": "Terjadi kesalahan saat memuat profil Anda.",
+    "updateProfile": "Gagal memperbarui profil. Silakan coba lagi.",
+    "changePassword": "Gagal mengubah password. Silakan coba lagi.",
+    "logout": "Gagal logout. Silakan coba lagi."
+  },
+  "header": {
+    "logout": "Keluar"
+  },
+  "info": {
+    "fullName": "Nama Lengkap",
+    "email": "Alamat Email",
+    "joinedDate": "Tanggal Bergabung",
+    "memberSince": "Anggota sejak",
+    "personalInformation": "Informasi Personal"
+  },
+  "actions": {
+    "editProfile": "Edit Profil",
+    "editProfileDesc": "Perbarui informasi pribadi Anda",
+    "changePassword": "Ubah Password",
+    "changePasswordDesc": "Ubah password akun Anda",
+    "languageSettings": "Pengaturan Bahasa",
+    "languageSettingsDesc": "Ubah preferensi bahasa Anda"
+  },
+  "modals": {
+    "editProfile": {
+      "title": "Edit Profil",
+      "nameLabel": "Nama Lengkap",
+      "namePlaceholder": "Masukkan nama lengkap Anda",
+      "emailLabel": "Alamat Email",
+      "emailPlaceholder": "Masukkan alamat email Anda",
+      "cancel": "Batal",
+      "save": "Simpan Perubahan",
+      "saving": "Menyimpan..."
+    },
+    "changePassword": {
+      "title": "Ubah Password",
+      "currentPasswordLabel": "Password Saat Ini",
+      "currentPasswordPlaceholder": "Masukkan password saat ini",
+      "newPasswordLabel": "Password Baru",
+      "newPasswordPlaceholder": "Masukkan password baru (min. 6 karakter)",
+      "confirmPasswordLabel": "Konfirmasi Password Baru",
+      "confirmPasswordPlaceholder": "Konfirmasi password baru",
+      "cancel": "Batal",
+      "change": "Ubah Password",
+      "changing": "Mengubah..."
+    },
+    "languageSettings": {
+      "title": "Pengaturan Bahasa",
+      "description": "Pilih bahasa yang Anda inginkan untuk antarmuka aplikasi.",
+      "switcherMoved": "Pengaturan bahasa sekarang tersedia di pojok kanan atas halaman.",
+      "close": "Tutup"
+    }
+  },
+  "settings": {
+    "title": "Pengaturan",
+    "language": {
+      "title": "Preferensi Bahasa",
+      "description": "Pilih bahasa yang Anda inginkan",
+      "current": "Saat ini: {{language}}"
+    }
+  },
+  "success": {
+    "profileUpdated": "Profil berhasil diperbarui!",
+    "passwordChanged": "Password berhasil diubah!",
+    "languageChanged": "Preferensi bahasa berhasil diperbarui!"
+  }
+}

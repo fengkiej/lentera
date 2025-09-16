@@ -1,0 +1,73 @@
+{
+  "title": "Achievements",
+  "categories": {
+    "learning": "Learning",
+    "practice": "Practice",
+    "streak": "Consistency",
+    "consistency": "Consistency",
+    "pronunciation": "Pronunciation",
+    "mastery": "Mastery",
+    "points": "Points",
+    "time": "Time",
+    "completion": "Completion",
+    "other": "Other"
+  },
+  "badges": {
+    "firstLesson": "First Lesson",
+    "firstPractice": "First Practice",
+    "weekStreak": "Week Streak",
+    "monthStreak": "Month Streak",
+    "perfectScore": "Perfect Score",
+    "fastLearner": "Fast Learner",
+    "dedicated": "Dedicated",
+    "achiever": "Achiever"
+  },
+  "descriptions": {
+    "firstLesson": "Complete your first lesson",
+    "firstPractice": "Complete your first practice",
+    "weekStreak": "Study for 7 consecutive days",
+    "monthStreak": "Study for 30 consecutive days",
+    "perfectScore": "Get 100% score in practice",
+    "fastLearner": "Complete 10 lessons in one day",
+    "dedicated": "Study for 100 hours",
+    "achiever": "Collect 1000 points"
+  },
+  "status": {
+    "unlocked": "Unlocked",
+    "locked": "Locked",
+    "inProgress": "In Progress",
+    "completed": "Completed"
+  },
+  "progress": {
+    "current": "Current",
+    "target": "Target",
+    "percentage": "{{percent}}% achieved",
+    "overall": "Overall Progress",
+    "unlockedAchievements": "Unlocked Achievements",
+    "label": "Progress"
+  },
+  "stats": {
+    "totalAchievements": "Total Achievements",
+    "unlockedAchievements": "Unlocked Achievements",
+    "completionRate": "Completion Rate",
+    "recentAchievements": "Recent Achievements",
+    "lessonsCompleted": "Lessons Completed",
+    "totalPoints": "Total Points"
+  },
+  "loading": {
+    "achievements": "Loading achievements..."
+  },
+  "error": {
+    "loadAchievements": "Failed to load achievements"
+  },
+  "allAchievements": "All Achievements",
+  "points": "points",
+  "motivation": {
+    "title": "Keep Going!",
+    "message": "Every achievement brings you closer to success."
+  },
+  "empty": {
+    "noAchievements": "No achievements yet",
+    "startLearning": "Start learning to unlock your first achievement!"
+  }
+}

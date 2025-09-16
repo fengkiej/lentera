@@ -1,0 +1,70 @@
+{
+  "actions": {
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "create": "Create",
+    "update": "Update",
+    "view": "View",
+    "submit": "Submit",
+    "close": "Close",
+    "confirm": "Confirm",
+    "retry": "Retry",
+    "loading": "Loading...",
+    "search": "Search...",
+    "filter": "Filter",
+    "sort": "Sort",
+    "reload": "Reload",
+    "clearFilters": "Clear Filters"
+  },
+  "loading": {
+    "default": "Loading...",
+    "application": "Loading application..."
+  },
+  "status": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "failed": "Failed",
+    "completed": "Completed",
+    "inProgress": "In Progress",
+    "notStarted": "Not Started",
+    "unknown": "Unknown"
+  },
+  "labels": {
+    "name": "Name",
+    "title": "Title",
+    "description": "Description",
+    "date": "Date",
+    "time": "Time",
+    "duration": "Duration",
+    "level": "Level",
+    "type": "Type",
+    "category": "Category",
+    "progress": "Progress",
+    "score": "Score",
+    "points": "Points"
+  },
+  "messages": {
+    "noData": "No data available",
+    "noResults": "No results found",
+    "connectionError": "Internet connection problem",
+    "serverError": "Server error occurred",
+    "unauthorized": "Access denied",
+    "notFound": "Not found"
+  },
+  "error": {
+    "title": "Error"
+  },
+  "navigation": {
+    "home": "Home",
+    "learn": "Learn",
+    "achievements": "Achievements",
+    "profile": "Profile"
+  }
+}

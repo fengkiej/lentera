@@ -1,0 +1,58 @@
+{
+  "title": "Latihan",
+  "questionTypes": {
+    "multipleChoice": "Pilihan Ganda",
+    "trueFalse": "Benar/Salah",
+    "fillInTheBlank": "Isi Titik-titik",
+    "shortAnswer": "Jawaban Singkat",
+    "essay": "Essay"
+  },
+  "answers": {
+    "correct": "Benar",
+    "incorrect": "Salah",
+    "yourAnswer": "Jawaban Anda",
+    "correctAnswer": "Jawaban yang Benar",
+    "explanation": "Penjelasan"
+  },
+  "actions": {
+    "startPractice": "Mulai Latihan",
+    "nextQuestion": "Pertanyaan Selanjutnya",
+    "previousQuestion": "Pertanyaan Sebelumnya",
+    "submitAnswer": "Kirim Jawaban",
+    "finishPractice": "Selesai Latihan",
+    "reviewAnswers": "Tinjau Jawaban",
+    "retryPractice": "Ulangi Latihan"
+  },
+  "progress": {
+    "questionOf": "Pertanyaan {{current}} dari {{total}}",
+    "timeRemaining": "Waktu tersisa: {{time}}",
+    "score": "Skor: {{score}}/{{total}}",
+    "percentage": "{{percent}}%"
+  },
+  "results": {
+    "title": "Hasil Latihan",
+    "score": "Skor Anda",
+    "correctAnswers": "Jawaban Benar",
+    "totalQuestions": "Total Pertanyaan",
+    "timeSpent": "Waktu yang Digunakan",
+    "accuracy": "Akurasi",
+    "excellent": "Luar Biasa!",
+    "good": "Bagus!",
+    "needsImprovement": "Perlu Ditingkatkan"
+  },
+  "difficulty": {
+    "easy": "Mudah",
+    "medium": "Sedang",
+    "hard": "Sulit"
+  },
+  "loading": {
+    "questions": "Memuat pertanyaan...",
+    "submitting": "Mengirim jawaban...",
+    "results": "Memuat hasil..."
+  },
+  "errors": {
+    "loadQuestions": "Gagal memuat pertanyaan",
+    "submitAnswer": "Gagal mengirim jawaban",
+    "loadResults": "Gagal memuat hasil"
+  }
+}
