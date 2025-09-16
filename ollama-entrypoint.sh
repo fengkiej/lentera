@@ -20,7 +20,7 @@ model_exists() {
 }
 
 # Check and pull the required models for Lentera
-LLM_MODEL="hf.co/second-state/gemma-3n-E2B-it-GGUF:Q5_K_S"
+LLM_MODEL="hf.co/aisingapore/Llama-SEA-LION-v3.5-8B-R-GGUF:Q4_K_M"
 if model_exists "$LLM_MODEL"; then
   echo "LLM model already exists: $LLM_MODEL"
 else

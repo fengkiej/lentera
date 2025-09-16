@@ -10,10 +10,10 @@ export const OLLAMA_BASE_URL = process.env.OLLAMA_BASE_URL || 'http://127.0.0.1:
 export const OLLAMA_HOST = process.env.OLLAMA_HOST || 'http://127.0.0.1:11434/v1';
 
 // AI Model Names
-export const DEFAULT_LLM_MODEL = process.env.DEFAULT_LLM_MODEL || 'hf.co/second-state/gemma-3n-E2B-it-GGUF:Q5_K_S';
-export const MINDMAP_MODEL = process.env.MINDMAP_MODEL || 'hf.co/second-state/gemma-3n-E2B-it-GGUF:Q5_K_S';
-export const FLASHQUIZ_MODEL = process.env.FLASHQUIZ_MODEL || 'hf.co/second-state/gemma-3n-E2B-it-GGUF:Q5_K_S';
-export const SUMMARY_MODEL = process.env.SUMMARY_MODEL || 'hf.co/second-state/gemma-3n-E2B-it-GGUF:Q5_K_S';
+export const DEFAULT_LLM_MODEL = process.env.DEFAULT_LLM_MODEL || 'hf.co/aisingapore/Llama-SEA-LION-v3.5-8B-R-GGUF:Q4_K_M';
+export const MINDMAP_MODEL = process.env.MINDMAP_MODEL || 'hf.co/aisingapore/Llama-SEA-LION-v3.5-8B-R-GGUF:Q4_K_M';
+export const FLASHQUIZ_MODEL = process.env.FLASHQUIZ_MODEL || 'hf.co/aisingapore/Llama-SEA-LION-v3.5-8B-R-GGUF:Q4_K_M';
+export const SUMMARY_MODEL = process.env.SUMMARY_MODEL || 'hf.co/aisingapore/Llama-SEA-LION-v3.5-8B-R-GGUF:Q4_K_M';
 export const EMBEDDING_MODEL = process.env.EMBEDDING_MODEL || 'all-minilm:l12-v2';
 
 // Configuration Parameters

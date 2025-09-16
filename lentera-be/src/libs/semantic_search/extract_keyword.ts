@@ -13,7 +13,7 @@ export async function extractKeywords(q: string): Promise<string[]> {
   });
 
   const completion = await openai.chat.completions.create({
-    model: 'hf.co/second-state/gemma-3n-E2B-it-GGUF:Q5_K_S',
+    model: 'hf.co/aisingapore/Llama-SEA-LION-v3.5-8B-R-GGUF:Q4_K_M',
     messages: [
       {
         role: 'user',
