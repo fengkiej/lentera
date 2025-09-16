@@ -7,7 +7,7 @@ export async function elix(text: string, language: string, ageRange: string) {
   });
 
   const completion = await openai.chat.completions.create({
-    model: 'hf.co/aisingapore/Llama-SEA-LION-v3.5-8B-R-GGUF:Q4_K_M',
+    model: 'hf.co/second-state/gemma-3n-E2B-it-GGUF:Q5_K_S',
     messages: [
       {
         role: 'user',
