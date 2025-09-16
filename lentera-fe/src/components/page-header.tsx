@@ -109,7 +109,7 @@ export const PageHeader = ({
               className="text-muted-foreground hover:text-foreground hover:bg-muted/50 transition-all duration-200 px-3 py-2 rounded-lg hover:shadow-sm"
             >
               {true ? (
-                <a href="http://homelab.buddylabs.ai:8092" target="_blank" rel="noopener noreferrer">
+                <a href="http://homelab.buddylabs.ai:8093" target="_blank" rel="noopener noreferrer">
                    Lentera Learn Admin
                 </a>
               ) : (
