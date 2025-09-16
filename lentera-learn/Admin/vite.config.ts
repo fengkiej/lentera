@@ -12,7 +12,6 @@ export default defineConfig({
     },
   },
   server: {
-      allowedHosts: ["homelab.buddylabs.ai"]
-    }
-  },
+    allowedHosts: ["homelab.buddylabs.ai"]
+  }
 });
