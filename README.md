@@ -4,7 +4,7 @@
 
 ## 🌏 Overview
 
-LENTERA (meaning "light" in Bahasa Indonesia) is a lightweight, offline AI microserver powered by Gemma 3n, designed to empower underserved schools with advanced generative AI tools and educational content, without requiring internet access.
+LENTERA (meaning "light" in Bahasa Indonesia) is a lightweight, offline AI microserver powered by SEA-LION, designed to empower underserved schools with advanced generative AI tools and educational content, without requiring internet access.
 
 **Demo URL:** http://homelab.buddylabs.ai/ *(Note: Hosted on a personal homelab instance that may have limited availability)*
 
@@ -20,7 +20,7 @@ While 2.2 billion children and young people worldwide lack internet at home, AI 
 
 LENTERA transforms any affordable computing device into a powerful educational AI hub by combining:
 
-1. **On-device Gemma 3n model** (E2B quantized) for offline intelligence
+1. **On-device SEA-LION model** for offline intelligence
 2. **120GB+ educational content** from Wikipedia, LibreTexts, Khan Academy, and more
 3. **AI learning toolkit**: semantic search, summaries, mindmaps, quizzes
 4. **Local Wi-Fi hotspot** for multiple device connections
@@ -108,14 +108,6 @@ flowchart LR
     class Ollama,Gemma,MiniLM aiService
     class DB,ZIM,KiwixServer,DBFile storage
 ```
-
-### How Gemma 3n Powers LENTERA
-
-LENTERA leverages Gemma 3n's unique capabilities:
-
-1. **On-device performance**: E2B quantized model runs efficiently on modest hardware
-2. **Multilingual understanding**: Processes queries in multiple languages
-3. **Structured output generation**: Creates quizzes, summaries, and mindmaps
 
 ## 🚀 Setup Instructions
 
